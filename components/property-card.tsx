@@ -10,7 +10,7 @@ import type { Property } from "@/lib/types";
 function FeatureIcon({ label, active }: { label: string; active?: boolean }) {
   if (!active) return null;
   return (
-    <Badge variant="secondary" className="text-[10px] px-1.5 py-0 font-medium">
+    <Badge variant="secondary" className="text-xs px-2 py-0.5 font-medium">
       {label}
     </Badge>
   );
@@ -61,9 +61,9 @@ export function PropertyCard({ property, rank }: { property: Property; rank?: nu
         </div>
 
         {/* Details */}
-        <div className="p-3 space-y-1.5">
+        <div className="p-4 space-y-2">
           <div className="flex items-center gap-1.5">
-            <span className="text-sm font-medium text-slate-900 truncate flex-1">{p.address}</span>
+            <span className="text-base font-semibold text-slate-900 truncate flex-1">{p.address}</span>
             <a
               href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(p.address)}`}
               target="_blank"
@@ -79,13 +79,13 @@ export function PropertyCard({ property, rank }: { property: Property; rank?: nu
             </a>
           </div>
 
-          <div className="flex items-center gap-3 text-xs text-slate-600">
+          <div className="flex items-center gap-3 text-sm text-slate-700">
             <span className="font-semibold">{p.beds}bd / {p.baths}ba</span>
             <span>{p.sqft.toLocaleString()} sf</span>
             <span className="text-slate-400">${p.ppsf}/sf</span>
           </div>
 
-          <div className="flex items-center gap-2 text-xs text-slate-500">
+          <div className="flex items-center gap-2 text-sm text-slate-500">
             <span>{p.yearBuilt}</span>
             <span>·</span>
             <span>{p.lotAcres ? `${p.lotAcres.toFixed(1)} ac` : ""}</span>

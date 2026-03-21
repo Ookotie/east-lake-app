@@ -88,12 +88,12 @@ export default async function PropertyDetail({ params }: { params: Promise<{ id:
         {p.visualScore && (
           <Card>
             <CardContent className="p-4">
-              <h3 className="text-sm font-semibold text-slate-700 mb-2">Quality Score Breakdown</h3>
+              <h3 className="text-base font-semibold text-slate-700 mb-2">Quality Score Breakdown</h3>
               <div className="space-y-2">
                 <ScoreBar label="Data Score" value={p.score} max={85} />
                 <ScoreBar label="Visual Quality" value={p.visualScore} max={15} />
                 {p.exteriorScore !== undefined && (
-                  <div className="grid grid-cols-3 gap-2 text-xs text-slate-500 mt-1">
+                  <div className="grid grid-cols-3 gap-2 text-sm text-slate-500 mt-2">
                     <span>Exterior: {p.exteriorScore}/5</span>
                     <span>Interior: {p.interiorScore}/5</span>
                     <span>Lot: {p.lotScore}/5</span>
@@ -108,8 +108,8 @@ export default async function PropertyDetail({ params }: { params: Promise<{ id:
         {p.visualNotes && !p.visualNotes.includes("Estimated") && (
           <Card className="bg-blue-50 border-blue-200">
             <CardContent className="p-4">
-              <div className="text-sm font-semibold text-blue-800 mb-1">Assessment</div>
-              <div className="text-xs text-blue-700">{p.visualNotes}</div>
+              <div className="text-base font-semibold text-blue-800 mb-1">Assessment</div>
+              <div className="text-sm text-blue-700 leading-relaxed">{p.visualNotes}</div>
             </CardContent>
           </Card>
         )}
@@ -118,10 +118,10 @@ export default async function PropertyDetail({ params }: { params: Promise<{ id:
         {p.visualFeatures && p.visualFeatures.length > 0 && (
           <Card>
             <CardContent className="p-4">
-              <h3 className="text-sm font-semibold text-slate-700 mb-2">Key Features</h3>
-              <div className="flex flex-wrap gap-1.5">
+              <h3 className="text-base font-semibold text-slate-700 mb-2">Key Features</h3>
+              <div className="flex flex-wrap gap-2">
                 {p.visualFeatures.map((f) => (
-                  <Badge key={f} variant="outline" className="text-xs">{f}</Badge>
+                  <Badge key={f} variant="outline" className="text-sm py-1 px-2">{f}</Badge>
                 ))}
               </div>
             </CardContent>
@@ -133,16 +133,16 @@ export default async function PropertyDetail({ params }: { params: Promise<{ id:
         {/* MLS Description */}
         {p.mlsDescription && (
           <div>
-            <h3 className="text-sm font-semibold text-slate-700 mb-2">Description</h3>
-            <p className="text-xs text-slate-600 leading-relaxed">{p.mlsDescription}</p>
+            <h3 className="text-base font-semibold text-slate-700 mb-2">Description</h3>
+            <p className="text-sm text-slate-600 leading-relaxed">{p.mlsDescription}</p>
           </div>
         )}
 
         {/* Sale Info */}
         <Card>
           <CardContent className="p-4">
-            <h3 className="text-sm font-semibold text-slate-700 mb-2">Sale Details</h3>
-            <div className="grid grid-cols-2 gap-y-1 text-xs text-slate-600">
+            <h3 className="text-base font-semibold text-slate-700 mb-2">Sale Details</h3>
+            <div className="grid grid-cols-2 gap-y-2 text-sm text-slate-600">
               <span>Sold</span><span className="text-right font-medium">{p.soldDateStr}</span>
               <span>MLS #</span><span className="text-right font-medium">{p.mlsId || "—"}</span>
               <span>Days on Market</span><span className="text-right font-medium">{p.dom ?? "—"}</span>
@@ -160,12 +160,12 @@ export default async function PropertyDetail({ params }: { params: Promise<{ id:
                   <Card className="hover:shadow-sm transition-shadow">
                     <CardContent className="p-3 flex justify-between items-center">
                       <div>
-                        <div className="text-xs font-medium text-slate-900 truncate max-w-[200px]">{c.address}</div>
-                        <div className="text-[10px] text-slate-500">{c.sqft.toLocaleString()} sf &middot; {c.yearBuilt}</div>
+                        <div className="text-sm font-medium text-slate-900 truncate max-w-[220px]">{c.address}</div>
+                        <div className="text-xs text-slate-500">{c.sqft.toLocaleString()} sf &middot; {c.yearBuilt}</div>
                       </div>
                       <div className="text-right">
                         <div className="text-sm font-bold text-slate-900">{formatPrice(c.price)}</div>
-                        <div className="text-[10px] text-slate-500">${c.ppsf}/sf</div>
+                        <div className="text-xs text-slate-500">${c.ppsf}/sf</div>
                       </div>
                     </CardContent>
                   </Card>

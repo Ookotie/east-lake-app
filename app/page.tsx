@@ -50,7 +50,7 @@ export default function Dashboard() {
       <Card className="bg-amber-50 border-amber-200">
         <CardContent className="p-4">
           <div className="text-sm font-semibold text-amber-800">Best Value Zone</div>
-          <div className="text-xs text-amber-700 mt-1">
+          <div className="text-sm text-amber-700 mt-1">
             ZIP 34688 (East Lake) averages $230-$280/sf vs $300-$400/sf in 34685 (Palm Harbor) for comparable quality. Peak selling: Apr-Aug.
           </div>
         </CardContent>
@@ -74,8 +74,8 @@ export default function Dashboard() {
       {/* Criteria */}
       <Card>
         <CardContent className="p-4">
-          <h3 className="text-sm font-semibold text-slate-700 mb-2">Search Criteria</h3>
-          <div className="grid grid-cols-2 gap-y-1 text-xs text-slate-600">
+          <h3 className="text-base font-semibold text-slate-700 mb-2">Search Criteria</h3>
+          <div className="grid grid-cols-2 gap-y-2 text-sm text-slate-600">
             <span>Price</span><span className="text-right font-medium">$800K - $2.5M</span>
             <span>Size</span><span className="text-right font-medium">3,000+ sqft</span>
             <span>Type</span><span className="text-right font-medium">Single Family</span>

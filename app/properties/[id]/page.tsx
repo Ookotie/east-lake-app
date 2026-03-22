@@ -49,19 +49,31 @@ export default async function PropertyDetail({ params }: { params: Promise<{ id:
         {/* Address */}
         <div>
           <h1 className="text-lg font-bold text-slate-900">{p.address}</h1>
-          <div className="flex items-center gap-3 mt-0.5">
+          <div className="flex items-center gap-3 mt-1">
             <p className="text-sm text-slate-500">{p.subdivision}</p>
+            {redfinUrl && (
+              <a
+                href={redfinUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1 text-sm text-red-600 font-medium hover:underline"
+              >
+                Redfin
+                <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </a>
+            )}
             <a
               href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(p.address)}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1 text-xs text-blue-600 font-medium hover:underline"
+              className="inline-flex items-center gap-1 text-sm text-blue-600 font-medium hover:underline"
             >
-              <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-              </svg>
               Map
+              <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+              </svg>
             </a>
           </div>
         </div>
@@ -175,19 +187,7 @@ export default async function PropertyDetail({ params }: { params: Promise<{ id:
           </div>
         )}
 
-        {/* Redfin Link */}
-        {redfinUrl && (
-          <a
-            href={redfinUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block w-full text-center bg-red-600 text-white py-3 rounded-lg font-medium text-sm hover:bg-red-700 transition-colors"
-          >
-            View on Redfin &rarr;
-          </a>
-        )}
-
-        <div className="h-4" />
+        <div className="h-20" />
       </div>
     </div>
   );

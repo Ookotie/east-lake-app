@@ -33,6 +33,51 @@ export interface Property {
   isRenovated?: boolean;
 }
 
+export interface ActiveListing {
+  address: string;
+  price: number;
+  sqft: number;
+  ppsf: number;
+  lotSqft: number | null;
+  lotAcres?: number | null;
+  beds: number | null;
+  baths: number | null;
+  stories: number | null;
+  yearBuilt: number | null;
+  hoa: number | null;
+  dom: number | null;
+  subdivision: string;
+  url: string;
+  mlsId: string;
+  zip: string;
+  lat: number | null;
+  lon: number | null;
+  isActive: boolean;
+  hasPool: boolean;
+  isWaterfront: boolean;
+  isConservation: boolean;
+  listingAgent: string;
+  garageSpaces: number | null;
+  propertyId: number | null;
+  score: number;
+  compAvgPpsf?: number;
+  compDiscount?: number;
+  valueAssessment?: string;
+  estimatedFairValue?: number;
+  priceDelta?: number;
+  marketMedianPpsf?: number;
+  comps?: {
+    address: string;
+    price: number;
+    sqft: number;
+    ppsf: number;
+    soldDate: string;
+    beds: number | null;
+    baths: number | null;
+    yearBuilt: number | null;
+  }[];
+}
+
 export type SortField = 'totalScore' | 'price' | 'ppsf' | 'sqft' | 'yearBuilt' | 'lotAcres';
 export type SortOrder = 'asc' | 'desc';
 

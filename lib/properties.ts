@@ -1,9 +1,11 @@
 import top50Data from "@/data/top50-final.json";
 import allData from "@/data/all-properties-scored.json";
-import type { Property, FilterState } from "./types";
+import activeData from "@/data/active-listings.json";
+import type { Property, ActiveListing, FilterState } from "./types";
 
 export const top50: Property[] = top50Data as Property[];
 export const allProperties: Property[] = allData as Property[];
+export const activeListings: ActiveListing[] = activeData as ActiveListing[];
 
 export function getProperty(id: string): Property | undefined {
   return [...top50, ...allProperties].find(

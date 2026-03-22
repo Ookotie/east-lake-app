@@ -49,31 +49,41 @@ export default async function PropertyDetail({ params }: { params: Promise<{ id:
         {/* Address */}
         <div>
           <h1 className="text-lg font-bold text-slate-900">{p.address}</h1>
-          <div className="flex items-center gap-3 mt-1">
-            <p className="text-sm text-slate-500">{p.subdivision}</p>
+          <p className="text-sm text-slate-500 mt-0.5">{p.subdivision}</p>
+          <div className="flex items-center gap-2 mt-2">
             {redfinUrl && (
               <a
                 href={redfinUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-1 text-sm text-red-600 font-medium hover:underline"
+                className="inline-flex items-center gap-1.5 text-sm px-3 py-1.5 rounded-full bg-red-50 text-red-700 font-medium border border-red-200"
               >
                 Redfin
-                <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                </svg>
               </a>
             )}
             <a
-              href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(p.address)}`}
+              href={`https://www.zillow.com/homes/${encodeURIComponent(p.address.replace(/,/g, "").replace(/ /g, "-"))}_rb/`}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1 text-sm text-blue-600 font-medium hover:underline"
+              className="inline-flex items-center gap-1.5 text-sm px-3 py-1.5 rounded-full bg-blue-50 text-blue-700 font-medium border border-blue-200"
             >
-              Map
-              <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-              </svg>
+              Zillow
+            </a>
+            <a
+              href={`https://maps.apple.com/?q=${encodeURIComponent(p.address)}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 text-sm px-3 py-1.5 rounded-full bg-slate-50 text-slate-700 font-medium border border-slate-200"
+            >
+              Apple Maps
+            </a>
+            <a
+              href={`https://www.google.com/maps/place/${encodeURIComponent(p.address)}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 text-sm px-3 py-1.5 rounded-full bg-emerald-50 text-emerald-700 font-medium border border-emerald-200"
+            >
+              Google Maps
             </a>
           </div>
         </div>

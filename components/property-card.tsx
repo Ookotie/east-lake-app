@@ -65,7 +65,7 @@ export function PropertyCard({ property, rank }: { property: Property; rank?: nu
           <div className="flex items-center gap-1.5">
             <span className="text-base font-semibold text-slate-900 truncate flex-1">{p.address}</span>
             <a
-              href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(p.address)}`}
+              href={`https://www.google.com/maps/place/${encodeURIComponent(p.address)}`}
               target="_blank"
               rel="noopener noreferrer"
               onClick={(e) => e.stopPropagation()}

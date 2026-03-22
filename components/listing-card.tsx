@@ -61,7 +61,7 @@ export function ListingCard({ listing, rank }: { listing: ActiveListing; rank?: 
           <div className="flex items-center gap-1.5">
             <span className="text-sm font-semibold text-slate-900 truncate flex-1">{l.address}</span>
             <a
-              href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(l.address)}`}
+              href={`https://www.google.com/maps/place/${encodeURIComponent(l.address)}`}
               target="_blank"
               rel="noopener noreferrer"
               onClick={(e) => e.stopPropagation()}

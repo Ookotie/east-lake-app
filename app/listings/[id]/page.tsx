@@ -5,7 +5,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ScoreBadge } from "@/components/score-badge";
 import { Separator } from "@/components/ui/separator";
-import { activeListings, slugify, formatPrice } from "@/lib/properties";
+import { activeListings, slugify, formatPrice, getRedfinPhotoUrl } from "@/lib/properties";
 import Link from "next/link";
 
 export default function ListingDetail({ params }: { params: Promise<{ id: string }> }) {
@@ -23,11 +23,16 @@ export default function ListingDetail({ params }: { params: Promise<{ id: string
 
   const l = listing;
   const redfinUrl = l.url ? `https://www.redfin.com${l.url}` : "";
+  const photoUrl = getRedfinPhotoUrl(l.mlsId);
 
   return (
     <div className="space-y-4">
       {/* Hero */}
-      <div className="relative bg-gradient-to-br from-blue-100 to-slate-200 p-6 pt-12">
+      <div className="relative h-56 bg-gradient-to-br from-slate-300 to-slate-400">
+        {photoUrl && (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img src={photoUrl} alt={l.address} className="w-full h-full object-cover" />
+        )}
         <Link href="/listings" className="absolute top-3 left-3 bg-black/50 text-white p-2 rounded-full">
           <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
@@ -36,12 +41,17 @@ export default function ListingDetail({ params }: { params: Promise<{ id: string
         <div className="absolute top-3 right-3">
           <ScoreBadge score={l.score} size="lg" />
         </div>
-        <div className="mt-4">
-          <div className="text-3xl font-bold text-slate-900">{formatPrice(l.price)}</div>
+        {(l.dom ?? 999) <= 7 && (
+          <div className="absolute top-3 left-14 bg-emerald-500 text-white text-sm font-bold px-2.5 py-0.5 rounded-full">
+            NEW
+          </div>
+        )}
+        <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4">
+          <div className="text-white text-2xl font-bold">{formatPrice(l.price)}</div>
           <div className="flex items-center gap-2 mt-1 text-sm">
-            <span className="text-slate-500">${l.ppsf}/sf</span>
+            <span className="text-white/70">${l.ppsf}/sf</span>
             {l.compAvgPpsf && (
-              <span className={`font-medium ${l.ppsf <= l.compAvgPpsf ? "text-emerald-600" : "text-red-500"}`}>
+              <span className={`font-medium ${l.ppsf <= l.compAvgPpsf ? "text-emerald-300" : "text-red-300"}`}>
                 vs ${l.compAvgPpsf}/sf comps
               </span>
             )}
@@ -57,13 +67,13 @@ export default function ListingDetail({ params }: { params: Promise<{ id: string
         <div>
           <h1 className="text-lg font-bold text-slate-900">{l.address}</h1>
           <p className="text-sm text-slate-500 mt-0.5">{l.subdivision}</p>
-          <div className="flex items-center gap-2 mt-2">
+          <div className="flex items-center gap-2 mt-2 overflow-x-auto pb-1 -mx-1 px-1">
             {redfinUrl && (
               <a
                 href={redfinUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 text-sm px-3 py-1.5 rounded-full bg-red-50 text-red-700 font-medium border border-red-200"
+                className="whitespace-nowrap shrink-0 inline-flex items-center gap-1.5 text-sm px-3 py-1.5 rounded-full bg-red-50 text-red-700 font-medium border border-red-200"
               >
                 Redfin
               </a>
@@ -72,7 +82,7 @@ export default function ListingDetail({ params }: { params: Promise<{ id: string
               href={`https://www.zillow.com/homes/${encodeURIComponent(l.address.replace(/,/g, "").replace(/ /g, "-"))}_rb/`}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 text-sm px-3 py-1.5 rounded-full bg-blue-50 text-blue-700 font-medium border border-blue-200"
+              className="whitespace-nowrap shrink-0 inline-flex items-center gap-1.5 text-sm px-3 py-1.5 rounded-full bg-blue-50 text-blue-700 font-medium border border-blue-200"
             >
               Zillow
             </a>
@@ -80,7 +90,7 @@ export default function ListingDetail({ params }: { params: Promise<{ id: string
               href={`https://maps.apple.com/?q=${encodeURIComponent(l.address)}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 text-sm px-3 py-1.5 rounded-full bg-slate-50 text-slate-700 font-medium border border-slate-200"
+              className="whitespace-nowrap shrink-0 inline-flex items-center gap-1.5 text-sm px-3 py-1.5 rounded-full bg-slate-50 text-slate-700 font-medium border border-slate-200"
             >
               Apple Maps
             </a>
@@ -88,7 +98,7 @@ export default function ListingDetail({ params }: { params: Promise<{ id: string
               href={`https://www.google.com/maps/place/${encodeURIComponent(l.address)}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 text-sm px-3 py-1.5 rounded-full bg-emerald-50 text-emerald-700 font-medium border border-emerald-200"
+              className="whitespace-nowrap shrink-0 inline-flex items-center gap-1.5 text-sm px-3 py-1.5 rounded-full bg-emerald-50 text-emerald-700 font-medium border border-emerald-200"
             >
               Google Maps
             </a>

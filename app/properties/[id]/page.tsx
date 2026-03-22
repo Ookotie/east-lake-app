@@ -50,13 +50,13 @@ export default async function PropertyDetail({ params }: { params: Promise<{ id:
         <div>
           <h1 className="text-lg font-bold text-slate-900">{p.address}</h1>
           <p className="text-sm text-slate-500 mt-0.5">{p.subdivision}</p>
-          <div className="flex items-center gap-2 mt-2">
+          <div className="flex items-center gap-2 mt-2 overflow-x-auto pb-1 -mx-1 px-1">
             {redfinUrl && (
               <a
                 href={redfinUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 text-sm px-3 py-1.5 rounded-full bg-red-50 text-red-700 font-medium border border-red-200"
+                className="whitespace-nowrap shrink-0 inline-flex items-center gap-1.5 text-sm px-3 py-1.5 rounded-full bg-red-50 text-red-700 font-medium border border-red-200"
               >
                 Redfin
               </a>
@@ -65,7 +65,7 @@ export default async function PropertyDetail({ params }: { params: Promise<{ id:
               href={`https://www.zillow.com/homes/${encodeURIComponent(p.address.replace(/,/g, "").replace(/ /g, "-"))}_rb/`}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 text-sm px-3 py-1.5 rounded-full bg-blue-50 text-blue-700 font-medium border border-blue-200"
+              className="whitespace-nowrap shrink-0 inline-flex items-center gap-1.5 text-sm px-3 py-1.5 rounded-full bg-blue-50 text-blue-700 font-medium border border-blue-200"
             >
               Zillow
             </a>
@@ -73,7 +73,7 @@ export default async function PropertyDetail({ params }: { params: Promise<{ id:
               href={`https://maps.apple.com/?q=${encodeURIComponent(p.address)}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 text-sm px-3 py-1.5 rounded-full bg-slate-50 text-slate-700 font-medium border border-slate-200"
+              className="whitespace-nowrap shrink-0 inline-flex items-center gap-1.5 text-sm px-3 py-1.5 rounded-full bg-slate-50 text-slate-700 font-medium border border-slate-200"
             >
               Apple Maps
             </a>
@@ -81,7 +81,7 @@ export default async function PropertyDetail({ params }: { params: Promise<{ id:
               href={`https://www.google.com/maps/place/${encodeURIComponent(p.address)}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 text-sm px-3 py-1.5 rounded-full bg-emerald-50 text-emerald-700 font-medium border border-emerald-200"
+              className="whitespace-nowrap shrink-0 inline-flex items-center gap-1.5 text-sm px-3 py-1.5 rounded-full bg-emerald-50 text-emerald-700 font-medium border border-emerald-200"
             >
               Google Maps
             </a>

@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ScoreBadge } from "./score-badge";
-import { slugify, formatPrice } from "@/lib/properties";
+import { slugify, formatPrice, getRedfinPhotoUrl } from "@/lib/properties";
 import type { ActiveListing } from "@/lib/types";
 
 function ValueBadge({ assessment }: { assessment?: string }) {
@@ -25,31 +25,49 @@ function ValueBadge({ assessment }: { assessment?: string }) {
 
 export function ListingCard({ listing, rank }: { listing: ActiveListing; rank?: number }) {
   const l = listing;
+  const photoUrl = getRedfinPhotoUrl(l.mlsId);
 
   return (
     <Link href={`/listings/${slugify(l.address)}`}>
       <Card className="overflow-hidden hover:shadow-lg transition-shadow active:scale-[0.98] cursor-pointer">
-        {/* Header with price and score */}
-        <div className="relative bg-gradient-to-br from-blue-50 to-slate-100 p-4">
+        {/* Photo hero */}
+        <div className="relative h-40 bg-gradient-to-br from-slate-200 to-slate-300">
+          {photoUrl && (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img
+              src={photoUrl}
+              alt={l.address}
+              className="w-full h-full object-cover"
+            />
+          )}
+
           {/* Score badge */}
-          <div className="absolute top-3 right-3">
+          <div className="absolute top-2 right-2">
             <ScoreBadge score={l.score} size="sm" />
           </div>
 
           {/* Rank */}
           {rank && (
-            <div className="absolute top-3 left-3 bg-black/60 text-white text-xs font-bold px-2 py-0.5 rounded-full">
+            <div className="absolute top-2 left-2 bg-black/60 text-white text-sm font-bold px-2 py-0.5 rounded-full">
               #{rank}
             </div>
           )}
 
-          <div className="pt-6">
-            <div className="text-2xl font-bold text-slate-900">{formatPrice(l.price)}</div>
-            <div className="flex items-center gap-2 mt-1">
-              <span className="text-sm text-slate-500">${l.ppsf}/sf</span>
+          {/* NEW badge */}
+          {(l.dom ?? 999) <= 7 && (
+            <div className="absolute top-2 left-12 bg-emerald-500 text-white text-sm font-bold px-2.5 py-0.5 rounded-full">
+              NEW
+            </div>
+          )}
+
+          {/* Price overlay */}
+          <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent px-3 py-2">
+            <div className="text-white font-bold text-lg">{formatPrice(l.price)}</div>
+            <div className="flex items-center gap-2">
+              <span className="text-sm text-white/70">${l.ppsf}/sf</span>
               {l.compAvgPpsf && (
-                <span className={`text-sm font-medium ${l.ppsf <= l.compAvgPpsf ? "text-emerald-600" : "text-red-500"}`}>
-                  {l.ppsf <= l.compAvgPpsf ? "vs" : "vs"} ${l.compAvgPpsf}/sf comps
+                <span className={`text-sm font-medium ${l.ppsf <= l.compAvgPpsf ? "text-emerald-300" : "text-red-300"}`}>
+                  vs ${l.compAvgPpsf}/sf comps
                 </span>
               )}
             </div>

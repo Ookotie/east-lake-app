@@ -1,12 +1,13 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { PropertyCard } from "@/components/property-card";
-import { top50, allProperties, getMarketStats, formatPrice } from "@/lib/properties";
+import { top50, allProperties, activeListings, getMarketStats, formatPrice, getRedfinPhotoUrl, slugify } from "@/lib/properties";
 import Link from "next/link";
 
 export default function Dashboard() {
   const stats = getMarketStats(top50);
   const allStats = getMarketStats(allProperties);
   const topProperties = top50.slice(0, 5);
+  const newListings = activeListings.filter((l) => (l.dom ?? 999) <= 7);
 
   return (
     <div className="space-y-6 p-4">
@@ -55,6 +56,48 @@ export default function Dashboard() {
           </div>
         </CardContent>
       </Card>
+
+      {/* New Listings */}
+      {newListings.length > 0 && (
+        <div>
+          <div className="flex items-center justify-between mb-3">
+            <h2 className="text-lg font-semibold text-slate-900">New Listings</h2>
+            <Link href="/listings" className="text-sm text-blue-600 font-medium">
+              All listings &rarr;
+            </Link>
+          </div>
+          <div className="flex gap-3 overflow-x-auto pb-2 -mx-1 px-1">
+            {newListings.map((l) => {
+              const photoUrl = getRedfinPhotoUrl(l.mlsId);
+              return (
+                <Link key={l.mlsId || l.address} href={`/listings/${slugify(l.address)}`} className="shrink-0 w-64">
+                  <Card className="overflow-hidden hover:shadow-lg transition-shadow">
+                    <div className="relative h-36 bg-gradient-to-br from-slate-200 to-slate-300">
+                      {photoUrl && (
+                        // eslint-disable-next-line @next/next/no-img-element
+                        <img src={photoUrl} alt={l.address} className="w-full h-full object-cover" />
+                      )}
+                      <div className="absolute top-2 left-2 bg-emerald-500 text-white text-sm font-bold px-2.5 py-0.5 rounded-full">
+                        NEW
+                      </div>
+                      <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent px-3 py-2">
+                        <div className="text-white font-bold text-base">{formatPrice(l.price)}</div>
+                      </div>
+                    </div>
+                    <div className="p-3 space-y-1">
+                      <div className="text-sm font-semibold text-slate-900 truncate">{l.address}</div>
+                      <div className="text-sm text-slate-600">
+                        {l.beds}bd / {l.baths}ba · {l.sqft?.toLocaleString()} sf
+                      </div>
+                      <div className="text-sm text-slate-500">${l.ppsf}/sf · {l.dom} days</div>
+                    </div>
+                  </Card>
+                </Link>
+              );
+            })}
+          </div>
+        </div>
+      )}
 
       {/* Top 5 */}
       <div>

@@ -109,6 +109,12 @@ export function findComps(
     .slice(0, limit);
 }
 
+export function getRedfinPhotoUrl(mlsId: string): string {
+  if (!mlsId) return "";
+  const last3 = mlsId.slice(-3);
+  return `https://ssl.cdn-redfin.com/photo/118/mbpaddedwide/${last3}/genMid.${mlsId}_1.jpg`;
+}
+
 export function formatPrice(price: number): string {
   if (price >= 1_000_000) return `$${(price / 1_000_000).toFixed(2)}M`;
   return `$${(price / 1_000).toFixed(0)}K`;

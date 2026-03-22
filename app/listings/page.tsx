@@ -50,7 +50,8 @@ export default function ListingsPage() {
     const strongDeals = activeListings.filter(
       (l) => l.valueAssessment === "Strong Value" || l.valueAssessment === "Good Value"
     ).length;
-    return { avgPpsf, total: activeListings.length, strongDeals };
+    const newCount = activeListings.filter((l) => (l.dom ?? 999) <= 7).length;
+    return { avgPpsf, total: activeListings.length, strongDeals, newCount };
   }, []);
 
   return (
@@ -59,6 +60,9 @@ export default function ListingsPage() {
         <h1 className="text-xl font-bold text-slate-900">For Sale</h1>
         <p className="text-sm text-slate-500 mt-1">
           {stats.total} active listings · avg ${stats.avgPpsf}/sf · {stats.strongDeals} deals
+          {stats.newCount > 0 && (
+            <span className="text-emerald-600 font-medium"> · {stats.newCount} new this week</span>
+          )}
         </p>
       </div>
 

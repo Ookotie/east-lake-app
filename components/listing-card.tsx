@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ScoreBadge } from "./score-badge";
+import { FavoriteButton } from "./favorite-button";
 import { slugify, formatPrice, getRedfinPhotoUrl } from "@/lib/properties";
 import type { ActiveListing } from "@/lib/types";
 
@@ -41,8 +42,9 @@ export function ListingCard({ listing, rank }: { listing: ActiveListing; rank?: 
             />
           )}
 
-          {/* Score badge */}
-          <div className="absolute top-2 right-2">
+          {/* Score badge + Favorite */}
+          <div className="absolute top-2 right-2 flex items-center gap-1.5">
+            <FavoriteButton id={l.mlsId} />
             <ScoreBadge score={l.score} size="sm" />
           </div>
 

@@ -1,4 +1,9 @@
+"use client";
+
+import { useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
+import { RentalCard } from "@/components/rental-card";
+import { rentalListings } from "@/lib/properties";
 
 const pmCompanies = [
   {
@@ -137,40 +142,96 @@ function TierBadge({ tier }: { tier: number }) {
 }
 
 export default function RentalsPage() {
+  const [showPM, setShowPM] = useState(false);
+  const sfhRentals = rentalListings.filter((r) => !r.isBuilding);
+  const aptRentals = rentalListings.filter((r) => r.isBuilding);
+
   return (
     <div className="space-y-6 p-4">
       <div className="pt-2">
-        <h1 className="text-2xl font-bold text-slate-900">Rental Search</h1>
+        <h1 className="text-2xl font-bold text-slate-900">Rentals</h1>
         <p className="text-sm text-slate-500">
-          Property management companies serving East Lake HS zone
-        </p>
-        <p className="text-xs text-slate-400 mt-1">
-          Updated March 30, 2026
+          {rentalListings.length} rentals in ELHS zone &middot; Updated daily
         </p>
       </div>
 
-      {/* Call Script */}
-      <Card className="bg-blue-50 border-blue-200">
-        <CardContent className="p-4">
-          <h2 className="font-semibold text-blue-900 text-sm mb-2">What to say when you call</h2>
-          <p className="text-sm text-blue-800 italic">
-            &ldquo;Hi, I&apos;m Dr. Okotie. My husband is a physician and we&apos;re relocating to the East Lake High School zone. We&apos;re looking for a 4+ bedroom, 3,000+ sqft single family home on a 12-month lease. What do you have available or coming available in the next 30-60 days? We can submit a full tenant packet same day.&rdquo;
-          </p>
-        </CardContent>
-      </Card>
+      {/* Rental Listings */}
+      {sfhRentals.length > 0 && (
+        <div>
+          <h2 className="text-base font-semibold text-slate-900 mb-3">
+            Houses & Townhomes ({sfhRentals.length})
+          </h2>
+          <div className="space-y-3">
+            {sfhRentals.map((r, i) => (
+              <RentalCard key={r.zpid || i} rental={r} rank={i + 1} />
+            ))}
+          </div>
+        </div>
+      )}
 
-      {/* Key Insight */}
-      <Card className="bg-amber-50 border-amber-200">
-        <CardContent className="p-4">
-          <h2 className="font-semibold text-amber-900 text-sm mb-2">Key insight</h2>
-          <p className="text-sm text-amber-800">
-            PM companies know about vacancies 30 days before they hit Zillow/Redfin. Ask each one what&apos;s <strong>coming available</strong>, not just what&apos;s listed now. None currently have 4BR+ homes in East Lake proper -- but inventory rotates fast.
-          </p>
-        </CardContent>
-      </Card>
+      {aptRentals.length > 0 && (
+        <div>
+          <h2 className="text-base font-semibold text-slate-900 mb-3">
+            Apartments ({aptRentals.length})
+          </h2>
+          <div className="space-y-3">
+            {aptRentals.map((r, i) => (
+              <RentalCard key={r.zpid || i} rental={r} />
+            ))}
+          </div>
+        </div>
+      )}
 
-      {/* Company Cards */}
-      <div className="space-y-4">
+      {rentalListings.length === 0 && (
+        <Card className="bg-slate-50">
+          <CardContent className="p-6 text-center text-slate-500">
+            <p className="text-sm">No rental listings loaded yet.</p>
+            <p className="text-xs mt-1">Data refreshes daily at 7 AM.</p>
+          </CardContent>
+        </Card>
+      )}
+
+      {/* PM Companies - Collapsible */}
+      <div>
+        <button
+          onClick={() => setShowPM(!showPM)}
+          className="w-full flex items-center justify-between p-4 bg-slate-100 rounded-lg text-sm font-semibold text-slate-700"
+        >
+          <span>Property Management Companies ({pmCompanies.length})</span>
+          <svg
+            className={`w-5 h-5 transition-transform ${showPM ? "rotate-180" : ""}`}
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+
+        {showPM && (
+          <div className="mt-4 space-y-4">
+            {/* Call Script */}
+            <Card className="bg-blue-50 border-blue-200">
+              <CardContent className="p-4">
+                <h2 className="font-semibold text-blue-900 text-sm mb-2">What to say when you call</h2>
+                <p className="text-sm text-blue-800 italic">
+                  &ldquo;Hi, I&apos;m Dr. Okotie. My husband is a physician and we&apos;re relocating to the East Lake High School zone. We&apos;re looking for a 4+ bedroom, 3,000+ sqft single family home on a 12-month lease. What do you have available or coming available in the next 30-60 days? We can submit a full tenant packet same day.&rdquo;
+                </p>
+              </CardContent>
+            </Card>
+
+            {/* Key Insight */}
+            <Card className="bg-amber-50 border-amber-200">
+              <CardContent className="p-4">
+                <h2 className="font-semibold text-amber-900 text-sm mb-2">Key insight</h2>
+                <p className="text-sm text-amber-800">
+                  PM companies know about vacancies 30 days before they hit Zillow/Redfin. Ask each one what&apos;s <strong>coming available</strong>, not just what&apos;s listed now.
+                </p>
+              </CardContent>
+            </Card>
+
+            {/* Company Cards */}
+            <div className="space-y-4">
         {pmCompanies.map((co, i) => (
           <Card key={i} className="overflow-hidden">
             <CardContent className="p-4 space-y-3">
@@ -267,8 +328,8 @@ export default function RentalsPage() {
         ))}
       </div>
 
-      {/* Other Resources */}
-      <Card>
+            {/* Other Resources */}
+            <Card>
         <CardContent className="p-4 space-y-3">
           <h2 className="font-semibold text-slate-900">Other rental resources</h2>
           <div className="space-y-2 text-sm">
@@ -285,8 +346,8 @@ export default function RentalsPage() {
         </CardContent>
       </Card>
 
-      {/* Fee-based agent */}
-      <Card className="bg-slate-50">
+            {/* Fee-based agent */}
+            <Card className="bg-slate-50">
         <CardContent className="p-4 space-y-2">
           <h2 className="font-semibold text-slate-900 text-sm">Backup: Fee-based agent</h2>
           <p className="text-sm text-slate-700">
@@ -311,6 +372,10 @@ export default function RentalsPage() {
           </div>
         </CardContent>
       </Card>
+
+          </div>
+        )}
+      </div>
 
       <div className="h-8" />
     </div>

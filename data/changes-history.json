@@ -1,0 +1,627 @@
+[
+  {
+    "date": "2026-04-02",
+    "forSale": {
+      "total": 33,
+      "new": [
+        {
+          "address": "1648 Lago Vista Blvd, Palm Harbor, FL 34685",
+          "price": 949900,
+          "beds": 4,
+          "baths": 3.5,
+          "sqft": 4443,
+          "score": 75.3,
+          "url": "/FL/Palm-Harbor/1648-Lago-Vista-Blvd-34685/home/47904629",
+          "mlsId": "T3507489"
+        },
+        {
+          "address": "3988 Mimosa Pl, Palm Harbor, FL 34685",
+          "price": 1049900,
+          "beds": 4,
+          "baths": 3.5,
+          "sqft": 3418,
+          "score": 52.3,
+          "url": "/FL/Palm-Harbor/3988-Mimosa-Pl-34685/home/48028869",
+          "mlsId": "TB8448645"
+        },
+        {
+          "address": "748 Winslow Park, Tarpon Springs, FL 34688",
+          "price": 975000,
+          "beds": 4,
+          "baths": 3.0,
+          "sqft": 3248,
+          "score": 52.2,
+          "url": "/FL/Tarpon-Springs/748-Winslow-Park-Blvd-34688/home/47856158",
+          "mlsId": "TB8468608"
+        },
+        {
+          "address": "2928 Waters Edge Rd, Palm Harbor, FL 34685",
+          "price": 1079000,
+          "beds": 4,
+          "baths": 4.0,
+          "sqft": 3541,
+          "score": 51.5,
+          "url": "/FL/Palm-Harbor/2928-Waters-Edge-Rd-34685/home/48250477",
+          "mlsId": "TB8446052"
+        },
+        {
+          "address": "3830 Moreno Dr, Palm Harbor, FL 34685",
+          "price": 1000000,
+          "beds": 4,
+          "baths": 3.0,
+          "sqft": 3679,
+          "score": 50.7,
+          "url": "/FL/Palm-Harbor/3830-Moreno-Dr-34685/home/48028820",
+          "mlsId": "TB8461072"
+        },
+        {
+          "address": "728 Estates Blvd, Tarpon Springs, FL 34688",
+          "price": 969990,
+          "beds": 4,
+          "baths": 3.5,
+          "sqft": 3049,
+          "score": 50.5,
+          "url": "/FL/Tarpon-Springs/728-Estates-Blvd-34688/home/199391850",
+          "mlsId": "TB8450635"
+        },
+        {
+          "address": "3727 Janus Way, Palm Harbor, FL 34685",
+          "price": 999900,
+          "beds": 5,
+          "baths": 4.0,
+          "sqft": 3659,
+          "score": 50.3,
+          "url": "/FL/Palm-Harbor/3727-Janus-Way-34685/home/48247870",
+          "mlsId": "TB8385235"
+        },
+        {
+          "address": "3185 Burberry St, Tarpon Springs, FL 34688",
+          "price": 849000,
+          "beds": 5,
+          "baths": 4.0,
+          "sqft": 3198,
+          "score": 46.6,
+          "url": "/FL/Tarpon-Springs/3185-Burberry-St-34688/home/47856144",
+          "mlsId": "TB8485151"
+        },
+        {
+          "address": "3351 Bristol Pl, Tarpon Springs, FL 34688",
+          "price": 879000,
+          "beds": 4,
+          "baths": 3.0,
+          "sqft": 3652,
+          "score": 46.5,
+          "url": "/FL/Tarpon-Springs/3351-Bristol-Pl-34688/home/47894292",
+          "mlsId": "TB8482613"
+        },
+        {
+          "address": "3718 Jacmel Way, Palm Harbor, FL 34685",
+          "price": 925000,
+          "beds": 4,
+          "baths": 3.0,
+          "sqft": 3103,
+          "score": 43.7,
+          "url": "/FL/Palm-Harbor/3718-Jacmel-Way-34685/home/48069959",
+          "mlsId": "TB8463453"
+        },
+        {
+          "address": "5497 Millbrook Way, Palm Harbor, FL 34685",
+          "price": 845000,
+          "beds": 4,
+          "baths": 3.0,
+          "sqft": 3053,
+          "score": 43.0,
+          "url": "/FL/Palm-Harbor/5497-Millbrook-Way-34685/home/48028831",
+          "mlsId": "TB8454090"
+        },
+        {
+          "address": "4165 Moreno Dr, Palm Harbor, FL 34685",
+          "price": 1130000,
+          "beds": 6,
+          "baths": 4.0,
+          "sqft": 4059,
+          "score": 42.8,
+          "url": "/FL/Palm-Harbor/4165-Moreno-Dr-34685/home/48028531",
+          "mlsId": "TB8460043"
+        },
+        {
+          "address": "531 Isleworth Close, Tarpon Springs, FL 34688",
+          "price": 1475000,
+          "beds": 5,
+          "baths": 4.0,
+          "sqft": 4570,
+          "score": 42.7,
+          "url": "/FL/Tarpon-Springs/531-Isleworth-Close-34688/home/48018189",
+          "mlsId": "TB8471466"
+        },
+        {
+          "address": "3716 Janus Way, Palm Harbor, FL 34685",
+          "price": 1150000,
+          "beds": 4,
+          "baths": 4.5,
+          "sqft": 3924,
+          "score": 41.3,
+          "url": "/FL/Palm-Harbor/3716-Janus-Way-34685/home/48247647",
+          "mlsId": "TB8452948"
+        },
+        {
+          "address": "709 Estates Blvd, Tarpon Springs, FL 34688",
+          "price": 1081870,
+          "beds": 4,
+          "baths": 3.5,
+          "sqft": 3049,
+          "score": 41.1,
+          "url": "/FL/Tarpon-Springs/709-Estates-Blvd-34688/home/200262076",
+          "mlsId": "TB8470543"
+        },
+        {
+          "address": "5292 Kernwood Ct, Palm Harbor, FL 34685",
+          "price": 1099000,
+          "beds": 5,
+          "baths": 3.0,
+          "sqft": 3546,
+          "score": 41.1,
+          "url": "/FL/Palm-Harbor/5292-Kernwood-Ct-34685/home/48078411",
+          "mlsId": "TB8471501"
+        },
+        {
+          "address": "Magnolia Plan, Tarpon Springs, FL 34688",
+          "price": 969990,
+          "beds": 4,
+          "baths": 3.5,
+          "sqft": 3049,
+          "score": 39.9,
+          "url": "/FL/Tarpon-Springs/Tarpon-Springs/Magnolia/home/198828353",
+          "mlsId": "7EA0773597D0"
+        },
+        {
+          "address": "5442 Millbrook Way, Palm Harbor, FL 34685",
+          "price": 1249000,
+          "beds": 4,
+          "baths": 4.5,
+          "sqft": 3875,
+          "score": 39.4,
+          "url": "/FL/Palm-Harbor/5442-Millbrook-Way-34685/home/48028835",
+          "mlsId": "TB8485837"
+        },
+        {
+          "address": "3196 Crescent Oaks Blvd, Tarpon Springs, FL 34688",
+          "price": 879000,
+          "beds": 3,
+          "baths": 3.0,
+          "sqft": 3234,
+          "score": 39.1,
+          "url": "/FL/Tarpon-Springs/3196-Crescent-Oaks-Blvd-34688/home/47894310",
+          "mlsId": "TB8477613"
+        },
+        {
+          "address": "632 Royal Dornock Ct, Tarpon Springs, FL 34688",
+          "price": 1185000,
+          "beds": 3,
+          "baths": 2.5,
+          "sqft": 3465,
+          "score": 38.0,
+          "url": "/FL/Tarpon-Springs/632-Royal-Dornock-Ct-34688/home/47964896",
+          "mlsId": "TB8427895"
+        },
+        {
+          "address": "249 Dogwood Trce, Tarpon Springs, FL 34688",
+          "price": 2450000,
+          "beds": 4,
+          "baths": 4.0,
+          "sqft": 5256,
+          "score": 36,
+          "url": "/FL/Tarpon-Springs/249-Dogwood-Trce-34688/home/47964810",
+          "mlsId": "TB8337103"
+        },
+        {
+          "address": "543 Isleworth Close, Tarpon Springs, FL 34688",
+          "price": 2450000,
+          "beds": 4,
+          "baths": 4.5,
+          "sqft": 6999,
+          "score": 35.1,
+          "url": "/FL/Tarpon-Springs/543-Isleworth-Close-34688/home/48018188",
+          "mlsId": "O6378555"
+        },
+        {
+          "address": "3687 Janus Way, Palm Harbor, FL 34685",
+          "price": 1080000,
+          "beds": 4,
+          "baths": 3.0,
+          "sqft": 3146,
+          "score": 34.7,
+          "url": "/FL/Palm-Harbor/3687-Janus-Way-34685/home/48249369",
+          "mlsId": "TB8485383"
+        },
+        {
+          "address": "2861 Roehampton Close, Tarpon Springs, FL 34688",
+          "price": 2349000,
+          "beds": 6,
+          "baths": 5.0,
+          "sqft": 5767,
+          "score": 33.4,
+          "url": "/FL/Tarpon-Springs/2861-Roehampton-Close-34688/home/48018175",
+          "mlsId": "W7879852"
+        },
+        {
+          "address": "5085 Quill Ct, Palm Harbor, FL 34685",
+          "price": 2095000,
+          "beds": 4,
+          "baths": 4.0,
+          "sqft": 5510,
+          "score": 32.1,
+          "url": "/FL/Palm-Harbor/5085-Quill-Ct-34685/home/48244057",
+          "mlsId": "TB8486118"
+        },
+        {
+          "address": "2661 Hawks Landing Blvd, Palm Harbor, FL 34685",
+          "price": 2300000,
+          "beds": 5,
+          "baths": 3.5,
+          "sqft": 5114,
+          "score": 32.0,
+          "url": "/FL/Palm-Harbor/2661-Hawks-Landing-Blvd-34685/home/48250447",
+          "mlsId": "TB8461339"
+        },
+        {
+          "address": "5216 Kernwood Ct, Palm Harbor, FL 34685",
+          "price": 939900,
+          "beds": 5,
+          "baths": 4.0,
+          "sqft": 3265,
+          "score": 31.5,
+          "url": "/FL/Palm-Harbor/5216-Kernwood-Ct-34685/home/48078418",
+          "mlsId": "TB8487296"
+        },
+        {
+          "address": "2983 Wentworth Way, Tarpon Springs, FL 34688",
+          "price": 1235000,
+          "beds": 4,
+          "baths": 3.5,
+          "sqft": 3598,
+          "score": 29.9,
+          "url": "/FL/Tarpon-Springs/2983-Wentworth-Way-34688/home/48018062",
+          "mlsId": "TB8484659"
+        },
+        {
+          "address": "2817 Roehampton Close, Tarpon Springs, FL 34688",
+          "price": 2475000,
+          "beds": 4,
+          "baths": 6.0,
+          "sqft": 5353,
+          "score": 29,
+          "url": "/FL/Tarpon-Springs/2817-Roehampton-Close-34688/home/48018179",
+          "mlsId": "TB8418473"
+        },
+        {
+          "address": "1872 Eagle Trace Blvd, Palm Harbor, FL 34685",
+          "price": 1095000,
+          "beds": 4,
+          "baths": 3.0,
+          "sqft": 3352,
+          "score": 28.9,
+          "url": "/FL/Palm-Harbor/1872-Eagle-Trace-Blvd-34685/home/47904351",
+          "mlsId": "TB8490315"
+        },
+        {
+          "address": "935 Ranch Rd, Tarpon Springs, FL 34688",
+          "price": 1399999,
+          "beds": 4,
+          "baths": 2.5,
+          "sqft": 3252,
+          "score": 28,
+          "url": "/FL/Tarpon-Springs/935-Ranch-Rd-34688/home/48008817",
+          "mlsId": "TB8403410"
+        },
+        {
+          "address": "3373 Crescent Oaks Blvd, Tarpon Springs, FL 34688",
+          "price": 850000,
+          "beds": 4,
+          "baths": 3.0,
+          "sqft": 3026,
+          "score": 25.7,
+          "url": "/FL/Tarpon-Springs/3373-Crescent-Oaks-Blvd-34688/home/47975885",
+          "mlsId": "TB8484681"
+        },
+        {
+          "address": "4120 Ridgemoor Dr, Palm Harbor, FL 34685",
+          "price": 1300000,
+          "beds": 4,
+          "baths": 3.0,
+          "sqft": 3432,
+          "score": 23.8,
+          "url": "/FL/Palm-Harbor/4120-Ridgemoor-Dr-34685/home/47871346",
+          "mlsId": "TB8491190"
+        }
+      ],
+      "removed": [],
+      "priceChanges": []
+    },
+    "rentals": {
+      "total": 32,
+      "new": [
+        {
+          "address": "1684 Arabian Ln, Palm Harbor, FL 34685",
+          "price": 5000,
+          "beds": 5,
+          "baths": 6,
+          "sqft": 6120,
+          "score": 62,
+          "url": "https://www.zillow.com/homedetails/1684-Arabian-Ln-Palm-Harbor-FL-34685/46970442_zpid/",
+          "zpid": "46970442"
+        },
+        {
+          "address": "1690 Arabian Ln, Palm Harbor, FL 34685",
+          "price": 3000,
+          "beds": 3,
+          "baths": 3,
+          "sqft": 3240,
+          "score": 53,
+          "url": "https://www.zillow.com/homedetails/1690-Arabian-Ln-Palm-Harbor-FL-34685/46970443_zpid/",
+          "zpid": "46970443"
+        },
+        {
+          "address": "3026 Charolais Ct, Tarpon Springs, FL 34688",
+          "price": 3250,
+          "beds": 4,
+          "baths": 3,
+          "sqft": 2250,
+          "score": 52,
+          "url": "https://www.zillow.com/homedetails/3026-Charolais-Ct-Tarpon-Springs-FL-34688/66198075_zpid/",
+          "zpid": "66198075"
+        },
+        {
+          "address": "917 Centerwood Dr, Tarpon Springs, FL 34688",
+          "price": 3600,
+          "beds": 4,
+          "baths": 2,
+          "sqft": 2130,
+          "score": 49,
+          "url": "https://www.zillow.com/homedetails/917-Centerwood-Dr-Tarpon-Springs-FL-34688/47079151_zpid/",
+          "zpid": "47079151"
+        },
+        {
+          "address": "394 Knight Dr, Tarpon Springs, FL 34688",
+          "price": 3700,
+          "beds": 4,
+          "baths": 3,
+          "sqft": 2164,
+          "score": 49,
+          "url": "https://www.zillow.com/homedetails/394-Knight-Dr-Tarpon-Springs-FL-34688/47078786_zpid/",
+          "zpid": "47078786"
+        },
+        {
+          "address": "357 Waterford Cir W, Tarpon Springs, FL 34688",
+          "price": 3300,
+          "beds": 4,
+          "baths": 2,
+          "sqft": 1786,
+          "score": 48,
+          "url": "https://www.zillow.com/homedetails/357-Waterford-Cir-W-Tarpon-Springs-FL-34688/47079017_zpid/",
+          "zpid": "47079017"
+        },
+        {
+          "address": "598 Manisha Pl, Tarpon Springs, FL 34688",
+          "price": 4500,
+          "beds": 4,
+          "baths": 3,
+          "sqft": 2372,
+          "score": 45,
+          "url": "https://www.zillow.com/homedetails/598-Manisha-Pl-Tarpon-Springs-FL-34688/47063531_zpid/",
+          "zpid": "47063531"
+        },
+        {
+          "address": "4463 Anglers Xing, Palm Harbor, FL 34685",
+          "price": 3000,
+          "beds": 3,
+          "baths": 2,
+          "sqft": 1504,
+          "score": 41,
+          "url": "https://www.zillow.com/homedetails/4463-Anglers-Xing-Palm-Harbor-FL-34685/46970677_zpid/",
+          "zpid": "46970677"
+        },
+        {
+          "address": "3549 Kings Rd APT 101, Palm Harbor, FL 34685",
+          "price": 2600,
+          "beds": 3,
+          "baths": 3,
+          "sqft": 1559,
+          "score": 41,
+          "url": "https://www.zillow.com/homedetails/3549-Kings-Rd-APT-101-Palm-Harbor-FL-34685/64673909_zpid/",
+          "zpid": "64673909"
+        },
+        {
+          "address": "512 Spring Lake Cir, Tarpon Springs, FL 34688",
+          "price": 2100,
+          "beds": 2,
+          "baths": 3,
+          "sqft": 1378,
+          "score": 35,
+          "url": "https://www.zillow.com/homedetails/512-Spring-Lake-Cir-Tarpon-Springs-FL-34688/59248349_zpid/",
+          "zpid": "59248349"
+        },
+        {
+          "address": "1344 Pine Ridge Cir E APT H1, Tarpon Springs, FL 34688",
+          "price": 1800,
+          "beds": 2,
+          "baths": 2,
+          "sqft": 1040,
+          "score": 35,
+          "url": "https://www.zillow.com/homedetails/1344-Pine-Ridge-Cir-E-APT-H1-Tarpon-Springs-FL-34688/47143621_zpid/",
+          "zpid": "47143621"
+        },
+        {
+          "address": "1372 Pine Ridge Cir E APT H3, Tarpon Springs, FL 34688",
+          "price": 1800,
+          "beds": 2,
+          "baths": 2,
+          "sqft": 979,
+          "score": 35,
+          "url": "https://www.zillow.com/homedetails/1372-Pine-Ridge-Cir-E-APT-H3-Tarpon-Springs-FL-34688/47143705_zpid/",
+          "zpid": "47143705"
+        },
+        {
+          "address": "1151 Pine Ridge Cir W APT G2, Tarpon Springs, FL 34688",
+          "price": 2000,
+          "beds": 2,
+          "baths": 2,
+          "sqft": 1038,
+          "score": 35,
+          "url": "https://www.zillow.com/homedetails/1151-Pine-Ridge-Cir-W-APT-G2-Tarpon-Springs-FL-34688/47143768_zpid/",
+          "zpid": "47143768"
+        },
+        {
+          "address": "1000 Tarpon Woods Blvd APT 804, Palm Harbor, FL 34685",
+          "price": 1825,
+          "beds": 2,
+          "baths": 2,
+          "sqft": 900,
+          "score": 35,
+          "url": "https://www.zillow.com/homedetails/1000-Tarpon-Woods-Blvd-APT-804-Palm-Harbor-FL-34685/51600050_zpid/",
+          "zpid": "51600050"
+        },
+        {
+          "address": "1354 Shady Pine Way APT E2, Tarpon Springs, FL 34688",
+          "price": 1800,
+          "beds": 2,
+          "baths": 2,
+          "sqft": 1041,
+          "score": 35,
+          "url": "https://www.zillow.com/homedetails/1354-Shady-Pine-Way-APT-E2-Tarpon-Springs-FL-34688/47143934_zpid/",
+          "zpid": "47143934"
+        },
+        {
+          "address": "3648 Kings Rd APT 103, Palm Harbor, FL 34685",
+          "price": 2100,
+          "beds": 2,
+          "baths": 2,
+          "sqft": 1154,
+          "score": 35,
+          "url": "https://www.zillow.com/homedetails/3648-Kings-Rd-APT-103-Palm-Harbor-FL-34685/64439008_zpid/",
+          "zpid": "64439008"
+        },
+        {
+          "address": "3182 Charter Club Dr APT A, Tarpon Springs, FL 34688",
+          "price": 1999,
+          "beds": 2,
+          "baths": 2,
+          "sqft": 1270,
+          "score": 35,
+          "url": "https://www.zillow.com/homedetails/3182-Charter-Club-Dr-APT-A-Tarpon-Springs-FL-34688/47144329_zpid/",
+          "zpid": "47144329"
+        },
+        {
+          "address": "4399 Brooker Creek Dr, Palm Harbor, FL 34685",
+          "price": 2300,
+          "beds": 2,
+          "baths": 2,
+          "sqft": 1440,
+          "score": 35,
+          "url": "https://www.zillow.com/homedetails/4399-Brooker-Creek-Dr-Palm-Harbor-FL-34685/47253992_zpid/",
+          "zpid": "47253992"
+        },
+        {
+          "address": "2148 Tarpon Landings Dr, Tarpon Springs, FL 34688",
+          "price": 3000,
+          "beds": 2,
+          "baths": 3,
+          "sqft": 1516,
+          "score": 34,
+          "url": "https://www.zillow.com/homedetails/2148-Tarpon-Landings-Dr-Tarpon-Springs-FL-34688/47016874_zpid/",
+          "zpid": "47016874"
+        },
+        {
+          "address": "3345 Crystal Ct E, Palm Harbor, FL",
+          "price": 1700,
+          "beds": 2,
+          "baths": null,
+          "sqft": null,
+          "score": 33,
+          "url": "/b/crystal-lake-condominiums-palm-harbor-fl-5j5kvH/",
+          "zpid": "28.099716--82.70002"
+        },
+        {
+          "address": "1350 Seagate Dr, Palm Harbor, FL",
+          "price": 1867,
+          "beds": 2,
+          "baths": null,
+          "sqft": null,
+          "score": 33,
+          "url": "/apartments/palm-harbor-fl/boot-ranch/5XhzDD/",
+          "zpid": "28.066368--82.70844"
+        },
+        {
+          "address": "3505 Tarpon Woods Blvd, Palm Harbor, FL",
+          "price": 1750,
+          "beds": 2,
+          "baths": null,
+          "sqft": null,
+          "score": 33,
+          "url": "/b/3505-tarpon-woods-blvd-palm-harbor-fl-CqcZz2/",
+          "zpid": "28.093222--82.68381"
+        },
+        {
+          "address": "1345A Pine Ridge Cir E #C2, Tarpon Springs, FL 34688",
+          "price": 1750,
+          "beds": 2,
+          "baths": 2,
+          "sqft": null,
+          "score": 33,
+          "url": "https://www.zillow.com/homedetails/1345A-Pine-Ridge-Cir-E-C2-Tarpon-Springs-FL-34688/460975493_zpid/",
+          "zpid": "460975493"
+        },
+        {
+          "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
+          "price": 1830,
+          "beds": 2,
+          "baths": null,
+          "sqft": null,
+          "score": 33,
+          "url": "/apartments/palm-harbor-fl/bell-lansbrook-village/5Xhz7t/",
+          "zpid": "28.104986--82.68995"
+        },
+        {
+          "address": "3505 Tarpon Woods Blvd, Palm Harbor, FL",
+          "price": 1850,
+          "beds": 2,
+          "baths": null,
+          "sqft": null,
+          "score": 33,
+          "url": "/b/3505-tarpon-woods-blvd-palm-harbor-fl-CqcZz2/",
+          "zpid": "28.093388--82.684265"
+        },
+        {
+          "address": "1801 E Lake Rd, Palm Harbor, FL",
+          "price": 2200,
+          "beds": 2,
+          "baths": null,
+          "sqft": null,
+          "score": 33,
+          "url": "/b/1801-e-lake-rd-palm-harbor-fl-5Y3CqR/",
+          "zpid": "28.085556--82.698845"
+        },
+        {
+          "address": "3135 Charter Club Dr APT B, Tarpon Springs, FL 34688",
+          "price": 2855,
+          "beds": 2,
+          "baths": 2,
+          "sqft": 1378,
+          "score": 32,
+          "url": "https://www.zillow.com/homedetails/3135-Charter-Club-Dr-APT-B-Tarpon-Springs-FL-34688/47144314_zpid/",
+          "zpid": "47144314"
+        }
+      ],
+      "removed": [],
+      "priceChanges": []
+    },
+    "stats": {
+      "forSaleCount": 33,
+      "rentalCount": 32,
+      "medianSalePrice": 1081870,
+      "medianPpsf": 318,
+      "medianRent": 2261,
+      "avgDom": 115
+    }
+  }
+]

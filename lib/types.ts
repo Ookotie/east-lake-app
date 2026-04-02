@@ -78,6 +78,81 @@ export interface ActiveListing {
   }[];
 }
 
+export interface RentalListing {
+  address: string;
+  buildingName: string | null;
+  price: number;
+  beds: number | null;
+  baths: number | null;
+  sqft: number | null;
+  yearBuilt: number | null;
+  lat: number | null;
+  lon: number | null;
+  zip: string;
+  url: string;
+  zpid: string;
+  lotSqft: number | null;
+  lotAcres: number | null;
+  hasPool: boolean;
+  isWaterfront: boolean;
+  dom: number | null;
+  homeType: string;
+  source: string;
+  isBuilding: boolean;
+  score: number;
+  ppsf?: number;
+}
+
+export interface ChangesData {
+  date: string;
+  forSale: {
+    total: number;
+    new: ChangeListing[];
+    removed: ChangeListing[];
+    priceChanges: PriceChange[];
+  };
+  rentals: {
+    total: number;
+    new: ChangeListing[];
+    removed: ChangeListing[];
+    priceChanges: PriceChange[];
+  };
+  stats: MarketStats;
+}
+
+export interface ChangeListing {
+  address: string;
+  price: number;
+  beds: number | null;
+  baths: number | null;
+  sqft: number | null;
+  score: number;
+  url: string;
+  mlsId?: string;
+  zpid?: string;
+}
+
+export interface PriceChange {
+  address: string;
+  oldPrice: number;
+  newPrice: number;
+  pctChange: number;
+  score: number;
+  dom: number | null;
+  url: string;
+  mlsId?: string;
+  zpid?: string;
+}
+
+export interface MarketStats {
+  forSaleCount: number;
+  rentalCount: number;
+  medianSalePrice: number;
+  medianPpsf: number;
+  medianRent: number;
+  avgDom: number;
+}
+
 export type SortField = 'totalScore' | 'price' | 'ppsf' | 'sqft' | 'yearBuilt' | 'lotAcres';
 export type SortOrder = 'asc' | 'desc';
 

@@ -1,11 +1,19 @@
 import top50Data from "@/data/top50-final.json";
 import allData from "@/data/all-properties-scored.json";
 import activeData from "@/data/active-listings.json";
-import type { Property, ActiveListing, FilterState } from "./types";
+import type { Property, ActiveListing, RentalListing, ChangesData, FilterState } from "./types";
+
+// Conditional imports for data that may not exist yet
+let rentalData: RentalListing[] = [];
+let changesData: ChangesData | null = null;
+try { rentalData = require("@/data/rental-listings.json") as RentalListing[]; } catch {}
+try { changesData = require("@/data/changes.json") as ChangesData; } catch {}
 
 export const top50: Property[] = top50Data as Property[];
 export const allProperties: Property[] = allData as Property[];
 export const activeListings: ActiveListing[] = activeData as ActiveListing[];
+export const rentalListings: RentalListing[] = rentalData;
+export const changes: ChangesData | null = changesData;
 
 export function getProperty(id: string): Property | undefined {
   return [...top50, ...allProperties].find(

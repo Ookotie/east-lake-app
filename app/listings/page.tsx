@@ -9,12 +9,13 @@ type SortKey = "score" | "price" | "ppsf" | "sqft" | "dom" | "yearBuilt";
 
 const sortOptions: { value: SortKey; label: string; order: "desc" | "asc" }[] = [
   { value: "score", label: "Best Deal", order: "desc" },
+  { value: "dom", label: "Newest Listed", order: "asc" },
   { value: "price", label: "Price: Low", order: "asc" },
   { value: "price", label: "Price: High", order: "desc" },
   { value: "ppsf", label: "$/SF: Low", order: "asc" },
   { value: "dom", label: "Most Negotiable", order: "desc" },
   { value: "sqft", label: "Largest", order: "desc" },
-  { value: "yearBuilt", label: "Newest", order: "desc" },
+  { value: "yearBuilt", label: "Newest Built", order: "desc" },
 ];
 
 export default function ListingsPage() {

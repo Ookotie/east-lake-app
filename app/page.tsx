@@ -35,7 +35,13 @@ export default function Dashboard() {
     .sort((a, b) => (b.score ?? 0) - (a.score ?? 0))
     .slice(0, 5);
   const topRentals = rentalListings.slice(0, 3);
+  // Newest listings = lowest DOM (just hit market)
+  const newestForSale = [...activeListings]
+    .sort((a, b) => (a.dom ?? 999) - (b.dom ?? 999))
+    .slice(0, 5);
   const newListings = activeListings.filter((l) => (l.dom ?? 999) <= 7);
+  // Newest rentals from changes data
+  const newestRentals = changes?.rentals?.new?.slice(0, 3) ?? [];
 
   // Changes data
   const saleChanges = changes?.forSale;
@@ -131,6 +137,42 @@ export default function Dashboard() {
         </Card>
       )}
 
+      {/* Newest For-Sale Listings */}
+      <div>
+        <div className="flex items-center justify-between mb-3">
+          <h2 className="text-lg font-semibold text-slate-900">
+            Newest For Sale
+          </h2>
+          <Link href="/listings" className="text-sm text-blue-600 font-medium">
+            All {activeListings.length} &rarr;
+          </Link>
+        </div>
+        <div className="space-y-3">
+          {newestForSale.map((l) => (
+            <ListingCard key={l.mlsId || l.address} listing={l} />
+          ))}
+        </div>
+      </div>
+
+      {/* Newest Rentals */}
+      {topRentals.length > 0 && (
+        <div>
+          <div className="flex items-center justify-between mb-3">
+            <h2 className="text-lg font-semibold text-slate-900">
+              Newest Rentals
+            </h2>
+            <Link href="/rentals" className="text-sm text-blue-600 font-medium">
+              All {rentalListings.length} &rarr;
+            </Link>
+          </div>
+          <div className="space-y-3">
+            {topRentals.map((r, i) => (
+              <RentalCard key={r.zpid} rental={r} rank={i + 1} />
+            ))}
+          </div>
+        </div>
+      )}
+
       {/* Market Snapshot */}
       <div className="grid grid-cols-2 gap-3">
         <Card className="bg-blue-600 text-white border-0">
@@ -167,68 +209,6 @@ export default function Dashboard() {
         </Card>
       </div>
 
-      {/* New Listings carousel */}
-      {newListings.length > 0 && (
-        <div>
-          <div className="flex items-center justify-between mb-3">
-            <h2 className="text-lg font-semibold text-slate-900">
-              New This Week ({newListings.length})
-            </h2>
-            <Link
-              href="/listings"
-              className="text-sm text-blue-600 font-medium"
-            >
-              All listings &rarr;
-            </Link>
-          </div>
-          <div className="flex gap-3 overflow-x-auto pb-2 -mx-1 px-1">
-            {newListings.map((l) => {
-              const photoUrl = getRedfinPhotoUrl(l.mlsId);
-              return (
-                <Link
-                  key={l.mlsId || l.address}
-                  href={`/listings/${slugify(l.address)}`}
-                  className="shrink-0 w-64"
-                >
-                  <Card className="overflow-hidden hover:shadow-lg transition-shadow">
-                    <div className="relative h-36 bg-gradient-to-br from-slate-200 to-slate-300">
-                      {photoUrl && (
-                        // eslint-disable-next-line @next/next/no-img-element
-                        <img
-                          src={photoUrl}
-                          alt={l.address}
-                          className="w-full h-full object-cover"
-                        />
-                      )}
-                      <div className="absolute top-2 left-2 bg-emerald-500 text-white text-sm font-bold px-2.5 py-0.5 rounded-full">
-                        NEW
-                      </div>
-                      <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent px-3 py-2">
-                        <div className="text-white font-bold text-base">
-                          {formatPrice(l.price)}
-                        </div>
-                      </div>
-                    </div>
-                    <div className="p-3 space-y-1">
-                      <div className="text-sm font-semibold text-slate-900 truncate">
-                        {l.address}
-                      </div>
-                      <div className="text-sm text-slate-600">
-                        {l.beds}bd / {l.baths}ba &middot;{" "}
-                        {l.sqft?.toLocaleString()} sf
-                      </div>
-                      <div className="text-sm text-slate-500">
-                        ${l.ppsf}/sf &middot; {l.dom} days
-                      </div>
-                    </div>
-                  </Card>
-                </Link>
-              );
-            })}
-          </div>
-        </div>
-      )}
-
       {/* Top 5 For Sale */}
       <div>
         <div className="flex items-center justify-between mb-3">
@@ -248,28 +228,6 @@ export default function Dashboard() {
           ))}
         </div>
       </div>
-
-      {/* Top 3 Rentals */}
-      {topRentals.length > 0 && (
-        <div>
-          <div className="flex items-center justify-between mb-3">
-            <h2 className="text-lg font-semibold text-slate-900">
-              Top Rentals
-            </h2>
-            <Link
-              href="/rentals"
-              className="text-sm text-blue-600 font-medium"
-            >
-              View all &rarr;
-            </Link>
-          </div>
-          <div className="space-y-3">
-            {topRentals.map((r, i) => (
-              <RentalCard key={r.zpid} rental={r} rank={i + 1} />
-            ))}
-          </div>
-        </div>
-      )}
 
       {/* Quick Links */}
       <div className="grid grid-cols-2 gap-3">

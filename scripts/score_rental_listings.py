@@ -159,6 +159,10 @@ def main():
         if price < 1500 or price > 8000:
             skipped_filter += 1
             continue
+        # Hard filter: no rentals under 2000 sqft
+        if sqft > 0 and sqft < 2000:
+            skipped_filter += 1
+            continue
         if beds > 0 and beds < 2:
             skipped_filter += 1
             continue

@@ -2,7 +2,7 @@ name: Refresh Listing Data
 
 on:
   schedule:
-    - cron: '0 12 * * *'   # 7 AM EST (UTC-5) — full digest
+    - cron: '15 11 * * *'  # 6:15 AM EST (UTC-5) — full digest
     - cron: '0 0 * * *'    # 7 PM EST (UTC-5) — hot deals only
   workflow_dispatch:
     inputs:

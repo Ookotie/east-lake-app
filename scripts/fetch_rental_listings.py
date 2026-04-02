@@ -184,11 +184,19 @@ def main():
         if prices:
             print(f"  Price range: ${min(prices):,}/mo - ${max(prices):,}/mo")
 
-    # Save raw rentals
+    # Save raw rentals — but don't overwrite good data with empty on fetch failure
     raw_output = os.path.join(SCRIPT_DIR, "data", "rental-listings-raw.json")
-    with open(raw_output, "w") as f:
-        json.dump(all_rentals, f, indent=2)
-    print(f"\nSaved to {raw_output}")
+    if all_rentals:
+        with open(raw_output, "w") as f:
+            json.dump(all_rentals, f, indent=2)
+        print(f"\nSaved {len(all_rentals)} rentals to {raw_output}")
+    else:
+        if os.path.exists(raw_output):
+            print(f"\nFetch returned 0 results — keeping existing {raw_output}")
+        else:
+            with open(raw_output, "w") as f:
+                json.dump([], f)
+            print(f"\nNo rentals found and no existing data — saved empty to {raw_output}")
 
     return all_rentals
 

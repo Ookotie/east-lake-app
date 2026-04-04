@@ -1,10 +1,30 @@
 {
-  "date": "2026-04-03",
+  "date": "2026-04-04",
   "forSale": {
-    "total": 35,
+    "total": 34,
     "new": [],
-    "removed": [],
-    "priceChanges": []
+    "removed": [
+      {
+        "address": "2938 Kensington Trce, Tarpon Springs, FL 34688",
+        "price": 1300000,
+        "beds": 3,
+        "baths": 3.5,
+        "sqft": 3602,
+        "mlsId": "W7884424"
+      }
+    ],
+    "priceChanges": [
+      {
+        "address": "709 Estates Blvd, Tarpon Springs, FL 34688",
+        "oldPrice": 1081870,
+        "newPrice": 1120050,
+        "pctChange": 3.5,
+        "score": 39.3,
+        "dom": 63,
+        "url": "/FL/Tarpon-Springs/709-Estates-Blvd-34688/home/200262076",
+        "mlsId": "TB8470543"
+      }
+    ]
   },
   "rentals": {
     "total": 18,
@@ -13,11 +33,11 @@
     "priceChanges": []
   },
   "stats": {
-    "forSaleCount": 35,
+    "forSaleCount": 34,
     "rentalCount": 18,
-    "medianSalePrice": 1081870,
+    "medianSalePrice": 1095000,
     "medianPpsf": 321,
     "medianRent": 2365,
-    "avgDom": 112
+    "avgDom": 115
   }
 }

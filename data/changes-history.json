@@ -321,16 +321,7 @@
     "forSale": {
       "total": 33,
       "new": [],
-      "removed": [
-        {
-          "address": "3830 Moreno Dr, Palm Harbor, FL 34685",
-          "price": 1000000,
-          "beds": 4,
-          "baths": 3.0,
-          "sqft": 3679,
-          "mlsId": "TB8461072"
-        }
-      ],
+      "removed": [],
       "priceChanges": []
     },
     "rentals": {
@@ -345,7 +336,7 @@
       "medianSalePrice": 1095000,
       "medianPpsf": 321,
       "medianRent": 2365,
-      "avgDom": 117
+      "avgDom": 118
     }
   }
 ]

@@ -113,9 +113,26 @@ def compute_market_stats(for_sale, rentals):
     }
 
 
+def merge_changes(existing, new_diff, id_key):
+    """Merge new diff findings into existing changes, deduplicating by id_key."""
+    merged = {}
+    for field in ("new", "removed", "priceChanges"):
+        seen = {item[id_key] for item in existing.get(field, []) if item.get(id_key)}
+        combined = list(existing.get(field, []))
+        for item in new_diff.get(field, []):
+            if item.get(id_key) and item[id_key] not in seen:
+                combined.append(item)
+                seen.add(item[id_key])
+        merged[field] = combined
+    return merged
+
+
 def main():
+    import sys
+
+    rotate_snapshot = "--no-rotate" not in sys.argv
     today = datetime.now().strftime("%Y-%m-%d")
-    print(f"Detecting changes for {today}...")
+    print(f"Detecting changes for {today} (rotate={rotate_snapshot})...")
 
     # Load today's data
     for_sale = load_json(os.path.join(DATA_DIR, "active-listings.json"))
@@ -133,6 +150,15 @@ def main():
 
     # Diff rentals (keyed by zpid since Zillow uses zpid)
     rental_diff = diff_listings(rentals, prev_rental, id_key="zpid")
+
+    # If changes.json already exists for today, merge new findings into it
+    # so the evening run doesn't erase the morning run's discoveries (or vice versa)
+    changes_path = os.path.join(DATA_DIR, "changes.json")
+    existing = load_json(changes_path)
+    if isinstance(existing, dict) and existing.get("date") == today:
+        print("  Merging with existing changes from earlier run today")
+        sale_diff = merge_changes(existing.get("forSale", {}), sale_diff, "mlsId")
+        rental_diff = merge_changes(existing.get("rentals", {}), rental_diff, "zpid")
 
     # Compute market stats
     stats = compute_market_stats(for_sale, rentals)
@@ -172,7 +198,6 @@ def main():
             print(f"    ${r['price']:,}/mo | {r.get('beds','?')}bd | Score {r['score']} | {r['address'][:50]}")
 
     # Save changes.json
-    changes_path = os.path.join(DATA_DIR, "changes.json")
     save_json(changes_path, changes)
     print(f"\nSaved {changes_path}")
 
@@ -187,10 +212,15 @@ def main():
     save_json(history_path, history)
     print(f"Saved history ({len(history)} days) to {history_path}")
 
-    # Update snapshots for tomorrow's diff
-    save_json(os.path.join(SNAPSHOT_DIR, "previous-snapshot.json"), for_sale)
-    save_json(os.path.join(SNAPSHOT_DIR, "previous-rental-snapshot.json"), rentals)
-    print("Updated snapshots for next run")
+    # Only rotate snapshots when told to (morning run).
+    # The evening run passes --no-rotate so the morning run still diffs
+    # against the previous day's baseline and catches everything.
+    if rotate_snapshot:
+        save_json(os.path.join(SNAPSHOT_DIR, "previous-snapshot.json"), for_sale)
+        save_json(os.path.join(SNAPSHOT_DIR, "previous-rental-snapshot.json"), rentals)
+        print("Updated snapshots for next run")
+    else:
+        print("Skipping snapshot rotation (--no-rotate)")
 
     return changes
 

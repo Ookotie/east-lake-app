@@ -40,7 +40,12 @@ jobs:
         run: python3 scripts/score_rental_listings.py
 
       - name: Detect changes
-        run: python3 scripts/detect_changes.py
+        run: |
+          if [ "${{ steps.mode.outputs.mode }}" = "evening" ]; then
+            python3 scripts/detect_changes.py --no-rotate
+          else
+            python3 scripts/detect_changes.py
+          fi
 
       - name: Determine digest mode
         id: mode

@@ -361,5 +361,69 @@
       "medianRent": 2365,
       "avgDom": 119
     }
+  },
+  {
+    "date": "2026-04-07",
+    "forSale": {
+      "total": 35,
+      "new": [
+        {
+          "address": "4202 Rotherham Ct, Palm Harbor, FL 34685",
+          "price": 875747,
+          "beds": 5,
+          "baths": 2.5,
+          "sqft": 3893,
+          "score": 62.2,
+          "url": "/FL/Palm-Harbor/4202-Rotherham-Ct-34685/home/48129412",
+          "mlsId": "TB8482524"
+        },
+        {
+          "address": "3830 Moreno Dr, Palm Harbor, FL 34685",
+          "price": 1000000,
+          "beds": 4,
+          "baths": 3.0,
+          "sqft": 3679,
+          "score": 50.7,
+          "url": "/FL/Palm-Harbor/3830-Moreno-Dr-34685/home/48028820",
+          "mlsId": "TB8461072"
+        }
+      ],
+      "removed": [],
+      "priceChanges": []
+    },
+    "rentals": {
+      "total": 16,
+      "new": [],
+      "removed": [
+        {
+          "address": "1801 E Lake Rd, Palm Harbor, FL",
+          "price": 2200,
+          "beds": 2,
+          "baths": null,
+          "sqft": null,
+          "zpid": "28.085556--82.698845"
+        }
+      ],
+      "priceChanges": [
+        {
+          "address": "3505 Tarpon Woods Blvd, Palm Harbor, FL",
+          "oldPrice": 1850,
+          "newPrice": 1950,
+          "pctChange": 5.4,
+          "score": 33,
+          "dom": null,
+          "url": "/b/3505-tarpon-woods-blvd-palm-harbor-fl-CqcZz2/",
+          "zpid": "28.093388--82.684265"
+        }
+      ]
+    },
+    "stats": {
+      "forSaleCount": 35,
+      "rentalCount": 16,
+      "medianSalePrice": 1080000,
+      "medianPpsf": 305,
+      "medianRent": 2696,
+      "avgDom": 115
+    }
   }
 ]

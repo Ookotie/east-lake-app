@@ -14,6 +14,16 @@
         "dom": 123,
         "url": "/FL/Palm-Harbor/5497-Millbrook-Way-34685/home/48028831",
         "mlsId": "TB8454090"
+      },
+      {
+        "address": "4165 Moreno Dr, Palm Harbor, FL 34685",
+        "oldPrice": 1130000,
+        "newPrice": 1119000,
+        "pctChange": -1.0,
+        "score": 45.8,
+        "dom": 97,
+        "url": "/FL/Palm-Harbor/4165-Moreno-Dr-34685/home/48028531",
+        "mlsId": "TB8460043"
       }
     ]
   },
@@ -29,6 +39,6 @@
     "medianSalePrice": 1080000,
     "medianPpsf": 305,
     "medianRent": 2696,
-    "avgDom": 116
+    "avgDom": 117
   }
 }

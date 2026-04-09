@@ -459,18 +459,40 @@
       ]
     },
     "rentals": {
-      "total": 16,
-      "new": [],
+      "total": 18,
+      "new": [
+        {
+          "address": "1801 E Lake Rd, Palm Harbor, FL",
+          "price": 2200,
+          "beds": 2,
+          "baths": null,
+          "sqft": null,
+          "score": 33,
+          "url": "/b/1801-e-lake-rd-palm-harbor-fl-5Y3CqR/",
+          "zpid": "28.085556--82.698845"
+        }
+      ],
       "removed": [],
-      "priceChanges": []
+      "priceChanges": [
+        {
+          "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
+          "oldPrice": 1830,
+          "newPrice": 1825,
+          "pctChange": -0.3,
+          "score": 33,
+          "dom": null,
+          "url": "/apartments/palm-harbor-fl/bell-lansbrook-village/5Xhz7t/",
+          "zpid": "28.104986--82.68995"
+        }
+      ]
     },
     "stats": {
       "forSaleCount": 35,
-      "rentalCount": 16,
+      "rentalCount": 18,
       "medianSalePrice": 1080000,
       "medianPpsf": 305,
-      "medianRent": 2696,
-      "avgDom": 117
+      "medianRent": 2236,
+      "avgDom": 118
     }
   }
 ]

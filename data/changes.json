@@ -1,29 +1,29 @@
 {
-  "date": "2026-04-08",
+  "date": "2026-04-09",
   "forSale": {
     "total": 35,
     "new": [],
     "removed": [],
     "priceChanges": [
       {
-        "address": "5497 Millbrook Way, Palm Harbor, FL 34685",
-        "oldPrice": 845000,
-        "newPrice": 825000,
-        "pctChange": -2.4,
-        "score": 49.7,
-        "dom": 123,
-        "url": "/FL/Palm-Harbor/5497-Millbrook-Way-34685/home/48028831",
-        "mlsId": "TB8454090"
+        "address": "3373 Crescent Oaks Blvd, Tarpon Springs, FL 34688",
+        "oldPrice": 850000,
+        "newPrice": 815000,
+        "pctChange": -4.1,
+        "score": 33.9,
+        "dom": 25,
+        "url": "/FL/Tarpon-Springs/3373-Crescent-Oaks-Blvd-34688/home/47975885",
+        "mlsId": "TB8484681"
       },
       {
-        "address": "4165 Moreno Dr, Palm Harbor, FL 34685",
-        "oldPrice": 1130000,
-        "newPrice": 1119000,
-        "pctChange": -1.0,
+        "address": "2928 Waters Edge Rd, Palm Harbor, FL 34685",
+        "oldPrice": 1079000,
+        "newPrice": 1049000,
+        "pctChange": -2.8,
         "score": 45.8,
-        "dom": 97,
-        "url": "/FL/Palm-Harbor/4165-Moreno-Dr-34685/home/48028531",
-        "mlsId": "TB8460043"
+        "dom": 145,
+        "url": "/FL/Palm-Harbor/2928-Waters-Edge-Rd-34685/home/48250477",
+        "mlsId": "TB8446052"
       }
     ]
   },

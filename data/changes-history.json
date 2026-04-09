@@ -428,5 +428,49 @@
       "medianRent": 2696,
       "avgDom": 117
     }
+  },
+  {
+    "date": "2026-04-09",
+    "forSale": {
+      "total": 35,
+      "new": [],
+      "removed": [],
+      "priceChanges": [
+        {
+          "address": "3373 Crescent Oaks Blvd, Tarpon Springs, FL 34688",
+          "oldPrice": 850000,
+          "newPrice": 815000,
+          "pctChange": -4.1,
+          "score": 33.9,
+          "dom": 25,
+          "url": "/FL/Tarpon-Springs/3373-Crescent-Oaks-Blvd-34688/home/47975885",
+          "mlsId": "TB8484681"
+        },
+        {
+          "address": "2928 Waters Edge Rd, Palm Harbor, FL 34685",
+          "oldPrice": 1079000,
+          "newPrice": 1049000,
+          "pctChange": -2.8,
+          "score": 45.8,
+          "dom": 145,
+          "url": "/FL/Palm-Harbor/2928-Waters-Edge-Rd-34685/home/48250477",
+          "mlsId": "TB8446052"
+        }
+      ]
+    },
+    "rentals": {
+      "total": 16,
+      "new": [],
+      "removed": [],
+      "priceChanges": []
+    },
+    "stats": {
+      "forSaleCount": 35,
+      "rentalCount": 16,
+      "medianSalePrice": 1080000,
+      "medianPpsf": 305,
+      "medianRent": 2696,
+      "avgDom": 117
+    }
   }
 ]

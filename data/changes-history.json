@@ -494,5 +494,49 @@
       "medianRent": 2236,
       "avgDom": 118
     }
+  },
+  {
+    "date": "2026-04-10",
+    "forSale": {
+      "total": 37,
+      "new": [
+        {
+          "address": "3692 Johnathon Ave, Palm Harbor, FL 34685",
+          "price": 1090000,
+          "beds": 5,
+          "baths": 3.0,
+          "sqft": 3042,
+          "score": 30.0,
+          "url": "/FL/Palm-Harbor/3692-Johnathon-Ave-34685/home/48069908",
+          "mlsId": "TB8494271"
+        },
+        {
+          "address": "3752 Old Keystone Rd, Tarpon Springs, FL 34688",
+          "price": 1500000,
+          "beds": 6,
+          "baths": 4.0,
+          "sqft": 3730,
+          "score": 18,
+          "url": "/FL/Tarpon-Springs/3752-Old-Keystone-Rd-34688/home/47984728",
+          "mlsId": "TB8461683"
+        }
+      ],
+      "removed": [],
+      "priceChanges": []
+    },
+    "rentals": {
+      "total": 18,
+      "new": [],
+      "removed": [],
+      "priceChanges": []
+    },
+    "stats": {
+      "forSaleCount": 37,
+      "rentalCount": 18,
+      "medianSalePrice": 1090000,
+      "medianPpsf": 321,
+      "medianRent": 2236,
+      "avgDom": 112
+    }
   }
 ]

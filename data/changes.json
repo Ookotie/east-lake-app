@@ -1,66 +1,44 @@
 {
-  "date": "2026-04-09",
+  "date": "2026-04-10",
   "forSale": {
-    "total": 35,
-    "new": [],
-    "removed": [],
-    "priceChanges": [
-      {
-        "address": "3373 Crescent Oaks Blvd, Tarpon Springs, FL 34688",
-        "oldPrice": 850000,
-        "newPrice": 815000,
-        "pctChange": -4.1,
-        "score": 33.9,
-        "dom": 25,
-        "url": "/FL/Tarpon-Springs/3373-Crescent-Oaks-Blvd-34688/home/47975885",
-        "mlsId": "TB8484681"
-      },
-      {
-        "address": "2928 Waters Edge Rd, Palm Harbor, FL 34685",
-        "oldPrice": 1079000,
-        "newPrice": 1049000,
-        "pctChange": -2.8,
-        "score": 45.8,
-        "dom": 145,
-        "url": "/FL/Palm-Harbor/2928-Waters-Edge-Rd-34685/home/48250477",
-        "mlsId": "TB8446052"
-      }
-    ]
-  },
-  "rentals": {
-    "total": 18,
+    "total": 37,
     "new": [
       {
-        "address": "1801 E Lake Rd, Palm Harbor, FL",
-        "price": 2200,
-        "beds": 2,
-        "baths": null,
-        "sqft": null,
-        "score": 33,
-        "url": "/b/1801-e-lake-rd-palm-harbor-fl-5Y3CqR/",
-        "zpid": "28.085556--82.698845"
+        "address": "3692 Johnathon Ave, Palm Harbor, FL 34685",
+        "price": 1090000,
+        "beds": 5,
+        "baths": 3.0,
+        "sqft": 3042,
+        "score": 30.0,
+        "url": "/FL/Palm-Harbor/3692-Johnathon-Ave-34685/home/48069908",
+        "mlsId": "TB8494271"
+      },
+      {
+        "address": "3752 Old Keystone Rd, Tarpon Springs, FL 34688",
+        "price": 1500000,
+        "beds": 6,
+        "baths": 4.0,
+        "sqft": 3730,
+        "score": 18,
+        "url": "/FL/Tarpon-Springs/3752-Old-Keystone-Rd-34688/home/47984728",
+        "mlsId": "TB8461683"
       }
     ],
     "removed": [],
-    "priceChanges": [
-      {
-        "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
-        "oldPrice": 1830,
-        "newPrice": 1825,
-        "pctChange": -0.3,
-        "score": 33,
-        "dom": null,
-        "url": "/apartments/palm-harbor-fl/bell-lansbrook-village/5Xhz7t/",
-        "zpid": "28.104986--82.68995"
-      }
-    ]
+    "priceChanges": []
+  },
+  "rentals": {
+    "total": 18,
+    "new": [],
+    "removed": [],
+    "priceChanges": []
   },
   "stats": {
-    "forSaleCount": 35,
+    "forSaleCount": 37,
     "rentalCount": 18,
-    "medianSalePrice": 1080000,
-    "medianPpsf": 305,
+    "medianSalePrice": 1090000,
+    "medianPpsf": 321,
     "medianRent": 2236,
-    "avgDom": 118
+    "avgDom": 112
   }
 }

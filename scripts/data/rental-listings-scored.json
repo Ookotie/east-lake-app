@@ -50,7 +50,7 @@
   {
     "address": "3026 Charolais Ct, Tarpon Springs, FL 34688",
     "buildingName": null,
-    "price": 3250,
+    "price": 3100,
     "beds": 4,
     "baths": 3,
     "sqft": 2250,
@@ -69,7 +69,31 @@
     "source": "zillow",
     "isBuilding": false,
     "score": 52,
-    "ppsf": 1.44
+    "ppsf": 1.38
+  },
+  {
+    "address": "4744 Bardsdale Dr, Palm Harbor, FL 34685",
+    "buildingName": null,
+    "price": 4250,
+    "beds": 4,
+    "baths": 3,
+    "sqft": 2858,
+    "yearBuilt": null,
+    "lat": 28.119158,
+    "lon": -82.698105,
+    "zip": "34685",
+    "url": "https://www.zillow.com/homedetails/4744-Bardsdale-Dr-Palm-Harbor-FL-34685/47143207_zpid/",
+    "zpid": "47143207",
+    "lotSqft": null,
+    "lotAcres": null,
+    "hasPool": false,
+    "isWaterfront": false,
+    "dom": null,
+    "homeType": "single_family",
+    "source": "zillow",
+    "isBuilding": false,
+    "score": 49,
+    "ppsf": 1.49
   },
   {
     "address": "917 Centerwood Dr, Tarpon Springs, FL 34688",
@@ -122,7 +146,7 @@
   {
     "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
     "buildingName": "Bell Lansbrook Village",
-    "price": 2804,
+    "price": 2794,
     "beds": 4,
     "baths": null,
     "sqft": null,
@@ -145,7 +169,7 @@
   {
     "address": "1350 Seagate Dr, Palm Harbor, FL",
     "buildingName": "Boot Ranch",
-    "price": 2667,
+    "price": 2664,
     "beds": 4,
     "baths": null,
     "sqft": null,
@@ -192,7 +216,7 @@
   {
     "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
     "buildingName": "Bell Lansbrook Village",
-    "price": 2236,
+    "price": 2226,
     "beds": 3,
     "baths": null,
     "sqft": null,
@@ -215,7 +239,7 @@
   {
     "address": "1350 Seagate Dr, Palm Harbor, FL",
     "buildingName": "Boot Ranch",
-    "price": 2220,
+    "price": 2244,
     "beds": 3,
     "baths": null,
     "sqft": null,
@@ -261,7 +285,7 @@
   {
     "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
     "buildingName": "Bell Lansbrook Village",
-    "price": 1825,
+    "price": 1820,
     "beds": 2,
     "baths": null,
     "sqft": null,
@@ -330,7 +354,7 @@
   {
     "address": "1801 E Lake Rd, Palm Harbor, FL",
     "buildingName": "For Rent",
-    "price": 2200,
+    "price": 2150,
     "beds": 2,
     "baths": null,
     "sqft": null,

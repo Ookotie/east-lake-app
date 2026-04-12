@@ -561,5 +561,70 @@
       "medianRent": 2236,
       "avgDom": 114
     }
+  },
+  {
+    "date": "2026-04-12",
+    "forSale": {
+      "total": 37,
+      "new": [],
+      "removed": [],
+      "priceChanges": []
+    },
+    "rentals": {
+      "total": 19,
+      "new": [
+        {
+          "address": "4744 Bardsdale Dr, Palm Harbor, FL 34685",
+          "price": 4250,
+          "beds": 4,
+          "baths": 3,
+          "sqft": 2858,
+          "score": 49,
+          "url": "https://www.zillow.com/homedetails/4744-Bardsdale-Dr-Palm-Harbor-FL-34685/47143207_zpid/",
+          "zpid": "47143207"
+        }
+      ],
+      "removed": [],
+      "priceChanges": [
+        {
+          "address": "3026 Charolais Ct, Tarpon Springs, FL 34688",
+          "oldPrice": 3250,
+          "newPrice": 3100,
+          "pctChange": -4.6,
+          "score": 52,
+          "dom": null,
+          "url": "https://www.zillow.com/homedetails/3026-Charolais-Ct-Tarpon-Springs-FL-34688/66198075_zpid/",
+          "zpid": "66198075"
+        },
+        {
+          "address": "1801 E Lake Rd, Palm Harbor, FL",
+          "oldPrice": 2200,
+          "newPrice": 2150,
+          "pctChange": -2.3,
+          "score": 33,
+          "dom": null,
+          "url": "/b/1801-e-lake-rd-palm-harbor-fl-5Y3CqR/",
+          "zpid": "28.085556--82.698845"
+        },
+        {
+          "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
+          "oldPrice": 1825,
+          "newPrice": 1820,
+          "pctChange": -0.3,
+          "score": 33,
+          "dom": null,
+          "url": "/apartments/palm-harbor-fl/bell-lansbrook-village/5Xhz7t/",
+          "zpid": "28.104986--82.68995"
+        }
+      ]
+    },
+    "stats": {
+      "forSaleCount": 37,
+      "rentalCount": 19,
+      "medianSalePrice": 1090000,
+      "medianPpsf": 321,
+      "medianRent": 2244,
+      "avgDom": 114
+    }
   }
 ]

@@ -1,51 +1,38 @@
 {
-  "date": "2026-04-12",
+  "date": "2026-04-13",
   "forSale": {
-    "total": 37,
+    "total": 36,
     "new": [],
-    "removed": [],
+    "removed": [
+      {
+        "address": "4202 Rotherham Ct, Palm Harbor, FL 34685",
+        "price": 875747,
+        "beds": 5,
+        "baths": 2.5,
+        "sqft": 3893,
+        "mlsId": "TB8482524"
+      }
+    ],
     "priceChanges": []
   },
   "rentals": {
-    "total": 19,
-    "new": [
+    "total": 18,
+    "new": [],
+    "removed": [
       {
-        "address": "4744 Bardsdale Dr, Palm Harbor, FL 34685",
-        "price": 4250,
+        "address": "917 Centerwood Dr, Tarpon Springs, FL 34688",
+        "price": 3600,
         "beds": 4,
-        "baths": 3,
-        "sqft": 2858,
-        "score": 49,
-        "url": "https://www.zillow.com/homedetails/4744-Bardsdale-Dr-Palm-Harbor-FL-34685/47143207_zpid/",
-        "zpid": "47143207"
+        "baths": 2,
+        "sqft": 2130,
+        "zpid": "47079151"
       }
     ],
-    "removed": [],
     "priceChanges": [
       {
-        "address": "3026 Charolais Ct, Tarpon Springs, FL 34688",
-        "oldPrice": 3250,
-        "newPrice": 3100,
-        "pctChange": -4.6,
-        "score": 52,
-        "dom": null,
-        "url": "https://www.zillow.com/homedetails/3026-Charolais-Ct-Tarpon-Springs-FL-34688/66198075_zpid/",
-        "zpid": "66198075"
-      },
-      {
-        "address": "1801 E Lake Rd, Palm Harbor, FL",
-        "oldPrice": 2200,
-        "newPrice": 2150,
-        "pctChange": -2.3,
-        "score": 33,
-        "dom": null,
-        "url": "/b/1801-e-lake-rd-palm-harbor-fl-5Y3CqR/",
-        "zpid": "28.085556--82.698845"
-      },
-      {
         "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
-        "oldPrice": 1825,
-        "newPrice": 1820,
+        "oldPrice": 1820,
+        "newPrice": 1815,
         "pctChange": -0.3,
         "score": 33,
         "dom": null,
@@ -55,11 +42,11 @@
     ]
   },
   "stats": {
-    "forSaleCount": 37,
-    "rentalCount": 19,
-    "medianSalePrice": 1090000,
-    "medianPpsf": 321,
-    "medianRent": 2244,
-    "avgDom": 115
+    "forSaleCount": 36,
+    "rentalCount": 18,
+    "medianSalePrice": 1095000,
+    "medianPpsf": 322,
+    "medianRent": 2241,
+    "avgDom": 117
   }
 }

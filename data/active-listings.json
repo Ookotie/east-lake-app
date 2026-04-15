@@ -345,9 +345,9 @@
   },
   {
     "address": "3185 Burberry St, Tarpon Springs, FL 34688",
-    "price": 849000,
+    "price": 845000,
     "sqft": 3198,
-    "ppsf": 265,
+    "ppsf": 264,
     "lotSqft": 12162,
     "lotAcres": 0.28,
     "beds": 5,
@@ -370,7 +370,7 @@
     "garageSpaces": 3,
     "propertyId": 47856144,
     "compAvgPpsf": 304,
-    "compDiscount": 12.8,
+    "compDiscount": 13.2,
     "comps": [
       {
         "address": "2843 Grey Oaks Blvd, Tarpon Springs, FL 34688",
@@ -425,8 +425,8 @@
     ],
     "valueAssessment": "Strong Value",
     "estimatedFairValue": 972192,
-    "priceDelta": -123192,
-    "score": 48.6,
+    "priceDelta": -127192,
+    "score": 49.3,
     "marketMedianPpsf": 295
   },
   {

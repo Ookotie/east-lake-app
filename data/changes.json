@@ -1,21 +1,43 @@
 {
-  "date": "2026-04-14",
+  "date": "2026-04-15",
   "forSale": {
     "total": 36,
     "new": [],
     "removed": [],
-    "priceChanges": []
+    "priceChanges": [
+      {
+        "address": "3185 Burberry St, Tarpon Springs, FL 34688",
+        "oldPrice": 849000,
+        "newPrice": 845000,
+        "pctChange": -0.5,
+        "score": 49.3,
+        "dom": 33,
+        "url": "/FL/Tarpon-Springs/3185-Burberry-St-34688/home/47856144",
+        "mlsId": "TB8485151"
+      }
+    ]
   },
   "rentals": {
-    "total": 18,
-    "new": [],
+    "total": 19,
+    "new": [
+      {
+        "address": "917 Centerwood Dr, Tarpon Springs, FL 34688",
+        "price": 3600,
+        "beds": 4,
+        "baths": 2,
+        "sqft": 2130,
+        "score": 49,
+        "url": "https://www.zillow.com/homedetails/917-Centerwood-Dr-Tarpon-Springs-FL-34688/47079151_zpid/",
+        "zpid": "47079151"
+      }
+    ],
     "removed": [],
     "priceChanges": [
       {
         "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
-        "oldPrice": 1815,
-        "newPrice": 1810,
-        "pctChange": -0.3,
+        "oldPrice": 1810,
+        "newPrice": 1800,
+        "pctChange": -0.6,
         "score": 33,
         "dom": null,
         "url": "/apartments/palm-harbor-fl/bell-lansbrook-village/5Xhz7t/",
@@ -25,10 +47,10 @@
   },
   "stats": {
     "forSaleCount": 36,
-    "rentalCount": 18,
+    "rentalCount": 19,
     "medianSalePrice": 1095000,
     "medianPpsf": 322,
-    "medianRent": 2284,
+    "medianRent": 2234,
     "avgDom": 119
   }
 }

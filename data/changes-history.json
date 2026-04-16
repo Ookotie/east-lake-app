@@ -768,5 +768,69 @@
       "medianRent": 2234,
       "avgDom": 120
     }
+  },
+  {
+    "date": "2026-04-16",
+    "forSale": {
+      "total": 36,
+      "new": [
+        {
+          "address": "4202 Rotherham Ct, Palm Harbor, FL 34685",
+          "price": 875747,
+          "beds": 5,
+          "baths": 2.5,
+          "sqft": 3893,
+          "score": 62.2,
+          "url": "/FL/Palm-Harbor/4202-Rotherham-Ct-34685/home/48129412",
+          "mlsId": "TB8482524"
+        }
+      ],
+      "removed": [
+        {
+          "address": "5085 Quill Ct, Palm Harbor, FL 34685",
+          "price": 2095000,
+          "beds": 4,
+          "baths": 4.0,
+          "sqft": 5510,
+          "mlsId": "TB8486118"
+        }
+      ],
+      "priceChanges": []
+    },
+    "rentals": {
+      "total": 19,
+      "new": [],
+      "removed": [],
+      "priceChanges": [
+        {
+          "address": "1350 Seagate Dr, Palm Harbor, FL",
+          "oldPrice": 1867,
+          "newPrice": 1847,
+          "pctChange": -1.1,
+          "score": 33,
+          "dom": null,
+          "url": "/apartments/palm-harbor-fl/boot-ranch/5XhzDD/",
+          "zpid": "28.066368--82.70844"
+        },
+        {
+          "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
+          "oldPrice": 1800,
+          "newPrice": 1790,
+          "pctChange": -0.6,
+          "score": 33,
+          "dom": null,
+          "url": "/apartments/palm-harbor-fl/bell-lansbrook-village/5Xhz7t/",
+          "zpid": "28.104986--82.68995"
+        }
+      ]
+    },
+    "stats": {
+      "forSaleCount": 36,
+      "rentalCount": 19,
+      "medianSalePrice": 1090000,
+      "medianPpsf": 321,
+      "medianRent": 2278,
+      "avgDom": 120
+    }
   }
 ]

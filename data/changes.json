@@ -1,42 +1,50 @@
 {
-  "date": "2026-04-15",
+  "date": "2026-04-16",
   "forSale": {
     "total": 36,
+    "new": [
+      {
+        "address": "4202 Rotherham Ct, Palm Harbor, FL 34685",
+        "price": 875747,
+        "beds": 5,
+        "baths": 2.5,
+        "sqft": 3893,
+        "score": 62.2,
+        "url": "/FL/Palm-Harbor/4202-Rotherham-Ct-34685/home/48129412",
+        "mlsId": "TB8482524"
+      }
+    ],
+    "removed": [
+      {
+        "address": "5085 Quill Ct, Palm Harbor, FL 34685",
+        "price": 2095000,
+        "beds": 4,
+        "baths": 4.0,
+        "sqft": 5510,
+        "mlsId": "TB8486118"
+      }
+    ],
+    "priceChanges": []
+  },
+  "rentals": {
+    "total": 19,
     "new": [],
     "removed": [],
     "priceChanges": [
       {
-        "address": "3185 Burberry St, Tarpon Springs, FL 34688",
-        "oldPrice": 849000,
-        "newPrice": 845000,
-        "pctChange": -0.5,
-        "score": 49.3,
-        "dom": 33,
-        "url": "/FL/Tarpon-Springs/3185-Burberry-St-34688/home/47856144",
-        "mlsId": "TB8485151"
-      }
-    ]
-  },
-  "rentals": {
-    "total": 19,
-    "new": [
-      {
-        "address": "917 Centerwood Dr, Tarpon Springs, FL 34688",
-        "price": 3600,
-        "beds": 4,
-        "baths": 2,
-        "sqft": 2130,
-        "score": 49,
-        "url": "https://www.zillow.com/homedetails/917-Centerwood-Dr-Tarpon-Springs-FL-34688/47079151_zpid/",
-        "zpid": "47079151"
-      }
-    ],
-    "removed": [],
-    "priceChanges": [
+        "address": "1350 Seagate Dr, Palm Harbor, FL",
+        "oldPrice": 1867,
+        "newPrice": 1847,
+        "pctChange": -1.1,
+        "score": 33,
+        "dom": null,
+        "url": "/apartments/palm-harbor-fl/boot-ranch/5XhzDD/",
+        "zpid": "28.066368--82.70844"
+      },
       {
         "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
-        "oldPrice": 1810,
-        "newPrice": 1800,
+        "oldPrice": 1800,
+        "newPrice": 1790,
         "pctChange": -0.6,
         "score": 33,
         "dom": null,
@@ -48,9 +56,9 @@
   "stats": {
     "forSaleCount": 36,
     "rentalCount": 19,
-    "medianSalePrice": 1095000,
-    "medianPpsf": 322,
-    "medianRent": 2234,
+    "medianSalePrice": 1090000,
+    "medianPpsf": 321,
+    "medianRent": 2278,
     "avgDom": 120
   }
 }

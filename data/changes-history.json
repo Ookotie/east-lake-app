@@ -832,5 +832,60 @@
       "medianRent": 2278,
       "avgDom": 121
     }
+  },
+  {
+    "date": "2026-04-17",
+    "forSale": {
+      "total": 37,
+      "new": [
+        {
+          "address": "4052 Capitol Dr, Palm Harbor, FL 34685",
+          "price": 1300000,
+          "beds": 4,
+          "baths": 4.0,
+          "sqft": 3691,
+          "score": 28.6,
+          "url": "/FL/Palm-Harbor/4052-Capitol-Dr-34685/home/48147027",
+          "mlsId": "TB8492690"
+        }
+      ],
+      "removed": [],
+      "priceChanges": []
+    },
+    "rentals": {
+      "total": 19,
+      "new": [],
+      "removed": [],
+      "priceChanges": [
+        {
+          "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
+          "oldPrice": 1790,
+          "newPrice": 1780,
+          "pctChange": -0.6,
+          "score": 33,
+          "dom": null,
+          "url": "/apartments/palm-harbor-fl/bell-lansbrook-village/5Xhz7t/",
+          "zpid": "28.104986--82.68995"
+        },
+        {
+          "address": "1350 Seagate Dr, Palm Harbor, FL",
+          "oldPrice": 1847,
+          "newPrice": 1866,
+          "pctChange": 1.0,
+          "score": 33,
+          "dom": null,
+          "url": "/apartments/palm-harbor-fl/boot-ranch/5XhzDD/",
+          "zpid": "28.066368--82.70844"
+        }
+      ]
+    },
+    "stats": {
+      "forSaleCount": 37,
+      "rentalCount": 19,
+      "medianSalePrice": 1090000,
+      "medianPpsf": 321,
+      "medianRent": 2228,
+      "avgDom": 118
+    }
   }
 ]

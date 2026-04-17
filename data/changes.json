@@ -1,7 +1,7 @@
 {
   "date": "2026-04-17",
   "forSale": {
-    "total": 37,
+    "total": 38,
     "new": [
       {
         "address": "4052 Capitol Dr, Palm Harbor, FL 34685",
@@ -12,6 +12,16 @@
         "score": 28.6,
         "url": "/FL/Palm-Harbor/4052-Capitol-Dr-34685/home/48147027",
         "mlsId": "TB8492690"
+      },
+      {
+        "address": "976 Cypress Cove Way, Tarpon Springs, FL 34688",
+        "price": 1225000,
+        "beds": 4,
+        "baths": 3.0,
+        "sqft": 4525,
+        "score": 41.3,
+        "url": "/FL/Tarpon-Springs/976-Cypress-Cove-Way-34688/home/48244814",
+        "mlsId": "TB8497692"
       }
     ],
     "removed": [],
@@ -45,11 +55,11 @@
     ]
   },
   "stats": {
-    "forSaleCount": 37,
+    "forSaleCount": 38,
     "rentalCount": 19,
-    "medianSalePrice": 1090000,
+    "medianSalePrice": 1095000,
     "medianPpsf": 321,
     "medianRent": 2228,
-    "avgDom": 118
+    "avgDom": 116
   }
 }

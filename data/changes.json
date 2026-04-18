@@ -29,17 +29,47 @@
     ]
   },
   "rentals": {
-    "total": 19,
+    "total": 18,
     "new": [],
-    "removed": [],
-    "priceChanges": []
+    "removed": [
+      {
+        "address": "598 Manisha Pl, Tarpon Springs, FL 34688",
+        "price": 4500,
+        "beds": 4,
+        "baths": 3,
+        "sqft": 2372,
+        "zpid": "47063531"
+      }
+    ],
+    "priceChanges": [
+      {
+        "address": "1350 Seagate Dr, Palm Harbor, FL",
+        "oldPrice": 1866,
+        "newPrice": 1847,
+        "pctChange": -1.0,
+        "score": 33,
+        "dom": null,
+        "url": "/apartments/palm-harbor-fl/boot-ranch/5XhzDD/",
+        "zpid": "28.066368--82.70844"
+      },
+      {
+        "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
+        "oldPrice": 1780,
+        "newPrice": 1770,
+        "pctChange": -0.6,
+        "score": 33,
+        "dom": null,
+        "url": "/apartments/palm-harbor-fl/bell-lansbrook-village/5Xhz7t/",
+        "zpid": "28.104986--82.68995"
+      }
+    ]
   },
   "stats": {
     "forSaleCount": 39,
-    "rentalCount": 19,
+    "rentalCount": 18,
     "medianSalePrice": 1090000,
     "medianPpsf": 305,
-    "medianRent": 2228,
-    "avgDom": 113
+    "medianRent": 2225,
+    "avgDom": 114
   }
 }

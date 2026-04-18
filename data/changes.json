@@ -1,65 +1,45 @@
 {
-  "date": "2026-04-17",
+  "date": "2026-04-18",
   "forSale": {
-    "total": 38,
+    "total": 39,
     "new": [
       {
-        "address": "4052 Capitol Dr, Palm Harbor, FL 34685",
-        "price": 1300000,
+        "address": "3343 Crescent Oaks Blvd, Tarpon Springs, FL 34688",
+        "price": 949900,
         "beds": 4,
         "baths": 4.0,
-        "sqft": 3691,
-        "score": 28.6,
-        "url": "/FL/Palm-Harbor/4052-Capitol-Dr-34685/home/48147027",
-        "mlsId": "TB8492690"
-      },
-      {
-        "address": "976 Cypress Cove Way, Tarpon Springs, FL 34688",
-        "price": 1225000,
-        "beds": 4,
-        "baths": 3.0,
-        "sqft": 4525,
-        "score": 41.3,
-        "url": "/FL/Tarpon-Springs/976-Cypress-Cove-Way-34688/home/48244814",
-        "mlsId": "TB8497692"
+        "sqft": 3294,
+        "score": 37.2,
+        "url": "/FL/Tarpon-Springs/3343-Crescent-Oaks-Blvd-34688/home/47894282",
+        "mlsId": "TB8498693"
       }
     ],
     "removed": [],
-    "priceChanges": []
+    "priceChanges": [
+      {
+        "address": "5216 Kernwood Ct, Palm Harbor, FL 34685",
+        "oldPrice": 939900,
+        "newPrice": 924900,
+        "pctChange": -1.6,
+        "score": 38.8,
+        "dom": 30,
+        "url": "/FL/Palm-Harbor/5216-Kernwood-Ct-34685/home/48078418",
+        "mlsId": "TB8487296"
+      }
+    ]
   },
   "rentals": {
     "total": 19,
     "new": [],
     "removed": [],
-    "priceChanges": [
-      {
-        "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
-        "oldPrice": 1790,
-        "newPrice": 1780,
-        "pctChange": -0.6,
-        "score": 33,
-        "dom": null,
-        "url": "/apartments/palm-harbor-fl/bell-lansbrook-village/5Xhz7t/",
-        "zpid": "28.104986--82.68995"
-      },
-      {
-        "address": "1350 Seagate Dr, Palm Harbor, FL",
-        "oldPrice": 1847,
-        "newPrice": 1866,
-        "pctChange": 1.0,
-        "score": 33,
-        "dom": null,
-        "url": "/apartments/palm-harbor-fl/boot-ranch/5XhzDD/",
-        "zpid": "28.066368--82.70844"
-      }
-    ]
+    "priceChanges": []
   },
   "stats": {
-    "forSaleCount": 38,
+    "forSaleCount": 39,
     "rentalCount": 19,
-    "medianSalePrice": 1095000,
-    "medianPpsf": 321,
+    "medianSalePrice": 1090000,
+    "medianPpsf": 305,
     "medianRent": 2228,
-    "avgDom": 116
+    "avgDom": 113
   }
 }

@@ -897,5 +897,50 @@
       "medianRent": 2228,
       "avgDom": 116
     }
+  },
+  {
+    "date": "2026-04-18",
+    "forSale": {
+      "total": 39,
+      "new": [
+        {
+          "address": "3343 Crescent Oaks Blvd, Tarpon Springs, FL 34688",
+          "price": 949900,
+          "beds": 4,
+          "baths": 4.0,
+          "sqft": 3294,
+          "score": 37.2,
+          "url": "/FL/Tarpon-Springs/3343-Crescent-Oaks-Blvd-34688/home/47894282",
+          "mlsId": "TB8498693"
+        }
+      ],
+      "removed": [],
+      "priceChanges": [
+        {
+          "address": "5216 Kernwood Ct, Palm Harbor, FL 34685",
+          "oldPrice": 939900,
+          "newPrice": 924900,
+          "pctChange": -1.6,
+          "score": 38.8,
+          "dom": 30,
+          "url": "/FL/Palm-Harbor/5216-Kernwood-Ct-34685/home/48078418",
+          "mlsId": "TB8487296"
+        }
+      ]
+    },
+    "rentals": {
+      "total": 19,
+      "new": [],
+      "removed": [],
+      "priceChanges": []
+    },
+    "stats": {
+      "forSaleCount": 39,
+      "rentalCount": 19,
+      "medianSalePrice": 1090000,
+      "medianPpsf": 305,
+      "medianRent": 2228,
+      "avgDom": 113
+    }
   }
 ]

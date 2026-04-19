@@ -1,74 +1,43 @@
 {
-  "date": "2026-04-18",
+  "date": "2026-04-19",
   "forSale": {
     "total": 39,
-    "new": [
-      {
-        "address": "3343 Crescent Oaks Blvd, Tarpon Springs, FL 34688",
-        "price": 949900,
-        "beds": 4,
-        "baths": 4.0,
-        "sqft": 3294,
-        "score": 37.2,
-        "url": "/FL/Tarpon-Springs/3343-Crescent-Oaks-Blvd-34688/home/47894282",
-        "mlsId": "TB8498693"
-      }
-    ],
+    "new": [],
     "removed": [],
     "priceChanges": [
       {
-        "address": "5216 Kernwood Ct, Palm Harbor, FL 34685",
-        "oldPrice": 939900,
-        "newPrice": 924900,
-        "pctChange": -1.6,
-        "score": 38.8,
-        "dom": 30,
-        "url": "/FL/Palm-Harbor/5216-Kernwood-Ct-34685/home/48078418",
-        "mlsId": "TB8487296"
+        "address": "4202 Rotherham Ct, Palm Harbor, FL 34685",
+        "oldPrice": 875747,
+        "newPrice": 847000,
+        "pctChange": -3.3,
+        "score": 67.2,
+        "dom": 29,
+        "url": "/FL/Palm-Harbor/4202-Rotherham-Ct-34685/home/48129412",
+        "mlsId": "TB8482524"
+      },
+      {
+        "address": "5292 Kernwood Ct, Palm Harbor, FL 34685",
+        "oldPrice": 1080000,
+        "newPrice": 1075000,
+        "pctChange": -0.5,
+        "score": 45.6,
+        "dom": 64,
+        "url": "/FL/Palm-Harbor/5292-Kernwood-Ct-34685/home/48078411",
+        "mlsId": "TB8471501"
       }
     ]
   },
   "rentals": {
     "total": 18,
     "new": [],
-    "removed": [
-      {
-        "address": "598 Manisha Pl, Tarpon Springs, FL 34688",
-        "price": 4500,
-        "beds": 4,
-        "baths": 3,
-        "sqft": 2372,
-        "zpid": "47063531"
-      }
-    ],
-    "priceChanges": [
-      {
-        "address": "1350 Seagate Dr, Palm Harbor, FL",
-        "oldPrice": 1866,
-        "newPrice": 1847,
-        "pctChange": -1.0,
-        "score": 33,
-        "dom": null,
-        "url": "/apartments/palm-harbor-fl/boot-ranch/5XhzDD/",
-        "zpid": "28.066368--82.70844"
-      },
-      {
-        "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
-        "oldPrice": 1780,
-        "newPrice": 1770,
-        "pctChange": -0.6,
-        "score": 33,
-        "dom": null,
-        "url": "/apartments/palm-harbor-fl/bell-lansbrook-village/5Xhz7t/",
-        "zpid": "28.104986--82.68995"
-      }
-    ]
+    "removed": [],
+    "priceChanges": []
   },
   "stats": {
     "forSaleCount": 39,
     "rentalCount": 18,
     "medianSalePrice": 1090000,
-    "medianPpsf": 305,
+    "medianPpsf": 303,
     "medianRent": 2225,
     "avgDom": 114
   }

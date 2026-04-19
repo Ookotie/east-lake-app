@@ -87,9 +87,9 @@
   },
   {
     "address": "4202 Rotherham Ct, Palm Harbor, FL 34685",
-    "price": 875747,
+    "price": 847000,
     "sqft": 3893,
-    "ppsf": 225,
+    "ppsf": 218,
     "lotSqft": 11744,
     "lotAcres": 0.27,
     "beds": 5,
@@ -112,7 +112,7 @@
     "garageSpaces": 3,
     "propertyId": 48129412,
     "compAvgPpsf": 268,
-    "compDiscount": 16.0,
+    "compDiscount": 18.7,
     "comps": [
       {
         "address": "4059 Ligustrum Dr, Palm Harbor, FL 34685",
@@ -167,8 +167,8 @@
     ],
     "valueAssessment": "Strong Value",
     "estimatedFairValue": 1043324,
-    "priceDelta": -167577,
-    "score": 62.2,
+    "priceDelta": -196324,
+    "score": 67.2,
     "marketMedianPpsf": 295
   },
   {
@@ -947,9 +947,9 @@
   },
   {
     "address": "5292 Kernwood Ct, Palm Harbor, FL 34685",
-    "price": 1080000,
+    "price": 1075000,
     "sqft": 3546,
-    "ppsf": 305,
+    "ppsf": 303,
     "lotSqft": 12950,
     "lotAcres": 0.3,
     "beds": 5,
@@ -972,7 +972,7 @@
     "garageSpaces": 3,
     "propertyId": 48078411,
     "compAvgPpsf": 275,
-    "compDiscount": -10.7,
+    "compDiscount": -10.0,
     "comps": [
       {
         "address": "4633 Juniper Dr, Palm Harbor, FL 34685",
@@ -1027,8 +1027,8 @@
     ],
     "valueAssessment": "Slightly Overpriced",
     "estimatedFairValue": 975150,
-    "priceDelta": 104850,
-    "score": 44.9,
+    "priceDelta": 99850,
+    "score": 45.6,
     "marketMedianPpsf": 295
   },
   {

@@ -972,5 +972,49 @@
       "medianRent": 2225,
       "avgDom": 114
     }
+  },
+  {
+    "date": "2026-04-19",
+    "forSale": {
+      "total": 39,
+      "new": [],
+      "removed": [],
+      "priceChanges": [
+        {
+          "address": "4202 Rotherham Ct, Palm Harbor, FL 34685",
+          "oldPrice": 875747,
+          "newPrice": 847000,
+          "pctChange": -3.3,
+          "score": 67.2,
+          "dom": 29,
+          "url": "/FL/Palm-Harbor/4202-Rotherham-Ct-34685/home/48129412",
+          "mlsId": "TB8482524"
+        },
+        {
+          "address": "5292 Kernwood Ct, Palm Harbor, FL 34685",
+          "oldPrice": 1080000,
+          "newPrice": 1075000,
+          "pctChange": -0.5,
+          "score": 45.6,
+          "dom": 64,
+          "url": "/FL/Palm-Harbor/5292-Kernwood-Ct-34685/home/48078411",
+          "mlsId": "TB8471501"
+        }
+      ]
+    },
+    "rentals": {
+      "total": 18,
+      "new": [],
+      "removed": [],
+      "priceChanges": []
+    },
+    "stats": {
+      "forSaleCount": 39,
+      "rentalCount": 18,
+      "medianSalePrice": 1090000,
+      "medianPpsf": 303,
+      "medianRent": 2225,
+      "avgDom": 114
+    }
   }
 ]

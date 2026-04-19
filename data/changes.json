@@ -28,17 +28,37 @@
     ]
   },
   "rentals": {
-    "total": 18,
+    "total": 17,
     "new": [],
-    "removed": [],
-    "priceChanges": []
+    "removed": [
+      {
+        "address": "1345A Pine Ridge Cir E #C2, Tarpon Springs, FL 34688",
+        "price": 1750,
+        "beds": 2,
+        "baths": 2,
+        "sqft": null,
+        "zpid": "460975493"
+      }
+    ],
+    "priceChanges": [
+      {
+        "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
+        "oldPrice": 1770,
+        "newPrice": 1765,
+        "pctChange": -0.3,
+        "score": 33,
+        "dom": null,
+        "url": "/apartments/palm-harbor-fl/bell-lansbrook-village/5Xhz7t/",
+        "zpid": "28.104986--82.68995"
+      }
+    ]
   },
   "stats": {
     "forSaleCount": 39,
-    "rentalCount": 18,
+    "rentalCount": 17,
     "medianSalePrice": 1090000,
     "medianPpsf": 303,
-    "medianRent": 2225,
-    "avgDom": 114
+    "medianRent": 2222,
+    "avgDom": 115
   }
 }

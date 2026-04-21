@@ -146,7 +146,7 @@
   {
     "address": "1350 Seagate Dr, Palm Harbor, FL",
     "buildingName": "Boot Ranch",
-    "price": 2638,
+    "price": 2664,
     "beds": 4,
     "baths": null,
     "sqft": null,
@@ -192,7 +192,7 @@
   {
     "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
     "buildingName": "Bell Lansbrook Village",
-    "price": 2075,
+    "price": 2070,
     "beds": 3,
     "baths": null,
     "sqft": null,
@@ -215,7 +215,7 @@
   {
     "address": "1350 Seagate Dr, Palm Harbor, FL",
     "buildingName": "Boot Ranch",
-    "price": 2262,
+    "price": 2397,
     "beds": 3,
     "baths": null,
     "sqft": null,
@@ -285,7 +285,7 @@
   {
     "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
     "buildingName": "Bell Lansbrook Village",
-    "price": 1755,
+    "price": 1745,
     "beds": 2,
     "baths": null,
     "sqft": null,

@@ -1,23 +1,85 @@
 {
-  "date": "2026-04-20",
+  "date": "2026-04-21",
   "forSale": {
-    "total": 39,
+    "total": 38,
     "new": [],
-    "removed": [],
-    "priceChanges": []
+    "removed": [
+      {
+        "address": "3988 Mimosa Pl, Palm Harbor, FL 34685",
+        "price": 999900,
+        "beds": 4,
+        "baths": 3.5,
+        "sqft": 3418,
+        "mlsId": "TB8448645"
+      }
+    ],
+    "priceChanges": [
+      {
+        "address": "2661 Hawks Landing Blvd, Palm Harbor, FL 34685",
+        "oldPrice": 2200000,
+        "newPrice": 2150000,
+        "pctChange": -2.3,
+        "score": 32.0,
+        "dom": 86,
+        "url": "/FL/Palm-Harbor/2661-Hawks-Landing-Blvd-34685/home/48250447",
+        "mlsId": "TB8461339"
+      }
+    ]
   },
   "rentals": {
-    "total": 17,
-    "new": [],
+    "total": 18,
+    "new": [
+      {
+        "address": "1966 Fishermens Bnd, Palm Harbor, FL 34685",
+        "price": 3850,
+        "beds": 3,
+        "baths": 3,
+        "sqft": 2296,
+        "score": 39,
+        "url": "https://www.zillow.com/homedetails/1966-Fishermens-Bnd-Palm-Harbor-FL-34685/46970704_zpid/",
+        "zpid": "46970704"
+      }
+    ],
     "removed": [],
-    "priceChanges": []
+    "priceChanges": [
+      {
+        "address": "917 Centerwood Dr, Tarpon Springs, FL 34688",
+        "oldPrice": 3600,
+        "newPrice": 3400,
+        "pctChange": -5.6,
+        "score": 52,
+        "dom": null,
+        "url": "https://www.zillow.com/homedetails/917-Centerwood-Dr-Tarpon-Springs-FL-34688/47079151_zpid/",
+        "zpid": "47079151"
+      },
+      {
+        "address": "1350 Seagate Dr, Palm Harbor, FL",
+        "oldPrice": 1847,
+        "newPrice": 1828,
+        "pctChange": -1.0,
+        "score": 33,
+        "dom": null,
+        "url": "/apartments/palm-harbor-fl/boot-ranch/5XhzDD/",
+        "zpid": "28.066368--82.70844"
+      },
+      {
+        "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
+        "oldPrice": 1765,
+        "newPrice": 1755,
+        "pctChange": -0.6,
+        "score": 33,
+        "dom": null,
+        "url": "/apartments/palm-harbor-fl/bell-lansbrook-village/5Xhz7t/",
+        "zpid": "28.104986--82.68995"
+      }
+    ]
   },
   "stats": {
-    "forSaleCount": 39,
-    "rentalCount": 17,
-    "medianSalePrice": 1090000,
-    "medianPpsf": 303,
-    "medianRent": 2222,
-    "avgDom": 116
+    "forSaleCount": 38,
+    "rentalCount": 18,
+    "medianSalePrice": 1095000,
+    "medianPpsf": 321,
+    "medianRent": 2638,
+    "avgDom": 115
   }
 }

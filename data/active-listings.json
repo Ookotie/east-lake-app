@@ -1290,92 +1290,6 @@
     "marketMedianPpsf": 295
   },
   {
-    "address": "3988 Mimosa Pl, Palm Harbor, FL 34685",
-    "price": 999900,
-    "sqft": 3418,
-    "ppsf": 293,
-    "lotSqft": 22054,
-    "lotAcres": 0.51,
-    "beds": 4,
-    "baths": 3.5,
-    "stories": 1.0,
-    "yearBuilt": 1999,
-    "hoa": 156,
-    "dom": 156,
-    "subdivision": "MYRTLE POINT PH 1",
-    "url": "/FL/Palm-Harbor/3988-Mimosa-Pl-34685/home/48028869",
-    "mlsId": "TB8448645",
-    "zip": "34685",
-    "lat": 28.129603,
-    "lon": -82.7115685,
-    "isActive": true,
-    "hasPool": true,
-    "isWaterfront": false,
-    "isConservation": false,
-    "listingAgent": "Jeanne Jones",
-    "garageSpaces": 3,
-    "propertyId": 48028869,
-    "compAvgPpsf": 286,
-    "compDiscount": -2.5,
-    "comps": [
-      {
-        "address": "3900 Mimosa Pl, Palm Harbor, FL 34685",
-        "price": 925000,
-        "sqft": 3386,
-        "ppsf": 273,
-        "soldDate": "2023-04-24",
-        "beds": 4,
-        "baths": 3.0,
-        "yearBuilt": 1998
-      },
-      {
-        "address": "4477 Lavender Dr, Palm Harbor, FL 34685",
-        "price": 950000,
-        "sqft": 3293,
-        "ppsf": 288,
-        "soldDate": "2025-12-12",
-        "beds": 4,
-        "baths": 3.5,
-        "yearBuilt": 1999
-      },
-      {
-        "address": "4427 Lavender Dr, Palm Harbor, FL 34685",
-        "price": 815000,
-        "sqft": 3434,
-        "ppsf": 237,
-        "soldDate": "2025-03-13",
-        "beds": 4,
-        "baths": 3.0,
-        "yearBuilt": 1994
-      },
-      {
-        "address": "5132 Jewell Ter, Palm Harbor, FL 34685",
-        "price": 1055000,
-        "sqft": 3332,
-        "ppsf": 317,
-        "soldDate": "2023-05-15",
-        "beds": 4,
-        "baths": 4.0,
-        "yearBuilt": 2002
-      },
-      {
-        "address": "3910 Arlington Dr, Palm Harbor, FL 34685",
-        "price": 1050000,
-        "sqft": 3348,
-        "ppsf": 314,
-        "soldDate": "2024-12-13",
-        "beds": 4,
-        "baths": 3.0,
-        "yearBuilt": 1995
-      }
-    ],
-    "valueAssessment": "Fair Price",
-    "estimatedFairValue": 977548,
-    "priceDelta": 22352,
-    "score": 42.4,
-    "marketMedianPpsf": 295
-  },
-  {
     "address": "5442 Millbrook Way, Palm Harbor, FL 34685",
     "price": 1249000,
     "sqft": 3875,
@@ -2495,9 +2409,9 @@
   },
   {
     "address": "2661 Hawks Landing Blvd, Palm Harbor, FL 34685",
-    "price": 2200000,
+    "price": 2150000,
     "sqft": 5114,
-    "ppsf": 430,
+    "ppsf": 420,
     "lotSqft": 21767,
     "lotAcres": 0.5,
     "beds": 5,
@@ -2520,7 +2434,7 @@
     "garageSpaces": 3,
     "propertyId": 48250447,
     "compAvgPpsf": 285,
-    "compDiscount": -51.0,
+    "compDiscount": -47.5,
     "comps": [
       {
         "address": "3884 Moreno Dr, Palm Harbor, FL 34685",
@@ -2575,7 +2489,7 @@
     ],
     "valueAssessment": "Overpriced",
     "estimatedFairValue": 1457490,
-    "priceDelta": 742510,
+    "priceDelta": 692510,
     "score": 32.0,
     "marketMedianPpsf": 295
   },

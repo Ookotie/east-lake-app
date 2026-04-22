@@ -1144,5 +1144,39 @@
       "medianRent": 2664,
       "avgDom": 116
     }
+  },
+  {
+    "date": "2026-04-22",
+    "forSale": {
+      "total": 38,
+      "new": [],
+      "removed": [],
+      "priceChanges": [
+        {
+          "address": "3718 Jacmel Way, Palm Harbor, FL 34685",
+          "oldPrice": 925000,
+          "newPrice": 895000,
+          "pctChange": -3.2,
+          "score": 36.8,
+          "dom": 99,
+          "url": "/FL/Palm-Harbor/3718-Jacmel-Way-34685/home/48069959",
+          "mlsId": "TB8463453"
+        }
+      ]
+    },
+    "rentals": {
+      "total": 18,
+      "new": [],
+      "removed": [],
+      "priceChanges": []
+    },
+    "stats": {
+      "forSaleCount": 38,
+      "rentalCount": 18,
+      "medianSalePrice": 1095000,
+      "medianPpsf": 321,
+      "medianRent": 2664,
+      "avgDom": 116
+    }
   }
 ]

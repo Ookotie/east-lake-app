@@ -1,9 +1,18 @@
 {
   "date": "2026-04-22",
   "forSale": {
-    "total": 38,
+    "total": 37,
     "new": [],
-    "removed": [],
+    "removed": [
+      {
+        "address": "2928 Waters Edge Rd, Palm Harbor, FL 34685",
+        "price": 1049000,
+        "beds": 4,
+        "baths": 4.0,
+        "sqft": 3541,
+        "mlsId": "TB8446052"
+      }
+    ],
     "priceChanges": [
       {
         "address": "3718 Jacmel Way, Palm Harbor, FL 34685",
@@ -24,11 +33,11 @@
     "priceChanges": []
   },
   "stats": {
-    "forSaleCount": 38,
+    "forSaleCount": 37,
     "rentalCount": 18,
     "medianSalePrice": 1095000,
     "medianPpsf": 321,
     "medianRent": 2664,
-    "avgDom": 116
+    "avgDom": 115
   }
 }

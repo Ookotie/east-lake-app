@@ -1,10 +1,30 @@
 {
-  "date": "2026-04-24",
+  "date": "2026-04-25",
   "forSale": {
-    "total": 37,
+    "total": 36,
     "new": [],
-    "removed": [],
-    "priceChanges": []
+    "removed": [
+      {
+        "address": "4202 Rotherham Ct, Palm Harbor, FL 34685",
+        "price": 847000,
+        "beds": 5,
+        "baths": 2.5,
+        "sqft": 3893,
+        "mlsId": "TB8482524"
+      }
+    ],
+    "priceChanges": [
+      {
+        "address": "748 Winslow Park, Tarpon Springs, FL 34688",
+        "oldPrice": 950000,
+        "newPrice": 940000,
+        "pctChange": -1.1,
+        "score": 33.6,
+        "dom": 89,
+        "url": "/FL/Tarpon-Springs/748-Winslow-Park-Blvd-34688/home/47856158",
+        "mlsId": "TB8468608"
+      }
+    ]
   },
   "rentals": {
     "total": 19,
@@ -13,11 +33,11 @@
     "priceChanges": []
   },
   "stats": {
-    "forSaleCount": 37,
+    "forSaleCount": 36,
     "rentalCount": 19,
-    "medianSalePrice": 1095000,
-    "medianPpsf": 321,
+    "medianSalePrice": 1119000,
+    "medianPpsf": 322,
     "medianRent": 2500,
-    "avgDom": 121
+    "avgDom": 123
   }
 }

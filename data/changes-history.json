@@ -1327,5 +1327,58 @@
       "medianRent": 2500,
       "avgDom": 124
     }
+  },
+  {
+    "date": "2026-04-26",
+    "forSale": {
+      "total": 36,
+      "new": [],
+      "removed": [],
+      "priceChanges": []
+    },
+    "rentals": {
+      "total": 18,
+      "new": [],
+      "removed": [
+        {
+          "address": "1690 Arabian Ln, Palm Harbor, FL 34685",
+          "price": 3000,
+          "beds": 3,
+          "baths": 3,
+          "sqft": 3240,
+          "zpid": "46970443"
+        }
+      ],
+      "priceChanges": [
+        {
+          "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
+          "oldPrice": 1740,
+          "newPrice": 1720,
+          "pctChange": -1.1,
+          "score": 33,
+          "dom": null,
+          "url": "/apartments/palm-harbor-fl/bell-lansbrook-village/5Xhz7t/",
+          "zpid": "28.104986--82.68995"
+        },
+        {
+          "address": "1350 Seagate Dr, Palm Harbor, FL",
+          "oldPrice": 1828,
+          "newPrice": 1891,
+          "pctChange": 3.4,
+          "score": 33,
+          "dom": null,
+          "url": "/apartments/palm-harbor-fl/boot-ranch/5XhzDD/",
+          "zpid": "28.066368--82.70844"
+        }
+      ]
+    },
+    "stats": {
+      "forSaleCount": 36,
+      "rentalCount": 18,
+      "medianSalePrice": 1119000,
+      "medianPpsf": 322,
+      "medianRent": 2500,
+      "avgDom": 124
+    }
   }
 ]

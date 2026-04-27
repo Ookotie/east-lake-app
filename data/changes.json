@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-26",
+  "date": "2026-04-27",
   "forSale": {
     "total": 36,
     "new": [],
@@ -7,47 +7,90 @@
     "priceChanges": []
   },
   "rentals": {
-    "total": 18,
+    "total": 3,
     "new": [],
     "removed": [
       {
-        "address": "1690 Arabian Ln, Palm Harbor, FL 34685",
-        "price": 3000,
-        "beds": 3,
-        "baths": 3,
-        "sqft": 3240,
-        "zpid": "46970443"
-      }
-    ],
-    "priceChanges": [
+        "address": "1684 Arabian Ln, Palm Harbor, FL 34685",
+        "price": 5000,
+        "beds": 5,
+        "baths": 6,
+        "sqft": 6120,
+        "zpid": "46970442"
+      },
+      {
+        "address": "3505 Tarpon Woods Blvd, Palm Harbor, FL",
+        "price": 1950,
+        "beds": 2,
+        "baths": null,
+        "sqft": null,
+        "zpid": "28.093388--82.684265"
+      },
+      {
+        "address": "3549 Kings Rd, Palm Harbor, FL",
+        "price": 2500,
+        "beds": 2,
+        "baths": null,
+        "sqft": null,
+        "zpid": "28.10542--82.68661"
+      },
       {
         "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
-        "oldPrice": 1740,
-        "newPrice": 1720,
-        "pctChange": -1.1,
-        "score": 33,
-        "dom": null,
-        "url": "/apartments/palm-harbor-fl/bell-lansbrook-village/5Xhz7t/",
+        "price": 1720,
+        "beds": 2,
+        "baths": null,
+        "sqft": null,
         "zpid": "28.104986--82.68995"
       },
       {
+        "address": "1801 E Lake Rd, Palm Harbor, FL",
+        "price": 2150,
+        "beds": 2,
+        "baths": null,
+        "sqft": null,
+        "zpid": "28.085556--82.698845"
+      },
+      {
         "address": "1350 Seagate Dr, Palm Harbor, FL",
-        "oldPrice": 1828,
-        "newPrice": 1891,
-        "pctChange": 3.4,
-        "score": 33,
-        "dom": null,
-        "url": "/apartments/palm-harbor-fl/boot-ranch/5XhzDD/",
+        "price": 1891,
+        "beds": 2,
+        "baths": null,
+        "sqft": null,
         "zpid": "28.066368--82.70844"
+      },
+      {
+        "address": "3505 Tarpon Woods Blvd, Palm Harbor, FL",
+        "price": 1750,
+        "beds": 2,
+        "baths": null,
+        "sqft": null,
+        "zpid": "28.093222--82.68381"
+      },
+      {
+        "address": "3323 Crystal Ct E, Palm Harbor, FL",
+        "price": 1700,
+        "beds": 2,
+        "baths": null,
+        "sqft": null,
+        "zpid": "28.099716--82.70002"
+      },
+      {
+        "address": "4744 Bardsdale Dr, Palm Harbor, FL 34685",
+        "price": 4250,
+        "beds": 4,
+        "baths": 3,
+        "sqft": 2858,
+        "zpid": "47143207"
       }
-    ]
+    ],
+    "priceChanges": []
   },
   "stats": {
     "forSaleCount": 36,
-    "rentalCount": 18,
+    "rentalCount": 3,
     "medianSalePrice": 1119000,
     "medianPpsf": 322,
-    "medianRent": 2500,
+    "medianRent": 3400,
     "avgDom": 125
   }
 }

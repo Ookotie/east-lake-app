@@ -96,6 +96,30 @@
     "ppsf": 1.49
   },
   {
+    "address": "4987 Kernwood Ct, Palm Harbor, FL 34685",
+    "buildingName": null,
+    "price": 4500,
+    "beds": 4,
+    "baths": 3,
+    "sqft": 2857,
+    "yearBuilt": null,
+    "lat": 28.12212,
+    "lon": -82.71295,
+    "zip": "34685",
+    "url": "https://www.zillow.com/homedetails/4987-Kernwood-Ct-Palm-Harbor-FL-34685/47135171_zpid/",
+    "zpid": "47135171",
+    "lotSqft": null,
+    "lotAcres": null,
+    "hasPool": false,
+    "isWaterfront": false,
+    "dom": null,
+    "homeType": "single_family",
+    "source": "zillow",
+    "isBuilding": false,
+    "score": 49,
+    "ppsf": 1.58
+  },
+  {
     "address": "394 Knight Dr, Tarpon Springs, FL 34688",
     "buildingName": null,
     "price": 3700,
@@ -168,7 +192,7 @@
   {
     "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
     "buildingName": "Bell Lansbrook Village",
-    "price": 2135,
+    "price": 2130,
     "beds": 3,
     "baths": null,
     "sqft": null,
@@ -260,7 +284,7 @@
   {
     "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
     "buildingName": "Bell Lansbrook Village",
-    "price": 1720,
+    "price": 1705,
     "beds": 2,
     "baths": null,
     "sqft": null,
@@ -283,7 +307,7 @@
   {
     "address": "1350 Seagate Dr, Palm Harbor, FL",
     "buildingName": "Boot Ranch",
-    "price": 1891,
+    "price": 1822,
     "beds": 2,
     "baths": null,
     "sqft": null,

@@ -1,78 +1,42 @@
 {
-  "date": "2026-04-27",
+  "date": "2026-04-28",
   "forSale": {
-    "total": 36,
+    "total": 35,
     "new": [],
-    "removed": [],
+    "removed": [
+      {
+        "address": "3997 Mimosa Pl, Palm Harbor, FL 34685",
+        "price": 1199000,
+        "beds": 4,
+        "baths": 4.0,
+        "sqft": 3731,
+        "mlsId": "TB8491766"
+      }
+    ],
     "priceChanges": []
   },
   "rentals": {
-    "total": 3,
-    "new": [],
-    "removed": [
+    "total": 19,
+    "new": [
       {
         "address": "1684 Arabian Ln, Palm Harbor, FL 34685",
         "price": 5000,
         "beds": 5,
         "baths": 6,
         "sqft": 6120,
+        "score": 62,
+        "url": "https://www.zillow.com/homedetails/1684-Arabian-Ln-Palm-Harbor-FL-34685/46970442_zpid/",
         "zpid": "46970442"
       },
       {
-        "address": "3505 Tarpon Woods Blvd, Palm Harbor, FL",
-        "price": 1950,
-        "beds": 2,
-        "baths": null,
-        "sqft": null,
-        "zpid": "28.093388--82.684265"
-      },
-      {
-        "address": "3549 Kings Rd, Palm Harbor, FL",
-        "price": 2500,
-        "beds": 2,
-        "baths": null,
-        "sqft": null,
-        "zpid": "28.10542--82.68661"
-      },
-      {
-        "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
-        "price": 1720,
-        "beds": 2,
-        "baths": null,
-        "sqft": null,
-        "zpid": "28.104986--82.68995"
-      },
-      {
-        "address": "1801 E Lake Rd, Palm Harbor, FL",
-        "price": 2150,
-        "beds": 2,
-        "baths": null,
-        "sqft": null,
-        "zpid": "28.085556--82.698845"
-      },
-      {
-        "address": "1350 Seagate Dr, Palm Harbor, FL",
-        "price": 1891,
-        "beds": 2,
-        "baths": null,
-        "sqft": null,
-        "zpid": "28.066368--82.70844"
-      },
-      {
-        "address": "3505 Tarpon Woods Blvd, Palm Harbor, FL",
-        "price": 1750,
-        "beds": 2,
-        "baths": null,
-        "sqft": null,
-        "zpid": "28.093222--82.68381"
-      },
-      {
-        "address": "3323 Crystal Ct E, Palm Harbor, FL",
-        "price": 1700,
-        "beds": 2,
-        "baths": null,
-        "sqft": null,
-        "zpid": "28.099716--82.70002"
+        "address": "4987 Kernwood Ct, Palm Harbor, FL 34685",
+        "price": 4500,
+        "beds": 4,
+        "baths": 3,
+        "sqft": 2857,
+        "score": 49,
+        "url": "https://www.zillow.com/homedetails/4987-Kernwood-Ct-Palm-Harbor-FL-34685/47135171_zpid/",
+        "zpid": "47135171"
       },
       {
         "address": "4744 Bardsdale Dr, Palm Harbor, FL 34685",
@@ -80,17 +44,90 @@
         "beds": 4,
         "baths": 3,
         "sqft": 2858,
+        "score": 49,
+        "url": "https://www.zillow.com/homedetails/4744-Bardsdale-Dr-Palm-Harbor-FL-34685/47143207_zpid/",
         "zpid": "47143207"
+      },
+      {
+        "address": "1801 E Lake Rd, Palm Harbor, FL",
+        "price": 2150,
+        "beds": 2,
+        "baths": null,
+        "sqft": null,
+        "score": 33,
+        "url": "/b/1801-e-lake-rd-palm-harbor-fl-5Y3CqR/",
+        "zpid": "28.085556--82.698845"
+      },
+      {
+        "address": "3505 Tarpon Woods Blvd, Palm Harbor, FL",
+        "price": 1950,
+        "beds": 2,
+        "baths": null,
+        "sqft": null,
+        "score": 33,
+        "url": "/b/3505-tarpon-woods-blvd-palm-harbor-fl-CqcZz2/",
+        "zpid": "28.093388--82.684265"
+      },
+      {
+        "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
+        "price": 1705,
+        "beds": 2,
+        "baths": null,
+        "sqft": null,
+        "score": 33,
+        "url": "/apartments/palm-harbor-fl/bell-lansbrook-village/5Xhz7t/",
+        "zpid": "28.104986--82.68995"
+      },
+      {
+        "address": "3323 Crystal Ct E, Palm Harbor, FL",
+        "price": 1700,
+        "beds": 2,
+        "baths": null,
+        "sqft": null,
+        "score": 33,
+        "url": "/b/building/28.099716,-82.70002_ll/",
+        "zpid": "28.099716--82.70002"
+      },
+      {
+        "address": "3505 Tarpon Woods Blvd, Palm Harbor, FL",
+        "price": 1750,
+        "beds": 2,
+        "baths": null,
+        "sqft": null,
+        "score": 33,
+        "url": "/b/3505-tarpon-woods-blvd-palm-harbor-fl-CqcZz2/",
+        "zpid": "28.093222--82.68381"
+      },
+      {
+        "address": "1350 Seagate Dr, Palm Harbor, FL",
+        "price": 1822,
+        "beds": 2,
+        "baths": null,
+        "sqft": null,
+        "score": 33,
+        "url": "/apartments/palm-harbor-fl/boot-ranch/5XhzDD/",
+        "zpid": "28.066368--82.70844"
+      },
+      {
+        "address": "3549 Kings Rd, Palm Harbor, FL",
+        "price": 2500,
+        "beds": 2,
+        "baths": null,
+        "sqft": null,
+        "score": 33,
+        "url": "/b/building/28.10542,-82.68661_ll/",
+        "zpid": "28.10542--82.68661"
       }
     ],
+    "removed": [],
     "priceChanges": []
   },
   "stats": {
-    "forSaleCount": 36,
-    "rentalCount": 3,
-    "medianSalePrice": 1119000,
+    "forSaleCount": 35,
+    "rentalCount": 19,
+    "medianSalePrice": 1095000,
     "medianPpsf": 322,
-    "medianRent": 3400,
-    "avgDom": 126
+    "medianRent": 2500,
+    "avgDom": 129
   }
 }

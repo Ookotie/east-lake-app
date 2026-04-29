@@ -1613,7 +1613,7 @@
   {
     "date": "2026-04-29",
     "forSale": {
-      "total": 33,
+      "total": 32,
       "new": [],
       "removed": [
         {
@@ -1631,6 +1631,14 @@
           "baths": 3.5,
           "sqft": 3598,
           "mlsId": "TB8484659"
+        },
+        {
+          "address": "3716 Janus Way, Palm Harbor, FL 34685",
+          "price": 1150000,
+          "beds": 4,
+          "baths": 4.5,
+          "sqft": 3924,
+          "mlsId": "TB8452948"
         }
       ],
       "priceChanges": []
@@ -1642,12 +1650,12 @@
       "priceChanges": []
     },
     "stats": {
-      "forSaleCount": 33,
+      "forSaleCount": 32,
       "rentalCount": 19,
       "medianSalePrice": 1095000,
-      "medianPpsf": 322,
+      "medianPpsf": 323,
       "medianRent": 2500,
-      "avgDom": 133
+      "avgDom": 134
     }
   }
 ]

@@ -1,41 +1,48 @@
 {
-  "date": "2026-04-29",
+  "date": "2026-04-30",
   "forSale": {
     "total": 32,
     "new": [],
-    "removed": [
+    "removed": [],
+    "priceChanges": [
       {
-        "address": "3830 Moreno Dr, Palm Harbor, FL 34685",
-        "price": 1000000,
-        "beds": 4,
-        "baths": 3.0,
-        "sqft": 3679,
-        "mlsId": "TB8461072"
-      },
-      {
-        "address": "2983 Wentworth Way, Tarpon Springs, FL 34688",
-        "price": 1235000,
-        "beds": 4,
-        "baths": 3.5,
-        "sqft": 3598,
-        "mlsId": "TB8484659"
-      },
-      {
-        "address": "3716 Janus Way, Palm Harbor, FL 34685",
-        "price": 1150000,
-        "beds": 4,
-        "baths": 4.5,
-        "sqft": 3924,
-        "mlsId": "TB8452948"
+        "address": "4647 Berwyn Ct, Palm Harbor, FL 34685",
+        "oldPrice": 849900,
+        "newPrice": 842900,
+        "pctChange": -0.8,
+        "score": 41.7,
+        "dom": 27,
+        "url": "/FL/Palm-Harbor/4647-Berwyn-Ct-34685/home/48086704",
+        "mlsId": "TB8489957"
       }
-    ],
-    "priceChanges": []
+    ]
   },
   "rentals": {
     "total": 19,
     "new": [],
     "removed": [],
-    "priceChanges": []
+    "priceChanges": [
+      {
+        "address": "1350 Seagate Dr, Palm Harbor, FL",
+        "oldPrice": 1822,
+        "newPrice": 1802,
+        "pctChange": -1.1,
+        "score": 33,
+        "dom": null,
+        "url": "/apartments/palm-harbor-fl/boot-ranch/5XhzDD/",
+        "zpid": "28.066368--82.70844"
+      },
+      {
+        "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
+        "oldPrice": 1705,
+        "newPrice": 1715,
+        "pctChange": 0.6,
+        "score": 33,
+        "dom": null,
+        "url": "/apartments/palm-harbor-fl/bell-lansbrook-village/5Xhz7t/",
+        "zpid": "28.104986--82.68995"
+      }
+    ]
   },
   "stats": {
     "forSaleCount": 32,

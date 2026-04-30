@@ -1661,8 +1661,19 @@
   {
     "date": "2026-04-30",
     "forSale": {
-      "total": 32,
-      "new": [],
+      "total": 33,
+      "new": [
+        {
+          "address": "3297 Valemoor Dr, Palm Harbor, FL 34685",
+          "price": 894000,
+          "beds": 5,
+          "baths": 3.0,
+          "sqft": 3287,
+          "score": 34.7,
+          "url": "/FL/Palm-Harbor/3297-Valemoor-Dr-34685/home/48223511",
+          "mlsId": "TB8503375"
+        }
+      ],
       "removed": [],
       "priceChanges": [
         {
@@ -1674,13 +1685,40 @@
           "dom": 27,
           "url": "/FL/Palm-Harbor/4647-Berwyn-Ct-34685/home/48086704",
           "mlsId": "TB8489957"
+        },
+        {
+          "address": "2928 Waters Edge Rd, Palm Harbor, FL 34685",
+          "oldPrice": 1019000,
+          "newPrice": 995000,
+          "pctChange": -2.4,
+          "score": 40.7,
+          "dom": 166,
+          "url": "/FL/Palm-Harbor/2928-Waters-Edge-Rd-34685/home/48250477",
+          "mlsId": "TB8446052"
         }
       ]
     },
     "rentals": {
-      "total": 19,
+      "total": 17,
       "new": [],
-      "removed": [],
+      "removed": [
+        {
+          "address": "4744 Bardsdale Dr, Palm Harbor, FL 34685",
+          "price": 4250,
+          "beds": 4,
+          "baths": 3,
+          "sqft": 2858,
+          "zpid": "47143207"
+        },
+        {
+          "address": "917 Centerwood Dr, Tarpon Springs, FL 34688",
+          "price": 3400,
+          "beds": 4,
+          "baths": 2,
+          "sqft": 2130,
+          "zpid": "47079151"
+        }
+      ],
       "priceChanges": [
         {
           "address": "1350 Seagate Dr, Palm Harbor, FL",
@@ -1701,16 +1739,26 @@
           "dom": null,
           "url": "/apartments/palm-harbor-fl/bell-lansbrook-village/5Xhz7t/",
           "zpid": "28.104986--82.68995"
+        },
+        {
+          "address": "3323 Crystal Ct E, Palm Harbor, FL",
+          "oldPrice": 1700,
+          "newPrice": 1675,
+          "pctChange": -1.5,
+          "score": 33,
+          "dom": null,
+          "url": "/b/building/28.099716,-82.70002_ll/",
+          "zpid": "28.099716--82.70002"
         }
       ]
     },
     "stats": {
-      "forSaleCount": 32,
-      "rentalCount": 19,
-      "medianSalePrice": 1095000,
-      "medianPpsf": 323,
-      "medianRent": 2500,
-      "avgDom": 134
+      "forSaleCount": 33,
+      "rentalCount": 17,
+      "medianSalePrice": 1090000,
+      "medianPpsf": 322,
+      "medianRent": 2359,
+      "avgDom": 131
     }
   }
 ]

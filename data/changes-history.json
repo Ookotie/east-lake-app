@@ -1760,5 +1760,28 @@
       "medianRent": 2359,
       "avgDom": 131
     }
+  },
+  {
+    "date": "2026-05-01",
+    "forSale": {
+      "total": 33,
+      "new": [],
+      "removed": [],
+      "priceChanges": []
+    },
+    "rentals": {
+      "total": 17,
+      "new": [],
+      "removed": [],
+      "priceChanges": []
+    },
+    "stats": {
+      "forSaleCount": 33,
+      "rentalCount": 17,
+      "medianSalePrice": 1090000,
+      "medianPpsf": 322,
+      "medianRent": 2359,
+      "avgDom": 131
+    }
   }
 ]

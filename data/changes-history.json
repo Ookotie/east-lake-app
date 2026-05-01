@@ -1764,9 +1764,18 @@
   {
     "date": "2026-05-01",
     "forSale": {
-      "total": 33,
+      "total": 32,
       "new": [],
-      "removed": [],
+      "removed": [
+        {
+          "address": "5497 Millbrook Way, Palm Harbor, FL 34685",
+          "price": 825000,
+          "beds": 4,
+          "baths": 3.0,
+          "sqft": 3053,
+          "mlsId": "TB8454090"
+        }
+      ],
       "priceChanges": []
     },
     "rentals": {
@@ -1776,10 +1785,10 @@
       "priceChanges": []
     },
     "stats": {
-      "forSaleCount": 33,
+      "forSaleCount": 32,
       "rentalCount": 17,
-      "medianSalePrice": 1090000,
-      "medianPpsf": 322,
+      "medianSalePrice": 1095000,
+      "medianPpsf": 323,
       "medianRent": 2359,
       "avgDom": 131
     }

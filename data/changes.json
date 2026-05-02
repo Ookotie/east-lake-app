@@ -1,19 +1,32 @@
 {
-  "date": "2026-05-01",
+  "date": "2026-05-02",
   "forSale": {
-    "total": 32,
-    "new": [],
-    "removed": [
+    "total": 33,
+    "new": [
       {
-        "address": "5497 Millbrook Way, Palm Harbor, FL 34685",
-        "price": 825000,
+        "address": "3716 Janus Way, Palm Harbor, FL 34685",
+        "price": 1100000,
         "beds": 4,
-        "baths": 3.0,
-        "sqft": 3053,
-        "mlsId": "TB8454090"
+        "baths": 4.5,
+        "sqft": 3924,
+        "score": 34.7,
+        "url": "/FL/Palm-Harbor/3716-Janus-Way-34685/home/48247647",
+        "mlsId": "TB8503448"
       }
     ],
-    "priceChanges": []
+    "removed": [],
+    "priceChanges": [
+      {
+        "address": "5442 Millbrook Way, Palm Harbor, FL 34685",
+        "oldPrice": 1249000,
+        "newPrice": 1199000,
+        "pctChange": -4.0,
+        "score": 45.8,
+        "dom": 50,
+        "url": "/FL/Palm-Harbor/5442-Millbrook-Way-34685/home/48028835",
+        "mlsId": "TB8485837"
+      }
+    ]
   },
   "rentals": {
     "total": 17,
@@ -22,11 +35,11 @@
     "priceChanges": []
   },
   "stats": {
-    "forSaleCount": 32,
+    "forSaleCount": 33,
     "rentalCount": 17,
     "medianSalePrice": 1095000,
-    "medianPpsf": 323,
+    "medianPpsf": 309,
     "medianRent": 2359,
-    "avgDom": 131
+    "avgDom": 127
   }
 }

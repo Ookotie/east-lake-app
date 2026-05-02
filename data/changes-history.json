@@ -1,276 +1,5 @@
 [
   {
-    "date": "2026-04-02",
-    "forSale": {
-      "total": 33,
-      "new": [],
-      "removed": [],
-      "priceChanges": [
-        {
-          "address": "2661 Hawks Landing Blvd, Palm Harbor, FL 34685",
-          "oldPrice": 2300000,
-          "newPrice": 2200000,
-          "pctChange": -4.3,
-          "score": 32.0,
-          "dom": 68,
-          "url": "/FL/Palm-Harbor/2661-Hawks-Landing-Blvd-34685/home/48250447",
-          "mlsId": "TB8461339"
-        },
-        {
-          "address": "748 Winslow Park, Tarpon Springs, FL 34688",
-          "oldPrice": 975000,
-          "newPrice": 950000,
-          "pctChange": -2.6,
-          "score": 31.6,
-          "dom": 67,
-          "url": "/FL/Tarpon-Springs/748-Winslow-Park-Blvd-34688/home/47856158",
-          "mlsId": "TB8468608"
-        },
-        {
-          "address": "5292 Kernwood Ct, Palm Harbor, FL 34685",
-          "oldPrice": 1099000,
-          "newPrice": 1080000,
-          "pctChange": -1.7,
-          "score": 42.9,
-          "dom": 48,
-          "url": "/FL/Palm-Harbor/5292-Kernwood-Ct-34685/home/48078411",
-          "mlsId": "TB8471501"
-        }
-      ]
-    },
-    "rentals": {
-      "total": 0,
-      "new": [],
-      "removed": [
-        {
-          "address": "1690 Arabian Ln, Palm Harbor, FL 34685",
-          "price": 3000,
-          "beds": 3,
-          "baths": 3,
-          "sqft": 3240,
-          "zpid": "46970443"
-        },
-        {
-          "address": "394 Knight Dr, Tarpon Springs, FL 34688",
-          "price": 3700,
-          "beds": 4,
-          "baths": 3,
-          "sqft": 2164,
-          "zpid": "47078786"
-        },
-        {
-          "address": "1354 Shady Pine Way APT E2, Tarpon Springs, FL 34688",
-          "price": 1800,
-          "beds": 2,
-          "baths": 2,
-          "sqft": 1041,
-          "zpid": "47143934"
-        },
-        {
-          "address": "3505 Tarpon Woods Blvd, Palm Harbor, FL",
-          "price": 1750,
-          "beds": 2,
-          "baths": null,
-          "sqft": null,
-          "zpid": "28.093222--82.68381"
-        },
-        {
-          "address": "598 Manisha Pl, Tarpon Springs, FL 34688",
-          "price": 4500,
-          "beds": 4,
-          "baths": 3,
-          "sqft": 2372,
-          "zpid": "47063531"
-        },
-        {
-          "address": "3648 Kings Rd APT 103, Palm Harbor, FL 34685",
-          "price": 2100,
-          "beds": 2,
-          "baths": 2,
-          "sqft": 1154,
-          "zpid": "64439008"
-        },
-        {
-          "address": "3345 Crystal Ct E, Palm Harbor, FL",
-          "price": 1700,
-          "beds": 2,
-          "baths": null,
-          "sqft": null,
-          "zpid": "28.099716--82.70002"
-        },
-        {
-          "address": "4463 Anglers Xing, Palm Harbor, FL 34685",
-          "price": 3000,
-          "beds": 3,
-          "baths": 2,
-          "sqft": 1504,
-          "zpid": "46970677"
-        },
-        {
-          "address": "1801 E Lake Rd, Palm Harbor, FL",
-          "price": 2200,
-          "beds": 2,
-          "baths": null,
-          "sqft": null,
-          "zpid": "28.085556--82.698845"
-        },
-        {
-          "address": "1000 Tarpon Woods Blvd APT 804, Palm Harbor, FL 34685",
-          "price": 1825,
-          "beds": 2,
-          "baths": 2,
-          "sqft": 900,
-          "zpid": "51600050"
-        },
-        {
-          "address": "1345A Pine Ridge Cir E #C2, Tarpon Springs, FL 34688",
-          "price": 1750,
-          "beds": 2,
-          "baths": 2,
-          "sqft": null,
-          "zpid": "460975493"
-        },
-        {
-          "address": "3182 Charter Club Dr APT A, Tarpon Springs, FL 34688",
-          "price": 1999,
-          "beds": 2,
-          "baths": 2,
-          "sqft": 1270,
-          "zpid": "47144329"
-        },
-        {
-          "address": "1344 Pine Ridge Cir E APT H1, Tarpon Springs, FL 34688",
-          "price": 1800,
-          "beds": 2,
-          "baths": 2,
-          "sqft": 1040,
-          "zpid": "47143621"
-        },
-        {
-          "address": "357 Waterford Cir W, Tarpon Springs, FL 34688",
-          "price": 3300,
-          "beds": 4,
-          "baths": 2,
-          "sqft": 1786,
-          "zpid": "47079017"
-        },
-        {
-          "address": "3026 Charolais Ct, Tarpon Springs, FL 34688",
-          "price": 3250,
-          "beds": 4,
-          "baths": 3,
-          "sqft": 2250,
-          "zpid": "66198075"
-        },
-        {
-          "address": "2148 Tarpon Landings Dr, Tarpon Springs, FL 34688",
-          "price": 3000,
-          "beds": 2,
-          "baths": 3,
-          "sqft": 1516,
-          "zpid": "47016874"
-        },
-        {
-          "address": "1350 Seagate Dr, Palm Harbor, FL",
-          "price": 1867,
-          "beds": 2,
-          "baths": null,
-          "sqft": null,
-          "zpid": "28.066368--82.70844"
-        },
-        {
-          "address": "3549 Kings Rd APT 101, Palm Harbor, FL 34685",
-          "price": 2600,
-          "beds": 3,
-          "baths": 3,
-          "sqft": 1559,
-          "zpid": "64673909"
-        },
-        {
-          "address": "4399 Brooker Creek Dr, Palm Harbor, FL 34685",
-          "price": 2300,
-          "beds": 2,
-          "baths": 2,
-          "sqft": 1440,
-          "zpid": "47253992"
-        },
-        {
-          "address": "1372 Pine Ridge Cir E APT H3, Tarpon Springs, FL 34688",
-          "price": 1800,
-          "beds": 2,
-          "baths": 2,
-          "sqft": 979,
-          "zpid": "47143705"
-        },
-        {
-          "address": "3135 Charter Club Dr APT B, Tarpon Springs, FL 34688",
-          "price": 2855,
-          "beds": 2,
-          "baths": 2,
-          "sqft": 1378,
-          "zpid": "47144314"
-        },
-        {
-          "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
-          "price": 1830,
-          "beds": 2,
-          "baths": null,
-          "sqft": null,
-          "zpid": "28.104986--82.68995"
-        },
-        {
-          "address": "917 Centerwood Dr, Tarpon Springs, FL 34688",
-          "price": 3600,
-          "beds": 4,
-          "baths": 2,
-          "sqft": 2130,
-          "zpid": "47079151"
-        },
-        {
-          "address": "3505 Tarpon Woods Blvd, Palm Harbor, FL",
-          "price": 1850,
-          "beds": 2,
-          "baths": null,
-          "sqft": null,
-          "zpid": "28.093388--82.684265"
-        },
-        {
-          "address": "1151 Pine Ridge Cir W APT G2, Tarpon Springs, FL 34688",
-          "price": 2000,
-          "beds": 2,
-          "baths": 2,
-          "sqft": 1038,
-          "zpid": "47143768"
-        },
-        {
-          "address": "1684 Arabian Ln, Palm Harbor, FL 34685",
-          "price": 5000,
-          "beds": 5,
-          "baths": 6,
-          "sqft": 6120,
-          "zpid": "46970442"
-        },
-        {
-          "address": "512 Spring Lake Cir, Tarpon Springs, FL 34688",
-          "price": 2100,
-          "beds": 2,
-          "baths": 3,
-          "sqft": 1378,
-          "zpid": "59248349"
-        }
-      ],
-      "priceChanges": []
-    },
-    "stats": {
-      "forSaleCount": 33,
-      "rentalCount": 0,
-      "medianSalePrice": 1080000,
-      "medianPpsf": 318,
-      "medianRent": 0,
-      "avgDom": 118
-    }
-  },
-  {
     "date": "2026-04-03",
     "forSale": {
       "total": 35,
@@ -1791,6 +1520,51 @@
       "medianPpsf": 323,
       "medianRent": 2359,
       "avgDom": 131
+    }
+  },
+  {
+    "date": "2026-05-02",
+    "forSale": {
+      "total": 33,
+      "new": [
+        {
+          "address": "3716 Janus Way, Palm Harbor, FL 34685",
+          "price": 1100000,
+          "beds": 4,
+          "baths": 4.5,
+          "sqft": 3924,
+          "score": 34.7,
+          "url": "/FL/Palm-Harbor/3716-Janus-Way-34685/home/48247647",
+          "mlsId": "TB8503448"
+        }
+      ],
+      "removed": [],
+      "priceChanges": [
+        {
+          "address": "5442 Millbrook Way, Palm Harbor, FL 34685",
+          "oldPrice": 1249000,
+          "newPrice": 1199000,
+          "pctChange": -4.0,
+          "score": 45.8,
+          "dom": 50,
+          "url": "/FL/Palm-Harbor/5442-Millbrook-Way-34685/home/48028835",
+          "mlsId": "TB8485837"
+        }
+      ]
+    },
+    "rentals": {
+      "total": 17,
+      "new": [],
+      "removed": [],
+      "priceChanges": []
+    },
+    "stats": {
+      "forSaleCount": 33,
+      "rentalCount": 17,
+      "medianSalePrice": 1095000,
+      "medianPpsf": 309,
+      "medianRent": 2359,
+      "avgDom": 127
     }
   }
 ]

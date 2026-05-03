@@ -1,28 +1,5 @@
 [
   {
-    "date": "2026-04-03",
-    "forSale": {
-      "total": 35,
-      "new": [],
-      "removed": [],
-      "priceChanges": []
-    },
-    "rentals": {
-      "total": 18,
-      "new": [],
-      "removed": [],
-      "priceChanges": []
-    },
-    "stats": {
-      "forSaleCount": 35,
-      "rentalCount": 18,
-      "medianSalePrice": 1081870,
-      "medianPpsf": 321,
-      "medianRent": 2365,
-      "avgDom": 112
-    }
-  },
-  {
     "date": "2026-04-04",
     "forSale": {
       "total": 34,
@@ -1549,6 +1526,40 @@
           "dom": 50,
           "url": "/FL/Palm-Harbor/5442-Millbrook-Way-34685/home/48028835",
           "mlsId": "TB8485837"
+        }
+      ]
+    },
+    "rentals": {
+      "total": 17,
+      "new": [],
+      "removed": [],
+      "priceChanges": []
+    },
+    "stats": {
+      "forSaleCount": 33,
+      "rentalCount": 17,
+      "medianSalePrice": 1095000,
+      "medianPpsf": 309,
+      "medianRent": 2367,
+      "avgDom": 128
+    }
+  },
+  {
+    "date": "2026-05-03",
+    "forSale": {
+      "total": 33,
+      "new": [],
+      "removed": [],
+      "priceChanges": [
+        {
+          "address": "748 Winslow Park, Tarpon Springs, FL 34688",
+          "oldPrice": 940000,
+          "newPrice": 899000,
+          "pctChange": -4.4,
+          "score": 43.7,
+          "dom": 97,
+          "url": "/FL/Tarpon-Springs/748-Winslow-Park-Blvd-34688/home/47856158",
+          "mlsId": "TB8468608"
         }
       ]
     },

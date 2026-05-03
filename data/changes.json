@@ -1,30 +1,19 @@
 {
-  "date": "2026-05-02",
+  "date": "2026-05-03",
   "forSale": {
     "total": 33,
-    "new": [
-      {
-        "address": "3716 Janus Way, Palm Harbor, FL 34685",
-        "price": 1100000,
-        "beds": 4,
-        "baths": 4.5,
-        "sqft": 3924,
-        "score": 34.7,
-        "url": "/FL/Palm-Harbor/3716-Janus-Way-34685/home/48247647",
-        "mlsId": "TB8503448"
-      }
-    ],
+    "new": [],
     "removed": [],
     "priceChanges": [
       {
-        "address": "5442 Millbrook Way, Palm Harbor, FL 34685",
-        "oldPrice": 1249000,
-        "newPrice": 1199000,
-        "pctChange": -4.0,
-        "score": 45.8,
-        "dom": 50,
-        "url": "/FL/Palm-Harbor/5442-Millbrook-Way-34685/home/48028835",
-        "mlsId": "TB8485837"
+        "address": "748 Winslow Park, Tarpon Springs, FL 34688",
+        "oldPrice": 940000,
+        "newPrice": 899000,
+        "pctChange": -4.4,
+        "score": 43.7,
+        "dom": 97,
+        "url": "/FL/Tarpon-Springs/748-Winslow-Park-Blvd-34688/home/47856158",
+        "mlsId": "TB8468608"
       }
     ]
   },

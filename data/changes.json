@@ -1,21 +1,10 @@
 {
-  "date": "2026-05-03",
+  "date": "2026-05-04",
   "forSale": {
     "total": 33,
     "new": [],
     "removed": [],
-    "priceChanges": [
-      {
-        "address": "748 Winslow Park, Tarpon Springs, FL 34688",
-        "oldPrice": 940000,
-        "newPrice": 899000,
-        "pctChange": -4.4,
-        "score": 43.7,
-        "dom": 97,
-        "url": "/FL/Tarpon-Springs/748-Winslow-Park-Blvd-34688/home/47856158",
-        "mlsId": "TB8468608"
-      }
-    ]
+    "priceChanges": []
   },
   "rentals": {
     "total": 17,

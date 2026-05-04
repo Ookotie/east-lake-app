@@ -1,28 +1,5 @@
 [
   {
-    "date": "2026-04-04",
-    "forSale": {
-      "total": 34,
-      "new": [],
-      "removed": [],
-      "priceChanges": []
-    },
-    "rentals": {
-      "total": 18,
-      "new": [],
-      "removed": [],
-      "priceChanges": []
-    },
-    "stats": {
-      "forSaleCount": 34,
-      "rentalCount": 18,
-      "medianSalePrice": 1095000,
-      "medianPpsf": 321,
-      "medianRent": 2365,
-      "avgDom": 116
-    }
-  },
-  {
     "date": "2026-04-05",
     "forSale": {
       "total": 33,
@@ -1562,6 +1539,29 @@
           "mlsId": "TB8468608"
         }
       ]
+    },
+    "rentals": {
+      "total": 17,
+      "new": [],
+      "removed": [],
+      "priceChanges": []
+    },
+    "stats": {
+      "forSaleCount": 33,
+      "rentalCount": 17,
+      "medianSalePrice": 1095000,
+      "medianPpsf": 309,
+      "medianRent": 2367,
+      "avgDom": 129
+    }
+  },
+  {
+    "date": "2026-05-04",
+    "forSale": {
+      "total": 33,
+      "new": [],
+      "removed": [],
+      "priceChanges": []
     },
     "rentals": {
       "total": 17,

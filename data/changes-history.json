@@ -1,28 +1,5 @@
 [
   {
-    "date": "2026-04-05",
-    "forSale": {
-      "total": 33,
-      "new": [],
-      "removed": [],
-      "priceChanges": []
-    },
-    "rentals": {
-      "total": 18,
-      "new": [],
-      "removed": [],
-      "priceChanges": []
-    },
-    "stats": {
-      "forSaleCount": 33,
-      "rentalCount": 18,
-      "medianSalePrice": 1095000,
-      "medianPpsf": 321,
-      "medianRent": 2365,
-      "avgDom": 118
-    }
-  },
-  {
     "date": "2026-04-06",
     "forSale": {
       "total": 33,
@@ -1557,6 +1534,29 @@
   },
   {
     "date": "2026-05-04",
+    "forSale": {
+      "total": 33,
+      "new": [],
+      "removed": [],
+      "priceChanges": []
+    },
+    "rentals": {
+      "total": 17,
+      "new": [],
+      "removed": [],
+      "priceChanges": []
+    },
+    "stats": {
+      "forSaleCount": 33,
+      "rentalCount": 17,
+      "medianSalePrice": 1095000,
+      "medianPpsf": 309,
+      "medianRent": 2367,
+      "avgDom": 130
+    }
+  },
+  {
+    "date": "2026-05-05",
     "forSale": {
       "total": 33,
       "new": [],

@@ -1,23 +1,100 @@
 {
-  "date": "2026-05-05",
+  "date": "2026-05-06",
   "forSale": {
-    "total": 33,
-    "new": [],
-    "removed": [],
+    "total": 32,
+    "new": [
+      {
+        "address": "2983 Wentworth Way, Tarpon Springs, FL 34688",
+        "price": 1235000,
+        "beds": 4,
+        "baths": 3.5,
+        "sqft": 3598,
+        "score": 31.9,
+        "url": "/FL/Tarpon-Springs/2983-Wentworth-Way-34688/home/48018062",
+        "mlsId": "TB8484659"
+      }
+    ],
+    "removed": [
+      {
+        "address": "3196 Crescent Oaks Blvd, Tarpon Springs, FL 34688",
+        "price": 879000,
+        "beds": 3,
+        "baths": 3.0,
+        "sqft": 3234,
+        "mlsId": "TB8477613"
+      },
+      {
+        "address": "2661 Hawks Landing Blvd, Palm Harbor, FL 34685",
+        "price": 2150000,
+        "beds": 5,
+        "baths": 3.5,
+        "sqft": 5114,
+        "mlsId": "TB8461339"
+      }
+    ],
     "priceChanges": []
   },
   "rentals": {
-    "total": 17,
-    "new": [],
-    "removed": [],
-    "priceChanges": []
+    "total": 15,
+    "new": [
+      {
+        "address": "3713 Siena Ln, Palm Harbor, FL 34685",
+        "price": 4000,
+        "beds": 4,
+        "baths": 2,
+        "sqft": 3017,
+        "score": 57,
+        "url": "https://www.zillow.com/homedetails/3713-Siena-Ln-Palm-Harbor-FL-34685/47126754_zpid/",
+        "zpid": "47126754"
+      },
+      {
+        "address": "4300 Ridgemoor Dr N, Palm Harbor, FL 34685",
+        "price": 2995,
+        "beds": 4,
+        "baths": 2,
+        "sqft": 2159,
+        "score": 55,
+        "url": "https://www.zillow.com/homedetails/4300-Ridgemoor-Dr-N-Palm-Harbor-FL-34685/47183721_zpid/",
+        "zpid": "47183721"
+      }
+    ],
+    "removed": [
+      {
+        "address": "1801 E Lake Rd, Palm Harbor, FL",
+        "price": 2150,
+        "beds": 2,
+        "baths": null,
+        "sqft": null,
+        "zpid": "28.085556--82.698845"
+      },
+      {
+        "address": "4987 Kernwood Ct, Palm Harbor, FL 34685",
+        "price": 4500,
+        "beds": 4,
+        "baths": 3,
+        "sqft": 2857,
+        "zpid": "47135171"
+      }
+    ],
+    "priceChanges": [
+      {
+        "address": "3323 Crystal Ct E, Palm Harbor, FL",
+        "oldPrice": 1675,
+        "newPrice": 1625,
+        "pctChange": -3.0,
+        "score": 33,
+        "dom": null,
+        "url": "/b/building/28.099716,-82.70002_ll/",
+        "zpid": "28.099716--82.70002"
+      }
+    ]
   },
   "stats": {
-    "forSaleCount": 33,
-    "rentalCount": 17,
-    "medianSalePrice": 1095000,
-    "medianPpsf": 309,
-    "medianRent": 2367,
+    "forSaleCount": 32,
+    "rentalCount": 15,
+    "medianSalePrice": 1100000,
+    "medianPpsf": 323,
+    "medianRent": 2500,
     "avgDom": 131
   }
 }

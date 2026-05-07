@@ -48,30 +48,6 @@
     "ppsf": 1.33
   },
   {
-    "address": "4300 Ridgemoor Dr N, Palm Harbor, FL 34685",
-    "buildingName": null,
-    "price": 2995,
-    "beds": 4,
-    "baths": 2,
-    "sqft": 2159,
-    "yearBuilt": null,
-    "lat": 28.1147,
-    "lon": -82.6826,
-    "zip": "34685",
-    "url": "https://www.zillow.com/homedetails/4300-Ridgemoor-Dr-N-Palm-Harbor-FL-34685/47183721_zpid/",
-    "zpid": "47183721",
-    "lotSqft": null,
-    "lotAcres": null,
-    "hasPool": false,
-    "isWaterfront": false,
-    "dom": null,
-    "homeType": "single_family",
-    "source": "zillow",
-    "isBuilding": false,
-    "score": 55,
-    "ppsf": 1.39
-  },
-  {
     "address": "3026 Charolais Ct, Tarpon Springs, FL 34688",
     "buildingName": null,
     "price": 3100,
@@ -145,7 +121,7 @@
   {
     "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
     "buildingName": "Bell Lansbrook Village",
-    "price": 2080,
+    "price": 2070,
     "beds": 3,
     "baths": null,
     "sqft": null,
@@ -168,7 +144,7 @@
   {
     "address": "1350 Seagate Dr, Palm Harbor, FL",
     "buildingName": "Boot Ranch",
-    "price": 2337,
+    "price": 2336,
     "beds": 3,
     "baths": null,
     "sqft": null,
@@ -214,7 +190,7 @@
   {
     "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
     "buildingName": "Bell Lansbrook Village",
-    "price": 1715,
+    "price": 1705,
     "beds": 2,
     "baths": null,
     "sqft": null,

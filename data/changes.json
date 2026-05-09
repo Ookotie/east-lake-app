@@ -1,47 +1,57 @@
 {
-  "date": "2026-05-08",
+  "date": "2026-05-09",
   "forSale": {
-    "total": 34,
+    "total": 37,
     "new": [
       {
-        "address": "4037 Auston Way, Palm Harbor, FL 34685",
-        "price": 999900,
+        "address": "3775 Wellington Pkwy, Palm Harbor, FL 34685",
+        "price": 915000,
         "beds": 5,
-        "baths": 3.5,
-        "sqft": 3624,
-        "score": 33.2,
-        "url": "/FL/Palm-Harbor/4037-Auston-Way-34685/home/48137692",
-        "mlsId": "TB8506309"
+        "baths": 3.0,
+        "sqft": 3212,
+        "score": 25.5,
+        "url": "/FL/Palm-Harbor/3775-Wellington-Pkwy-34685/home/48129700",
+        "mlsId": "TB8506753"
       },
       {
-        "address": "948 Riverside Ridge Rd, Tarpon Springs, FL 34688",
-        "price": 1799400,
+        "address": "174 Keystone Palms Blvd, Tarpon Springs, FL 34688",
+        "price": 1500000,
+        "beds": 3,
+        "baths": 3.0,
+        "sqft": 3642,
+        "score": 22.3,
+        "url": "/FL/Tarpon-Springs/174-Keystone-Palms-Blvd-34688/home/145499634",
+        "mlsId": "TB8504938"
+      },
+      {
+        "address": "2778 ST Andrews Blvd, Tarpon Springs, FL 34688",
+        "price": 1100000,
         "beds": 4,
         "baths": 3.5,
-        "sqft": 4579,
-        "score": 26,
-        "url": "/FL/Tarpon-Springs/948-Riverside-Ridge-Rd-34688/home/47913672",
-        "mlsId": "TB8505243"
+        "sqft": 3064,
+        "score": 20.2,
+        "url": "/FL/Tarpon-Springs/2778-St-Andrews-Blvd-34688/home/47964889",
+        "mlsId": "TB8505981"
       },
+      {
+        "address": "2661 Hawks Landing Blvd, Palm Harbor, FL 34685",
+        "price": 2099000,
+        "beds": 5,
+        "baths": 3.5,
+        "sqft": 5114,
+        "score": 18.0,
+        "url": "/FL/Palm-Harbor/2661-Hawks-Landing-Blvd-34685/home/48250447",
+        "mlsId": "TB8505888"
+      }
+    ],
+    "removed": [
       {
         "address": "2661 Hawks Landing Blvd, Palm Harbor, FL 34685",
         "price": 2099000,
         "beds": 4,
         "baths": 3.5,
         "sqft": 5114,
-        "score": 13.7,
-        "url": "/FL/Palm-Harbor/2661-Hawks-Landing-Blvd-34685/home/48250447",
         "mlsId": "2100260907799006673"
-      }
-    ],
-    "removed": [
-      {
-        "address": "748 Winslow Park, Tarpon Springs, FL 34688",
-        "price": 899000,
-        "beds": 4,
-        "baths": 3.0,
-        "sqft": 3248,
-        "mlsId": "TB8468608"
       }
     ],
     "priceChanges": []
@@ -49,35 +59,15 @@
   "rentals": {
     "total": 14,
     "new": [],
-    "removed": [
-      {
-        "address": "4300 Ridgemoor Dr N, Palm Harbor, FL 34685",
-        "price": 2995,
-        "beds": 4,
-        "baths": 2,
-        "sqft": 2159,
-        "zpid": "47183721"
-      }
-    ],
-    "priceChanges": [
-      {
-        "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
-        "oldPrice": 1715,
-        "newPrice": 1705,
-        "pctChange": -0.6,
-        "score": 33,
-        "dom": null,
-        "url": "/apartments/palm-harbor-fl/bell-lansbrook-village/5Xhz7t/",
-        "zpid": "28.104986--82.68995"
-      }
-    ]
+    "removed": [],
+    "priceChanges": []
   },
   "stats": {
-    "forSaleCount": 34,
+    "forSaleCount": 37,
     "rentalCount": 14,
-    "medianSalePrice": 1120050,
+    "medianSalePrice": 1110000,
     "medianPpsf": 328,
     "medianRent": 2336,
-    "avgDom": 122
+    "avgDom": 112
   }
 }

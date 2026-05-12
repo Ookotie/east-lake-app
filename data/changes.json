@@ -1,16 +1,27 @@
 {
-  "date": "2026-05-11",
+  "date": "2026-05-12",
   "forSale": {
     "total": 36,
-    "new": [],
+    "new": [
+      {
+        "address": "3351 Bristol Pl, Tarpon Springs, FL 34688",
+        "price": 879000,
+        "beds": 4,
+        "baths": 3.0,
+        "sqft": 3652,
+        "score": 50.5,
+        "url": "/FL/Tarpon-Springs/3351-Bristol-Pl-34688/home/47894292",
+        "mlsId": "TB8482613"
+      }
+    ],
     "removed": [
       {
-        "address": "3716 Janus Way, Palm Harbor, FL 34685",
-        "price": 1100000,
-        "beds": 4,
-        "baths": 4.5,
-        "sqft": 3924,
-        "mlsId": "TB8503448"
+        "address": "3727 Janus Way, Palm Harbor, FL 34685",
+        "price": 999900,
+        "beds": 5,
+        "baths": 4.0,
+        "sqft": 3659,
+        "mlsId": "TB8385235"
       }
     ],
     "priceChanges": []
@@ -27,6 +38,6 @@
     "medianSalePrice": 1120050,
     "medianPpsf": 328,
     "medianRent": 2300,
-    "avgDom": 118
+    "avgDom": 109
   }
 }

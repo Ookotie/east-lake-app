@@ -1,36 +1,27 @@
 {
-  "date": "2026-05-12",
+  "date": "2026-05-13",
   "forSale": {
     "total": 36,
-    "new": [
-      {
-        "address": "3351 Bristol Pl, Tarpon Springs, FL 34688",
-        "price": 879000,
-        "beds": 4,
-        "baths": 3.0,
-        "sqft": 3652,
-        "score": 50.5,
-        "url": "/FL/Tarpon-Springs/3351-Bristol-Pl-34688/home/47894292",
-        "mlsId": "TB8482613"
-      }
-    ],
-    "removed": [
-      {
-        "address": "3727 Janus Way, Palm Harbor, FL 34685",
-        "price": 999900,
-        "beds": 5,
-        "baths": 4.0,
-        "sqft": 3659,
-        "mlsId": "TB8385235"
-      }
-    ],
+    "new": [],
+    "removed": [],
     "priceChanges": []
   },
   "rentals": {
     "total": 13,
     "new": [],
     "removed": [],
-    "priceChanges": []
+    "priceChanges": [
+      {
+        "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
+        "oldPrice": 1705,
+        "newPrice": 1785,
+        "pctChange": 4.7,
+        "score": 33,
+        "dom": null,
+        "url": "/apartments/palm-harbor-fl/bell-lansbrook-village/5Xhz7t/",
+        "zpid": "28.104986--82.68995"
+      }
+    ]
   },
   "stats": {
     "forSaleCount": 36,

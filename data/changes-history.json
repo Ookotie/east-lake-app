@@ -1682,7 +1682,18 @@
       "total": 36,
       "new": [],
       "removed": [],
-      "priceChanges": []
+      "priceChanges": [
+        {
+          "address": "4647 Berwyn Ct, Palm Harbor, FL 34685",
+          "oldPrice": 842900,
+          "newPrice": 832900,
+          "pctChange": -1.2,
+          "score": 45.7,
+          "dom": 41,
+          "url": "/FL/Palm-Harbor/4647-Berwyn-Ct-34685/home/48086704",
+          "mlsId": "TB8489957"
+        }
+      ]
     },
     "rentals": {
       "total": 13,
@@ -1707,7 +1718,7 @@
       "medianSalePrice": 1120050,
       "medianPpsf": 328,
       "medianRent": 2300,
-      "avgDom": 110
+      "avgDom": 111
     }
   }
 ]

@@ -1,45 +1,34 @@
 {
-  "date": "2026-05-13",
+  "date": "2026-05-14",
   "forSale": {
-    "total": 36,
-    "new": [],
-    "removed": [],
-    "priceChanges": [
+    "total": 37,
+    "new": [
       {
-        "address": "4647 Berwyn Ct, Palm Harbor, FL 34685",
-        "oldPrice": 842900,
-        "newPrice": 832900,
-        "pctChange": -1.2,
-        "score": 45.7,
-        "dom": 41,
-        "url": "/FL/Palm-Harbor/4647-Berwyn-Ct-34685/home/48086704",
-        "mlsId": "TB8489957"
+        "address": "2901 ST Andrews Blvd, Tarpon Springs, FL 34688",
+        "price": 1349000,
+        "beds": 4,
+        "baths": 5.0,
+        "sqft": 4371,
+        "score": 27.6,
+        "url": "/FL/Tarpon-Springs/2901-St-Andrews-Blvd-34688/home/47904028",
+        "mlsId": "TB8504532"
       }
-    ]
+    ],
+    "removed": [],
+    "priceChanges": []
   },
   "rentals": {
     "total": 13,
     "new": [],
     "removed": [],
-    "priceChanges": [
-      {
-        "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
-        "oldPrice": 1705,
-        "newPrice": 1785,
-        "pctChange": 4.7,
-        "score": 33,
-        "dom": null,
-        "url": "/apartments/palm-harbor-fl/bell-lansbrook-village/5Xhz7t/",
-        "zpid": "28.104986--82.68995"
-      }
-    ]
+    "priceChanges": []
   },
   "stats": {
-    "forSaleCount": 36,
+    "forSaleCount": 37,
     "rentalCount": 13,
     "medianSalePrice": 1120050,
     "medianPpsf": 328,
     "medianRent": 2300,
-    "avgDom": 111
+    "avgDom": 108
   }
 }

@@ -1,73 +1,42 @@
 {
-  "date": "2026-05-15",
+  "date": "2026-05-16",
   "forSale": {
-    "total": 38,
+    "total": 40,
     "new": [
       {
-        "address": "466 Tall Oak Trl, Tarpon Springs, FL 34688",
-        "price": 1650000,
-        "beds": 6,
+        "address": "877 Cypress Lakeview Ct, Tarpon Springs, FL 34688",
+        "price": 1575000,
+        "beds": 5,
+        "baths": 6.0,
+        "sqft": 5328,
+        "score": 46.4,
+        "url": "/FL/Tarpon-Springs/877-Cypress-Lakeview-Ct-34688/home/48028400",
+        "mlsId": "TB8508851"
+      },
+      {
+        "address": "4561 Roanoak Way, Palm Harbor, FL 34685",
+        "price": 1199900,
+        "beds": 3,
         "baths": 3.5,
-        "sqft": 5782,
-        "score": 26.2,
-        "url": "/FL/Tarpon-Springs/466-Tall-Oak-Trl-34688/home/47975952",
-        "mlsId": "O6407258"
+        "sqft": 3426,
+        "score": 29.7,
+        "url": "/FL/Palm-Harbor/4561-Roanoak-Way-34685/home/48243189",
+        "mlsId": "TB8508800"
       }
     ],
     "removed": [],
-    "priceChanges": [
-      {
-        "address": "2966 Post Rock Ct, Tarpon Springs, FL 34688",
-        "oldPrice": 1395000,
-        "newPrice": 1295000,
-        "pctChange": -7.2,
-        "score": 41.1,
-        "dom": 8,
-        "url": "/FL/Tarpon-Springs/2966-Post-Rock-Ct-34688/home/48028361",
-        "mlsId": "A4692629"
-      },
-      {
-        "address": "2928 Waters Edge Rd, Palm Harbor, FL 34685",
-        "oldPrice": 995000,
-        "newPrice": 979000,
-        "pctChange": -1.6,
-        "score": 44.0,
-        "dom": 180,
-        "url": "/FL/Palm-Harbor/2928-Waters-Edge-Rd-34685/home/48250477",
-        "mlsId": "TB8446052"
-      }
-    ]
+    "priceChanges": []
   },
   "rentals": {
     "total": 13,
-    "new": [
-      {
-        "address": "1055 Riverside Ridge Rd, Tarpon Springs, FL 34688",
-        "price": 4500,
-        "beds": 4,
-        "baths": 3,
-        "sqft": 3259,
-        "score": 53,
-        "url": "https://www.zillow.com/homedetails/1055-Riverside-Ridge-Rd-Tarpon-Springs-FL-34688/46979667_zpid/",
-        "zpid": "46979667"
-      }
-    ],
-    "removed": [
-      {
-        "address": "3505 Tarpon Woods Blvd, Palm Harbor, FL",
-        "price": 1950,
-        "beds": 2,
-        "baths": null,
-        "sqft": null,
-        "zpid": "28.093388--82.684265"
-      }
-    ],
+    "new": [],
+    "removed": [],
     "priceChanges": [
       {
         "address": "1350 Seagate Dr, Palm Harbor, FL",
-        "oldPrice": 1792,
-        "newPrice": 1956,
-        "pctChange": 9.2,
+        "oldPrice": 1956,
+        "newPrice": 1955,
+        "pctChange": -0.1,
         "score": 33,
         "dom": null,
         "url": "/apartments/palm-harbor-fl/boot-ranch/5XhzDD/",
@@ -76,11 +45,11 @@
     ]
   },
   "stats": {
-    "forSaleCount": 38,
+    "forSaleCount": 40,
     "rentalCount": 13,
-    "medianSalePrice": 1185000,
+    "medianSalePrice": 1199000,
     "medianPpsf": 327,
     "medianRent": 2336,
-    "avgDom": 108
+    "avgDom": 102
   }
 }

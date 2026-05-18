@@ -1,80 +1,5 @@
 [
   {
-    "date": "2026-04-18",
-    "forSale": {
-      "total": 39,
-      "new": [
-        {
-          "address": "3343 Crescent Oaks Blvd, Tarpon Springs, FL 34688",
-          "price": 949900,
-          "beds": 4,
-          "baths": 4.0,
-          "sqft": 3294,
-          "score": 37.2,
-          "url": "/FL/Tarpon-Springs/3343-Crescent-Oaks-Blvd-34688/home/47894282",
-          "mlsId": "TB8498693"
-        }
-      ],
-      "removed": [],
-      "priceChanges": [
-        {
-          "address": "5216 Kernwood Ct, Palm Harbor, FL 34685",
-          "oldPrice": 939900,
-          "newPrice": 924900,
-          "pctChange": -1.6,
-          "score": 38.8,
-          "dom": 30,
-          "url": "/FL/Palm-Harbor/5216-Kernwood-Ct-34685/home/48078418",
-          "mlsId": "TB8487296"
-        }
-      ]
-    },
-    "rentals": {
-      "total": 18,
-      "new": [],
-      "removed": [
-        {
-          "address": "598 Manisha Pl, Tarpon Springs, FL 34688",
-          "price": 4500,
-          "beds": 4,
-          "baths": 3,
-          "sqft": 2372,
-          "zpid": "47063531"
-        }
-      ],
-      "priceChanges": [
-        {
-          "address": "1350 Seagate Dr, Palm Harbor, FL",
-          "oldPrice": 1866,
-          "newPrice": 1847,
-          "pctChange": -1.0,
-          "score": 33,
-          "dom": null,
-          "url": "/apartments/palm-harbor-fl/boot-ranch/5XhzDD/",
-          "zpid": "28.066368--82.70844"
-        },
-        {
-          "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
-          "oldPrice": 1780,
-          "newPrice": 1770,
-          "pctChange": -0.6,
-          "score": 33,
-          "dom": null,
-          "url": "/apartments/palm-harbor-fl/bell-lansbrook-village/5Xhz7t/",
-          "zpid": "28.104986--82.68995"
-        }
-      ]
-    },
-    "stats": {
-      "forSaleCount": 39,
-      "rentalCount": 18,
-      "medianSalePrice": 1090000,
-      "medianPpsf": 305,
-      "medianRent": 2225,
-      "avgDom": 114
-    }
-  },
-  {
     "date": "2026-04-19",
     "forSale": {
       "total": 39,
@@ -1714,6 +1639,50 @@
       "medianSalePrice": 1199000,
       "medianPpsf": 327,
       "medianRent": 2381,
+      "avgDom": 108
+    }
+  },
+  {
+    "date": "2026-05-18",
+    "forSale": {
+      "total": 38,
+      "new": [],
+      "removed": [],
+      "priceChanges": [
+        {
+          "address": "935 Ranch Rd, Tarpon Springs, FL 34688",
+          "oldPrice": 1399999,
+          "newPrice": 1299995,
+          "pctChange": -7.1,
+          "score": 28.2,
+          "dom": 311,
+          "url": "/FL/Tarpon-Springs/935-Ranch-Rd-34688/home/48008817",
+          "mlsId": "TB8403410"
+        },
+        {
+          "address": "3775 Wellington Pkwy, Palm Harbor, FL 34685",
+          "oldPrice": 915000,
+          "newPrice": 899000,
+          "pctChange": -1.7,
+          "score": 28.9,
+          "dom": 9,
+          "url": "/FL/Palm-Harbor/3775-Wellington-Pkwy-34685/home/48129700",
+          "mlsId": "TB8506753"
+        }
+      ]
+    },
+    "rentals": {
+      "total": 13,
+      "new": [],
+      "removed": [],
+      "priceChanges": []
+    },
+    "stats": {
+      "forSaleCount": 38,
+      "rentalCount": 13,
+      "medianSalePrice": 1199000,
+      "medianPpsf": 327,
+      "medianRent": 2300,
       "avgDom": 108
     }
   }

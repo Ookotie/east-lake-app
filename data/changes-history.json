@@ -1,69 +1,5 @@
 [
   {
-    "date": "2026-04-19",
-    "forSale": {
-      "total": 39,
-      "new": [],
-      "removed": [],
-      "priceChanges": [
-        {
-          "address": "4202 Rotherham Ct, Palm Harbor, FL 34685",
-          "oldPrice": 875747,
-          "newPrice": 847000,
-          "pctChange": -3.3,
-          "score": 67.2,
-          "dom": 29,
-          "url": "/FL/Palm-Harbor/4202-Rotherham-Ct-34685/home/48129412",
-          "mlsId": "TB8482524"
-        },
-        {
-          "address": "5292 Kernwood Ct, Palm Harbor, FL 34685",
-          "oldPrice": 1080000,
-          "newPrice": 1075000,
-          "pctChange": -0.5,
-          "score": 45.6,
-          "dom": 64,
-          "url": "/FL/Palm-Harbor/5292-Kernwood-Ct-34685/home/48078411",
-          "mlsId": "TB8471501"
-        }
-      ]
-    },
-    "rentals": {
-      "total": 17,
-      "new": [],
-      "removed": [
-        {
-          "address": "1345A Pine Ridge Cir E #C2, Tarpon Springs, FL 34688",
-          "price": 1750,
-          "beds": 2,
-          "baths": 2,
-          "sqft": null,
-          "zpid": "460975493"
-        }
-      ],
-      "priceChanges": [
-        {
-          "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
-          "oldPrice": 1770,
-          "newPrice": 1765,
-          "pctChange": -0.3,
-          "score": 33,
-          "dom": null,
-          "url": "/apartments/palm-harbor-fl/bell-lansbrook-village/5Xhz7t/",
-          "zpid": "28.104986--82.68995"
-        }
-      ]
-    },
-    "stats": {
-      "forSaleCount": 39,
-      "rentalCount": 17,
-      "medianSalePrice": 1090000,
-      "medianPpsf": 303,
-      "medianRent": 2222,
-      "avgDom": 115
-    }
-  },
-  {
     "date": "2026-04-20",
     "forSale": {
       "total": 39,
@@ -1668,6 +1604,40 @@
           "dom": 9,
           "url": "/FL/Palm-Harbor/3775-Wellington-Pkwy-34685/home/48129700",
           "mlsId": "TB8506753"
+        }
+      ]
+    },
+    "rentals": {
+      "total": 13,
+      "new": [],
+      "removed": [],
+      "priceChanges": []
+    },
+    "stats": {
+      "forSaleCount": 38,
+      "rentalCount": 13,
+      "medianSalePrice": 1199000,
+      "medianPpsf": 327,
+      "medianRent": 2300,
+      "avgDom": 109
+    }
+  },
+  {
+    "date": "2026-05-19",
+    "forSale": {
+      "total": 38,
+      "new": [],
+      "removed": [],
+      "priceChanges": [
+        {
+          "address": "2901 ST Andrews Blvd, Tarpon Springs, FL 34688",
+          "oldPrice": 1349000,
+          "newPrice": 1249000,
+          "pctChange": -7.4,
+          "score": 21.1,
+          "dom": 5,
+          "url": "/FL/Tarpon-Springs/2901-St-Andrews-Blvd-34688/home/47904028",
+          "mlsId": "TB8504532"
         }
       ]
     },

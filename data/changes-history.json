@@ -1631,7 +1631,18 @@
       "total": 14,
       "new": [],
       "removed": [],
-      "priceChanges": []
+      "priceChanges": [
+        {
+          "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
+          "oldPrice": 1785,
+          "newPrice": 1835,
+          "pctChange": 2.8,
+          "score": 33,
+          "dom": null,
+          "url": "/apartments/palm-harbor-fl/bell-lansbrook-village/5Xhz7t/",
+          "zpid": "28.104986--82.68995"
+        }
+      ]
     },
     "stats": {
       "forSaleCount": 35,
@@ -1639,7 +1650,7 @@
       "medianSalePrice": 1185000,
       "medianPpsf": 327,
       "medianRent": 2600,
-      "avgDom": 113
+      "avgDom": 114
     }
   }
 ]

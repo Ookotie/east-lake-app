@@ -1,62 +1,32 @@
 {
-  "date": "2026-05-20",
+  "date": "2026-05-21",
   "forSale": {
-    "total": 36,
+    "total": 35,
     "new": [],
     "removed": [
       {
-        "address": "2983 Wentworth Way, Tarpon Springs, FL 34688",
-        "price": 1235000,
+        "address": "5442 Millbrook Way, Palm Harbor, FL 34685",
+        "price": 1199000,
         "beds": 4,
-        "baths": 3.5,
-        "sqft": 3598,
-        "mlsId": "TB8484659"
-      },
-      {
-        "address": "3718 Jacmel Way, Palm Harbor, FL 34685",
-        "price": 895000,
-        "beds": 4,
-        "baths": 3.0,
-        "sqft": 3103,
-        "mlsId": "TB8463453"
+        "baths": 4.5,
+        "sqft": 3875,
+        "mlsId": "TB8485837"
       }
     ],
-    "priceChanges": [
-      {
-        "address": "5292 Kernwood Ct, Palm Harbor, FL 34685",
-        "oldPrice": 1075000,
-        "newPrice": 1064899,
-        "pctChange": -0.9,
-        "score": 48.6,
-        "dom": 95,
-        "url": "/FL/Palm-Harbor/5292-Kernwood-Ct-34685/home/48078411",
-        "mlsId": "TB8471501"
-      }
-    ]
+    "priceChanges": []
   },
   "rentals": {
     "total": 14,
     "new": [],
     "removed": [],
-    "priceChanges": [
-      {
-        "address": "1350 Seagate Dr, Palm Harbor, FL",
-        "oldPrice": 1969,
-        "newPrice": 1951,
-        "pctChange": -0.9,
-        "score": 33,
-        "dom": null,
-        "url": "/apartments/palm-harbor-fl/boot-ranch/5XhzDD/",
-        "zpid": "28.066368--82.70844"
-      }
-    ]
+    "priceChanges": []
   },
   "stats": {
-    "forSaleCount": 36,
+    "forSaleCount": 35,
     "rentalCount": 14,
-    "medianSalePrice": 1199000,
+    "medianSalePrice": 1185000,
     "medianPpsf": 327,
     "medianRent": 2600,
-    "avgDom": 112
+    "avgDom": 113
   }
 }

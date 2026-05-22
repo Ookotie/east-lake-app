@@ -1,42 +1,43 @@
 {
-  "date": "2026-05-21",
+  "date": "2026-05-22",
   "forSale": {
     "total": 35,
     "new": [],
-    "removed": [
+    "removed": [],
+    "priceChanges": [
       {
-        "address": "5442 Millbrook Way, Palm Harbor, FL 34685",
-        "price": 1199000,
-        "beds": 4,
-        "baths": 4.5,
-        "sqft": 3875,
-        "mlsId": "TB8485837"
+        "address": "2861 Roehampton Close, Tarpon Springs, FL 34688",
+        "oldPrice": 2349000,
+        "newPrice": 2299000,
+        "pctChange": -2.1,
+        "score": 33.4,
+        "dom": 209,
+        "url": "/FL/Tarpon-Springs/2861-Roehampton-Close-34688/home/48018175",
+        "mlsId": "W7879852"
+      },
+      {
+        "address": "1872 Eagle Trace Blvd, Palm Harbor, FL 34685",
+        "oldPrice": 1095000,
+        "newPrice": 1075000,
+        "pctChange": -1.8,
+        "score": 35.0,
+        "dom": 57,
+        "url": "/FL/Palm-Harbor/1872-Eagle-Trace-Blvd-34685/home/47904351",
+        "mlsId": "TB8490315"
       }
-    ],
-    "priceChanges": []
+    ]
   },
   "rentals": {
     "total": 14,
     "new": [],
     "removed": [],
-    "priceChanges": [
-      {
-        "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
-        "oldPrice": 1785,
-        "newPrice": 1835,
-        "pctChange": 2.8,
-        "score": 33,
-        "dom": null,
-        "url": "/apartments/palm-harbor-fl/bell-lansbrook-village/5Xhz7t/",
-        "zpid": "28.104986--82.68995"
-      }
-    ]
+    "priceChanges": []
   },
   "stats": {
     "forSaleCount": 35,
     "rentalCount": 14,
     "medianSalePrice": 1185000,
-    "medianPpsf": 327,
+    "medianPpsf": 323,
     "medianRent": 2600,
     "avgDom": 114
   }

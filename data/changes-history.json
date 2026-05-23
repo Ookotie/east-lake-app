@@ -1,79 +1,5 @@
 [
   {
-    "date": "2026-04-23",
-    "forSale": {
-      "total": 37,
-      "new": [
-        {
-          "address": "2928 Waters Edge Rd, Palm Harbor, FL 34685",
-          "price": 1019000,
-          "beds": 4,
-          "baths": 4.0,
-          "sqft": 3541,
-          "score": 36.0,
-          "url": "/FL/Palm-Harbor/2928-Waters-Edge-Rd-34685/home/48250477",
-          "mlsId": "TB8446052"
-        }
-      ],
-      "removed": [
-        {
-          "address": "5216 Kernwood Ct, Palm Harbor, FL 34685",
-          "price": 924900,
-          "beds": 5,
-          "baths": 4.0,
-          "sqft": 3265,
-          "mlsId": "TB8487296"
-        }
-      ],
-      "priceChanges": []
-    },
-    "rentals": {
-      "total": 19,
-      "new": [
-        {
-          "address": "3549 Kings Rd, Palm Harbor, FL",
-          "price": 2500,
-          "beds": 2,
-          "baths": null,
-          "sqft": null,
-          "score": 33,
-          "url": "/b/building/28.10542,-82.68661_ll/",
-          "zpid": "28.10542--82.68661"
-        }
-      ],
-      "removed": [
-        {
-          "address": "1966 Fishermens Bnd, Palm Harbor, FL 34685",
-          "price": 3850,
-          "beds": 3,
-          "baths": 3,
-          "sqft": 2296,
-          "zpid": "46970704"
-        }
-      ],
-      "priceChanges": [
-        {
-          "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
-          "oldPrice": 1745,
-          "newPrice": 1740,
-          "pctChange": -0.3,
-          "score": 33,
-          "dom": null,
-          "url": "/apartments/palm-harbor-fl/bell-lansbrook-village/5Xhz7t/",
-          "zpid": "28.104986--82.68995"
-        }
-      ]
-    },
-    "stats": {
-      "forSaleCount": 37,
-      "rentalCount": 19,
-      "medianSalePrice": 1095000,
-      "medianPpsf": 321,
-      "medianRent": 2500,
-      "avgDom": 120
-    }
-  },
-  {
     "date": "2026-04-24",
     "forSale": {
       "total": 37,
@@ -1638,6 +1564,49 @@
           "mlsId": "TB8490315"
         }
       ]
+    },
+    "rentals": {
+      "total": 14,
+      "new": [],
+      "removed": [],
+      "priceChanges": []
+    },
+    "stats": {
+      "forSaleCount": 35,
+      "rentalCount": 14,
+      "medianSalePrice": 1185000,
+      "medianPpsf": 323,
+      "medianRent": 2600,
+      "avgDom": 115
+    }
+  },
+  {
+    "date": "2026-05-23",
+    "forSale": {
+      "total": 35,
+      "new": [
+        {
+          "address": "4561 Roanoak Way, Palm Harbor, FL 34685",
+          "price": 1199900,
+          "beds": 3,
+          "baths": 3.5,
+          "sqft": 3426,
+          "score": 32.7,
+          "url": "/FL/Palm-Harbor/4561-Roanoak-Way-34685/home/48243189",
+          "mlsId": "TB8508800"
+        }
+      ],
+      "removed": [
+        {
+          "address": "174 Keystone Palms Blvd, Tarpon Springs, FL 34688",
+          "price": 1500000,
+          "beds": 3,
+          "baths": 3.0,
+          "sqft": 3642,
+          "mlsId": "TB8504938"
+        }
+      ],
+      "priceChanges": []
     },
     "rentals": {
       "total": 14,

@@ -1,31 +1,30 @@
 {
-  "date": "2026-05-22",
+  "date": "2026-05-23",
   "forSale": {
     "total": 35,
-    "new": [],
-    "removed": [],
-    "priceChanges": [
+    "new": [
       {
-        "address": "2861 Roehampton Close, Tarpon Springs, FL 34688",
-        "oldPrice": 2349000,
-        "newPrice": 2299000,
-        "pctChange": -2.1,
-        "score": 33.4,
-        "dom": 209,
-        "url": "/FL/Tarpon-Springs/2861-Roehampton-Close-34688/home/48018175",
-        "mlsId": "W7879852"
-      },
-      {
-        "address": "1872 Eagle Trace Blvd, Palm Harbor, FL 34685",
-        "oldPrice": 1095000,
-        "newPrice": 1075000,
-        "pctChange": -1.8,
-        "score": 35.0,
-        "dom": 57,
-        "url": "/FL/Palm-Harbor/1872-Eagle-Trace-Blvd-34685/home/47904351",
-        "mlsId": "TB8490315"
+        "address": "4561 Roanoak Way, Palm Harbor, FL 34685",
+        "price": 1199900,
+        "beds": 3,
+        "baths": 3.5,
+        "sqft": 3426,
+        "score": 32.7,
+        "url": "/FL/Palm-Harbor/4561-Roanoak-Way-34685/home/48243189",
+        "mlsId": "TB8508800"
       }
-    ]
+    ],
+    "removed": [
+      {
+        "address": "174 Keystone Palms Blvd, Tarpon Springs, FL 34688",
+        "price": 1500000,
+        "beds": 3,
+        "baths": 3.0,
+        "sqft": 3642,
+        "mlsId": "TB8504938"
+      }
+    ],
+    "priceChanges": []
   },
   "rentals": {
     "total": 14,

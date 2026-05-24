@@ -1,28 +1,5 @@
 [
   {
-    "date": "2026-04-24",
-    "forSale": {
-      "total": 37,
-      "new": [],
-      "removed": [],
-      "priceChanges": []
-    },
-    "rentals": {
-      "total": 19,
-      "new": [],
-      "removed": [],
-      "priceChanges": []
-    },
-    "stats": {
-      "forSaleCount": 37,
-      "rentalCount": 19,
-      "medianSalePrice": 1095000,
-      "medianPpsf": 321,
-      "medianRent": 2500,
-      "avgDom": 121
-    }
-  },
-  {
     "date": "2026-04-25",
     "forSale": {
       "total": 36,
@@ -1613,6 +1590,40 @@
       "new": [],
       "removed": [],
       "priceChanges": []
+    },
+    "stats": {
+      "forSaleCount": 35,
+      "rentalCount": 14,
+      "medianSalePrice": 1185000,
+      "medianPpsf": 323,
+      "medianRent": 2600,
+      "avgDom": 116
+    }
+  },
+  {
+    "date": "2026-05-24",
+    "forSale": {
+      "total": 35,
+      "new": [],
+      "removed": [],
+      "priceChanges": []
+    },
+    "rentals": {
+      "total": 14,
+      "new": [],
+      "removed": [],
+      "priceChanges": [
+        {
+          "address": "1350 Seagate Dr, Palm Harbor, FL",
+          "oldPrice": 1951,
+          "newPrice": 1970,
+          "pctChange": 1.0,
+          "score": 33,
+          "dom": null,
+          "url": "/apartments/palm-harbor-fl/boot-ranch/5XhzDD/",
+          "zpid": "28.066368--82.70844"
+        }
+      ]
     },
     "stats": {
       "forSaleCount": 35,

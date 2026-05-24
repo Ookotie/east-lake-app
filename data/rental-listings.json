@@ -26,7 +26,7 @@
   {
     "address": "3713 Siena Ln, Palm Harbor, FL 34685",
     "buildingName": null,
-    "price": 4000,
+    "price": 3750,
     "beds": 4,
     "baths": 2,
     "sqft": 3017,
@@ -45,7 +45,7 @@
     "source": "zillow",
     "isBuilding": false,
     "score": 57,
-    "ppsf": 1.33
+    "ppsf": 1.24
   },
   {
     "address": "1055 Riverside Ridge Rd, Tarpon Springs, FL 34688",

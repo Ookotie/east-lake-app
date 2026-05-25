@@ -1,48 +1,5 @@
 [
   {
-    "date": "2026-04-25",
-    "forSale": {
-      "total": 36,
-      "new": [],
-      "removed": [
-        {
-          "address": "4202 Rotherham Ct, Palm Harbor, FL 34685",
-          "price": 847000,
-          "beds": 5,
-          "baths": 2.5,
-          "sqft": 3893,
-          "mlsId": "TB8482524"
-        }
-      ],
-      "priceChanges": [
-        {
-          "address": "748 Winslow Park, Tarpon Springs, FL 34688",
-          "oldPrice": 950000,
-          "newPrice": 940000,
-          "pctChange": -1.1,
-          "score": 33.6,
-          "dom": 89,
-          "url": "/FL/Tarpon-Springs/748-Winslow-Park-Blvd-34688/home/47856158",
-          "mlsId": "TB8468608"
-        }
-      ]
-    },
-    "rentals": {
-      "total": 19,
-      "new": [],
-      "removed": [],
-      "priceChanges": []
-    },
-    "stats": {
-      "forSaleCount": 36,
-      "rentalCount": 19,
-      "medianSalePrice": 1119000,
-      "medianPpsf": 322,
-      "medianRent": 2500,
-      "avgDom": 124
-    }
-  },
-  {
     "date": "2026-04-26",
     "forSale": {
       "total": 36,
@@ -1622,6 +1579,40 @@
           "dom": null,
           "url": "/apartments/palm-harbor-fl/boot-ranch/5XhzDD/",
           "zpid": "28.066368--82.70844"
+        }
+      ]
+    },
+    "stats": {
+      "forSaleCount": 35,
+      "rentalCount": 14,
+      "medianSalePrice": 1185000,
+      "medianPpsf": 323,
+      "medianRent": 2600,
+      "avgDom": 117
+    }
+  },
+  {
+    "date": "2026-05-25",
+    "forSale": {
+      "total": 35,
+      "new": [],
+      "removed": [],
+      "priceChanges": []
+    },
+    "rentals": {
+      "total": 14,
+      "new": [],
+      "removed": [],
+      "priceChanges": [
+        {
+          "address": "3713 Siena Ln, Palm Harbor, FL 34685",
+          "oldPrice": 4000,
+          "newPrice": 3750,
+          "pctChange": -6.2,
+          "score": 57,
+          "dom": null,
+          "url": "https://www.zillow.com/homedetails/3713-Siena-Ln-Palm-Harbor-FL-34685/47126754_zpid/",
+          "zpid": "47126754"
         }
       ]
     },

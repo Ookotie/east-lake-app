@@ -1,33 +1,42 @@
 {
-  "date": "2026-05-25",
+  "date": "2026-05-26",
   "forSale": {
     "total": 35,
-    "new": [],
-    "removed": [],
+    "new": [
+      {
+        "address": "2983 Wentworth Way, Tarpon Springs, FL 34688",
+        "price": 1195000,
+        "beds": 4,
+        "baths": 3.5,
+        "sqft": 3598,
+        "score": 35.7,
+        "url": "/FL/Tarpon-Springs/2983-Wentworth-Way-34688/home/48018062",
+        "mlsId": "TB8484659"
+      }
+    ],
+    "removed": [
+      {
+        "address": "4647 Berwyn Ct, Palm Harbor, FL 34685",
+        "price": 832900,
+        "beds": 5,
+        "baths": 3.5,
+        "sqft": 3044,
+        "mlsId": "TB8489957"
+      }
+    ],
     "priceChanges": []
   },
   "rentals": {
     "total": 14,
     "new": [],
     "removed": [],
-    "priceChanges": [
-      {
-        "address": "3713 Siena Ln, Palm Harbor, FL 34685",
-        "oldPrice": 4000,
-        "newPrice": 3750,
-        "pctChange": -6.2,
-        "score": 57,
-        "dom": null,
-        "url": "https://www.zillow.com/homedetails/3713-Siena-Ln-Palm-Harbor-FL-34685/47126754_zpid/",
-        "zpid": "47126754"
-      }
-    ]
+    "priceChanges": []
   },
   "stats": {
     "forSaleCount": 35,
     "rentalCount": 14,
-    "medianSalePrice": 1185000,
-    "medianPpsf": 323,
+    "medianSalePrice": 1195000,
+    "medianPpsf": 328,
     "medianRent": 2600,
     "avgDom": 118
   }

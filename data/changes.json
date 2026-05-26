@@ -1,7 +1,7 @@
 {
   "date": "2026-05-26",
   "forSale": {
-    "total": 35,
+    "total": 34,
     "new": [
       {
         "address": "2983 Wentworth Way, Tarpon Springs, FL 34688",
@@ -22,6 +22,14 @@
         "baths": 3.5,
         "sqft": 3044,
         "mlsId": "TB8489957"
+      },
+      {
+        "address": "2928 Waters Edge Rd, Palm Harbor, FL 34685",
+        "price": 979000,
+        "beds": 4,
+        "baths": 4.0,
+        "sqft": 3541,
+        "mlsId": "TB8446052"
       }
     ],
     "priceChanges": []
@@ -33,11 +41,11 @@
     "priceChanges": []
   },
   "stats": {
-    "forSaleCount": 35,
+    "forSaleCount": 34,
     "rentalCount": 14,
-    "medianSalePrice": 1195000,
+    "medianSalePrice": 1199900,
     "medianPpsf": 328,
     "medianRent": 2600,
-    "avgDom": 118
+    "avgDom": 117
   }
 }

@@ -1,31 +1,10 @@
 {
-  "date": "2026-05-27",
+  "date": "2026-05-28",
   "forSale": {
     "total": 34,
     "new": [],
     "removed": [],
-    "priceChanges": [
-      {
-        "address": "3775 Wellington Pkwy, Palm Harbor, FL 34685",
-        "oldPrice": 899000,
-        "newPrice": 874900,
-        "pctChange": -2.7,
-        "score": 36.4,
-        "dom": 18,
-        "url": "/FL/Palm-Harbor/3775-Wellington-Pkwy-34685/home/48129700",
-        "mlsId": "TB8506753"
-      },
-      {
-        "address": "709 Estates Blvd, Tarpon Springs, FL 34688",
-        "oldPrice": 1120050,
-        "newPrice": 1120000,
-        "pctChange": -0.0,
-        "score": 41.3,
-        "dom": 116,
-        "url": "/FL/Tarpon-Springs/709-Estates-Blvd-34688/home/200262076",
-        "mlsId": "TB8470543"
-      }
-    ]
+    "priceChanges": []
   },
   "rentals": {
     "total": 14,
@@ -34,9 +13,9 @@
     "priceChanges": [
       {
         "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
-        "oldPrice": 1835,
-        "newPrice": 1830,
-        "pctChange": -0.3,
+        "oldPrice": 1830,
+        "newPrice": 1805,
+        "pctChange": -1.4,
         "score": 33,
         "dom": null,
         "url": "/apartments/palm-harbor-fl/bell-lansbrook-village/5Xhz7t/",
@@ -44,9 +23,9 @@
       },
       {
         "address": "1350 Seagate Dr, Palm Harbor, FL",
-        "oldPrice": 1970,
-        "newPrice": 1998,
-        "pctChange": 1.4,
+        "oldPrice": 1998,
+        "newPrice": 2004,
+        "pctChange": 0.3,
         "score": 33,
         "dom": null,
         "url": "/apartments/palm-harbor-fl/boot-ranch/5XhzDD/",

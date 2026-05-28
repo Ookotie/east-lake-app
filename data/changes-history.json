@@ -1462,8 +1462,19 @@
   {
     "date": "2026-05-28",
     "forSale": {
-      "total": 34,
-      "new": [],
+      "total": 35,
+      "new": [
+        {
+          "address": "1087 Riverside Rdg, Tarpon Springs, FL 34688",
+          "price": 899000,
+          "beds": 4,
+          "baths": 3.0,
+          "sqft": 3022,
+          "score": 46.0,
+          "url": "/FL/Tarpon-Springs/1087-Riverside-Ridge-Rd-34688/home/47913650",
+          "mlsId": "W7886068"
+        }
+      ],
       "removed": [],
       "priceChanges": []
     },
@@ -1495,12 +1506,12 @@
       ]
     },
     "stats": {
-      "forSaleCount": 34,
+      "forSaleCount": 35,
       "rentalCount": 14,
-      "medianSalePrice": 1199900,
+      "medianSalePrice": 1195000,
       "medianPpsf": 328,
       "medianRent": 2600,
-      "avgDom": 118
+      "avgDom": 115
     }
   }
 ]

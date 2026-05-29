@@ -1,21 +1,32 @@
 {
-  "date": "2026-05-28",
+  "date": "2026-05-29",
   "forSale": {
-    "total": 35,
+    "total": 36,
     "new": [
       {
-        "address": "1087 Riverside Rdg, Tarpon Springs, FL 34688",
-        "price": 899000,
+        "address": "3675 Janus Way, Palm Harbor, FL 34685",
+        "price": 1029000,
         "beds": 4,
         "baths": 3.0,
-        "sqft": 3022,
-        "score": 46.0,
-        "url": "/FL/Tarpon-Springs/1087-Riverside-Ridge-Rd-34688/home/47913650",
-        "mlsId": "W7886068"
+        "sqft": 3230,
+        "score": 38.5,
+        "url": "/FL/Palm-Harbor/3675-Janus-Way-34685/home/48249370",
+        "mlsId": "TB8512885"
       }
     ],
     "removed": [],
-    "priceChanges": []
+    "priceChanges": [
+      {
+        "address": "3297 Valemoor Dr, Palm Harbor, FL 34685",
+        "oldPrice": 894000,
+        "newPrice": 889000,
+        "pctChange": -0.6,
+        "score": 38.1,
+        "dom": 29,
+        "url": "/FL/Palm-Harbor/3297-Valemoor-Dr-34685/home/48223511",
+        "mlsId": "TB8503375"
+      }
+    ]
   },
   "rentals": {
     "total": 14,
@@ -24,9 +35,9 @@
     "priceChanges": [
       {
         "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
-        "oldPrice": 1830,
-        "newPrice": 1805,
-        "pctChange": -1.4,
+        "oldPrice": 1805,
+        "newPrice": 1765,
+        "pctChange": -2.2,
         "score": 33,
         "dom": null,
         "url": "/apartments/palm-harbor-fl/bell-lansbrook-village/5Xhz7t/",
@@ -34,9 +45,9 @@
       },
       {
         "address": "1350 Seagate Dr, Palm Harbor, FL",
-        "oldPrice": 1998,
-        "newPrice": 2004,
-        "pctChange": 0.3,
+        "oldPrice": 2004,
+        "newPrice": 1980,
+        "pctChange": -1.2,
         "score": 33,
         "dom": null,
         "url": "/apartments/palm-harbor-fl/boot-ranch/5XhzDD/",
@@ -45,11 +56,11 @@
     ]
   },
   "stats": {
-    "forSaleCount": 35,
+    "forSaleCount": 36,
     "rentalCount": 14,
     "medianSalePrice": 1195000,
     "medianPpsf": 328,
     "medianRent": 2600,
-    "avgDom": 115
+    "avgDom": 112
   }
 }

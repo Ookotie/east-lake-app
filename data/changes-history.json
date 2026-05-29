@@ -1,53 +1,5 @@
 [
   {
-    "date": "2026-04-29",
-    "forSale": {
-      "total": 32,
-      "new": [],
-      "removed": [
-        {
-          "address": "3830 Moreno Dr, Palm Harbor, FL 34685",
-          "price": 1000000,
-          "beds": 4,
-          "baths": 3.0,
-          "sqft": 3679,
-          "mlsId": "TB8461072"
-        },
-        {
-          "address": "2983 Wentworth Way, Tarpon Springs, FL 34688",
-          "price": 1235000,
-          "beds": 4,
-          "baths": 3.5,
-          "sqft": 3598,
-          "mlsId": "TB8484659"
-        },
-        {
-          "address": "3716 Janus Way, Palm Harbor, FL 34685",
-          "price": 1150000,
-          "beds": 4,
-          "baths": 4.5,
-          "sqft": 3924,
-          "mlsId": "TB8452948"
-        }
-      ],
-      "priceChanges": []
-    },
-    "rentals": {
-      "total": 19,
-      "new": [],
-      "removed": [],
-      "priceChanges": []
-    },
-    "stats": {
-      "forSaleCount": 32,
-      "rentalCount": 19,
-      "medianSalePrice": 1095000,
-      "medianPpsf": 323,
-      "medianRent": 2500,
-      "avgDom": 134
-    }
-  },
-  {
     "date": "2026-04-30",
     "forSale": {
       "total": 33,
@@ -1512,6 +1464,72 @@
       "medianPpsf": 328,
       "medianRent": 2600,
       "avgDom": 115
+    }
+  },
+  {
+    "date": "2026-05-29",
+    "forSale": {
+      "total": 36,
+      "new": [
+        {
+          "address": "3675 Janus Way, Palm Harbor, FL 34685",
+          "price": 1029000,
+          "beds": 4,
+          "baths": 3.0,
+          "sqft": 3230,
+          "score": 38.5,
+          "url": "/FL/Palm-Harbor/3675-Janus-Way-34685/home/48249370",
+          "mlsId": "TB8512885"
+        }
+      ],
+      "removed": [],
+      "priceChanges": [
+        {
+          "address": "3297 Valemoor Dr, Palm Harbor, FL 34685",
+          "oldPrice": 894000,
+          "newPrice": 889000,
+          "pctChange": -0.6,
+          "score": 38.1,
+          "dom": 29,
+          "url": "/FL/Palm-Harbor/3297-Valemoor-Dr-34685/home/48223511",
+          "mlsId": "TB8503375"
+        }
+      ]
+    },
+    "rentals": {
+      "total": 14,
+      "new": [],
+      "removed": [],
+      "priceChanges": [
+        {
+          "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
+          "oldPrice": 1805,
+          "newPrice": 1765,
+          "pctChange": -2.2,
+          "score": 33,
+          "dom": null,
+          "url": "/apartments/palm-harbor-fl/bell-lansbrook-village/5Xhz7t/",
+          "zpid": "28.104986--82.68995"
+        },
+        {
+          "address": "1350 Seagate Dr, Palm Harbor, FL",
+          "oldPrice": 2004,
+          "newPrice": 1980,
+          "pctChange": -1.2,
+          "score": 33,
+          "dom": null,
+          "url": "/apartments/palm-harbor-fl/boot-ranch/5XhzDD/",
+          "zpid": "28.066368--82.70844"
+        }
+      ]
+    },
+    "stats": {
+      "forSaleCount": 36,
+      "rentalCount": 14,
+      "medianSalePrice": 1195000,
+      "medianPpsf": 328,
+      "medianRent": 2600,
+      "avgDom": 112
     }
   }
 ]

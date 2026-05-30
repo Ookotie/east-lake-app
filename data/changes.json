@@ -1,59 +1,36 @@
 {
-  "date": "2026-05-29",
+  "date": "2026-05-30",
   "forSale": {
     "total": 36,
     "new": [
       {
-        "address": "3675 Janus Way, Palm Harbor, FL 34685",
-        "price": 1029000,
-        "beds": 4,
+        "address": "3166 Sterling St, Tarpon Springs, FL 34688",
+        "price": 850000,
+        "beds": 3,
         "baths": 3.0,
-        "sqft": 3230,
-        "score": 38.5,
-        "url": "/FL/Palm-Harbor/3675-Janus-Way-34685/home/48249370",
-        "mlsId": "TB8512885"
+        "sqft": 3214,
+        "score": 28.0,
+        "url": "/FL/Tarpon-Springs/3166-Sterling-St-34688/home/47894433",
+        "mlsId": "TB8513669"
       }
     ],
-    "removed": [],
-    "priceChanges": [
+    "removed": [
       {
-        "address": "3297 Valemoor Dr, Palm Harbor, FL 34685",
-        "oldPrice": 894000,
-        "newPrice": 889000,
-        "pctChange": -0.6,
-        "score": 38.1,
-        "dom": 29,
-        "url": "/FL/Palm-Harbor/3297-Valemoor-Dr-34685/home/48223511",
-        "mlsId": "TB8503375"
+        "address": "3775 Wellington Pkwy, Palm Harbor, FL 34685",
+        "price": 874900,
+        "beds": 5,
+        "baths": 3.0,
+        "sqft": 3212,
+        "mlsId": "TB8506753"
       }
-    ]
+    ],
+    "priceChanges": []
   },
   "rentals": {
     "total": 14,
     "new": [],
     "removed": [],
-    "priceChanges": [
-      {
-        "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
-        "oldPrice": 1805,
-        "newPrice": 1765,
-        "pctChange": -2.2,
-        "score": 33,
-        "dom": null,
-        "url": "/apartments/palm-harbor-fl/bell-lansbrook-village/5Xhz7t/",
-        "zpid": "28.104986--82.68995"
-      },
-      {
-        "address": "1350 Seagate Dr, Palm Harbor, FL",
-        "oldPrice": 2004,
-        "newPrice": 1980,
-        "pctChange": -1.2,
-        "score": 33,
-        "dom": null,
-        "url": "/apartments/palm-harbor-fl/boot-ranch/5XhzDD/",
-        "zpid": "28.066368--82.70844"
-      }
-    ]
+    "priceChanges": []
   },
   "stats": {
     "forSaleCount": 36,
@@ -61,6 +38,6 @@
     "medianSalePrice": 1195000,
     "medianPpsf": 328,
     "medianRent": 2600,
-    "avgDom": 113
+    "avgDom": 112
   }
 }

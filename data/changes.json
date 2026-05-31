@@ -19,7 +19,18 @@
     "total": 14,
     "new": [],
     "removed": [],
-    "priceChanges": []
+    "priceChanges": [
+      {
+        "address": "1350 Seagate Dr, Palm Harbor, FL",
+        "oldPrice": 1980,
+        "newPrice": 1998,
+        "pctChange": 0.9,
+        "score": 38,
+        "dom": null,
+        "url": "/apartments/palm-harbor-fl/boot-ranch/5XhzDD/",
+        "zpid": "28.066368--82.70844"
+      }
+    ]
   },
   "stats": {
     "forSaleCount": 35,
@@ -27,6 +38,6 @@
     "medianSalePrice": 1195000,
     "medianPpsf": 328,
     "medianRent": 2600,
-    "avgDom": 115
+    "avgDom": 116
   }
 }

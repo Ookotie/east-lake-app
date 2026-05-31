@@ -1,27 +1,16 @@
 {
-  "date": "2026-05-30",
+  "date": "2026-05-31",
   "forSale": {
-    "total": 36,
-    "new": [
-      {
-        "address": "3166 Sterling St, Tarpon Springs, FL 34688",
-        "price": 850000,
-        "beds": 3,
-        "baths": 3.0,
-        "sqft": 3214,
-        "score": 28.0,
-        "url": "/FL/Tarpon-Springs/3166-Sterling-St-34688/home/47894433",
-        "mlsId": "TB8513669"
-      }
-    ],
+    "total": 35,
+    "new": [],
     "removed": [
       {
-        "address": "3775 Wellington Pkwy, Palm Harbor, FL 34685",
-        "price": 874900,
-        "beds": 5,
+        "address": "3373 Crescent Oaks Blvd, Tarpon Springs, FL 34688",
+        "price": 815000,
+        "beds": 4,
         "baths": 3.0,
-        "sqft": 3212,
-        "mlsId": "TB8506753"
+        "sqft": 3026,
+        "mlsId": "TB8484681"
       }
     ],
     "priceChanges": []
@@ -33,11 +22,11 @@
     "priceChanges": []
   },
   "stats": {
-    "forSaleCount": 36,
+    "forSaleCount": 35,
     "rentalCount": 14,
     "medianSalePrice": 1195000,
     "medianPpsf": 328,
     "medianRent": 2600,
-    "avgDom": 113
+    "avgDom": 115
   }
 }

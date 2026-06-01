@@ -1,16 +1,16 @@
 {
-  "date": "2026-05-31",
+  "date": "2026-06-01",
   "forSale": {
-    "total": 35,
+    "total": 34,
     "new": [],
     "removed": [
       {
-        "address": "3373 Crescent Oaks Blvd, Tarpon Springs, FL 34688",
-        "price": 815000,
+        "address": "1087 Riverside Rdg, Tarpon Springs, FL 34688",
+        "price": 899000,
         "beds": 4,
         "baths": 3.0,
-        "sqft": 3026,
-        "mlsId": "TB8484681"
+        "sqft": 3022,
+        "mlsId": "W7886068"
       }
     ],
     "priceChanges": []
@@ -19,25 +19,14 @@
     "total": 14,
     "new": [],
     "removed": [],
-    "priceChanges": [
-      {
-        "address": "1350 Seagate Dr, Palm Harbor, FL",
-        "oldPrice": 1980,
-        "newPrice": 1998,
-        "pctChange": 0.9,
-        "score": 38,
-        "dom": null,
-        "url": "/apartments/palm-harbor-fl/boot-ranch/5XhzDD/",
-        "zpid": "28.066368--82.70844"
-      }
-    ]
+    "priceChanges": []
   },
   "stats": {
-    "forSaleCount": 35,
+    "forSaleCount": 34,
     "rentalCount": 14,
-    "medianSalePrice": 1195000,
+    "medianSalePrice": 1199900,
     "medianPpsf": 328,
     "medianRent": 2600,
-    "avgDom": 116
+    "avgDom": 119
   }
 }

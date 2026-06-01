@@ -1441,7 +1441,7 @@
   {
     "date": "2026-06-01",
     "forSale": {
-      "total": 34,
+      "total": 32,
       "new": [],
       "removed": [
         {
@@ -1451,6 +1451,22 @@
           "baths": 3.0,
           "sqft": 3022,
           "mlsId": "W7886068"
+        },
+        {
+          "address": "632 Royal Dornock Ct, Tarpon Springs, FL 34688",
+          "price": 1185000,
+          "beds": 3,
+          "baths": 2.5,
+          "sqft": 3465,
+          "mlsId": "TB8427895"
+        },
+        {
+          "address": "3343 Crescent Oaks Blvd, Tarpon Springs, FL 34688",
+          "price": 949900,
+          "beds": 4,
+          "baths": 4.0,
+          "sqft": 3294,
+          "mlsId": "TB8498693"
         }
       ],
       "priceChanges": []
@@ -1462,9 +1478,9 @@
       "priceChanges": []
     },
     "stats": {
-      "forSaleCount": 34,
+      "forSaleCount": 32,
       "rentalCount": 14,
-      "medianSalePrice": 1199900,
+      "medianSalePrice": 1225000,
       "medianPpsf": 328,
       "medianRent": 2600,
       "avgDom": 119

@@ -1,39 +1,5 @@
 [
   {
-    "date": "2026-05-03",
-    "forSale": {
-      "total": 33,
-      "new": [],
-      "removed": [],
-      "priceChanges": [
-        {
-          "address": "748 Winslow Park, Tarpon Springs, FL 34688",
-          "oldPrice": 940000,
-          "newPrice": 899000,
-          "pctChange": -4.4,
-          "score": 43.7,
-          "dom": 97,
-          "url": "/FL/Tarpon-Springs/748-Winslow-Park-Blvd-34688/home/47856158",
-          "mlsId": "TB8468608"
-        }
-      ]
-    },
-    "rentals": {
-      "total": 17,
-      "new": [],
-      "removed": [],
-      "priceChanges": []
-    },
-    "stats": {
-      "forSaleCount": 33,
-      "rentalCount": 17,
-      "medianSalePrice": 1095000,
-      "medianPpsf": 309,
-      "medianRent": 2367,
-      "avgDom": 129
-    }
-  },
-  {
     "date": "2026-05-04",
     "forSale": {
       "total": 33,
@@ -1484,6 +1450,81 @@
       "medianPpsf": 328,
       "medianRent": 2600,
       "avgDom": 119
+    }
+  },
+  {
+    "date": "2026-06-02",
+    "forSale": {
+      "total": 33,
+      "new": [
+        {
+          "address": "4647 Berwyn Ct, Palm Harbor, FL 34685",
+          "price": 832900,
+          "beds": 5,
+          "baths": 3.5,
+          "sqft": 3044,
+          "score": 45.7,
+          "url": "/FL/Palm-Harbor/4647-Berwyn-Ct-34685/home/48086704",
+          "mlsId": "TB8489957"
+        }
+      ],
+      "removed": [],
+      "priceChanges": [
+        {
+          "address": "2661 Hawks Landing Blvd, Palm Harbor, FL 34685",
+          "oldPrice": 2099000,
+          "newPrice": 1950000,
+          "pctChange": -7.1,
+          "score": 20.4,
+          "dom": 24,
+          "url": "/FL/Palm-Harbor/2661-Hawks-Landing-Blvd-34685/home/48250447",
+          "mlsId": "TB8505888"
+        }
+      ]
+    },
+    "rentals": {
+      "total": 13,
+      "new": [],
+      "removed": [
+        {
+          "address": "394 Knight Dr, Tarpon Springs, FL 34688",
+          "price": 3700,
+          "beds": 4,
+          "baths": 3,
+          "sqft": 2164,
+          "zpid": "47078786"
+        }
+      ],
+      "priceChanges": [
+        {
+          "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
+          "oldPrice": 1765,
+          "newPrice": 1715,
+          "pctChange": -2.8,
+          "score": 38,
+          "dom": null,
+          "url": "/apartments/palm-harbor-fl/bell-lansbrook-village/5Xhz7t/",
+          "zpid": "28.104986--82.68995"
+        },
+        {
+          "address": "1350 Seagate Dr, Palm Harbor, FL",
+          "oldPrice": 1998,
+          "newPrice": 2002,
+          "pctChange": 0.2,
+          "score": 38,
+          "dom": null,
+          "url": "/apartments/palm-harbor-fl/boot-ranch/5XhzDD/",
+          "zpid": "28.066368--82.70844"
+        }
+      ]
+    },
+    "stats": {
+      "forSaleCount": 33,
+      "rentalCount": 13,
+      "medianSalePrice": 1199900,
+      "medianPpsf": 328,
+      "medianRent": 2420,
+      "avgDom": 117
     }
   }
 ]

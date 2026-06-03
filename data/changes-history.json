@@ -1539,6 +1539,16 @@
           "dom": 82,
           "url": "/FL/Tarpon-Springs/3185-Burberry-St-34688/home/47856144",
           "mlsId": "TB8485151"
+        },
+        {
+          "address": "2901 ST Andrews Blvd, Tarpon Springs, FL 34688",
+          "oldPrice": 1249000,
+          "newPrice": 1224000,
+          "pctChange": -2.0,
+          "score": 26.3,
+          "dom": 21,
+          "url": "/FL/Tarpon-Springs/2901-St-Andrews-Blvd-34688/home/47904028",
+          "mlsId": "TB8504532"
         }
       ]
     },
@@ -1554,7 +1564,7 @@
       "medianSalePrice": 1199900,
       "medianPpsf": 328,
       "medianRent": 2420,
-      "avgDom": 112
+      "avgDom": 113
     }
   }
 ]

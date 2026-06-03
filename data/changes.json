@@ -1,75 +1,53 @@
 {
-  "date": "2026-06-02",
+  "date": "2026-06-03",
   "forSale": {
-    "total": 33,
-    "new": [
+    "total": 32,
+    "new": [],
+    "removed": [
       {
-        "address": "4647 Berwyn Ct, Palm Harbor, FL 34685",
-        "price": 832900,
-        "beds": 5,
-        "baths": 3.5,
-        "sqft": 3044,
-        "score": 45.7,
-        "url": "/FL/Palm-Harbor/4647-Berwyn-Ct-34685/home/48086704",
-        "mlsId": "TB8489957"
+        "address": "935 Ranch Rd, Tarpon Springs, FL 34688",
+        "price": 1299995,
+        "beds": 4,
+        "baths": 2.5,
+        "sqft": 3252,
+        "mlsId": "TB8403410"
       }
     ],
-    "removed": [],
     "priceChanges": [
       {
-        "address": "2661 Hawks Landing Blvd, Palm Harbor, FL 34685",
-        "oldPrice": 2099000,
-        "newPrice": 1950000,
-        "pctChange": -7.1,
-        "score": 20.4,
-        "dom": 24,
-        "url": "/FL/Palm-Harbor/2661-Hawks-Landing-Blvd-34685/home/48250447",
-        "mlsId": "TB8505888"
+        "address": "3752 Old Keystone Rd, Tarpon Springs, FL 34688",
+        "oldPrice": 1500000,
+        "newPrice": 1399000,
+        "pctChange": -6.7,
+        "score": 25.7,
+        "dom": 54,
+        "url": "/FL/Tarpon-Springs/3752-Old-Keystone-Rd-34688/home/47984728",
+        "mlsId": "TB8461683"
+      },
+      {
+        "address": "3185 Burberry St, Tarpon Springs, FL 34688",
+        "oldPrice": 845000,
+        "newPrice": 839000,
+        "pctChange": -0.7,
+        "score": 52.6,
+        "dom": 82,
+        "url": "/FL/Tarpon-Springs/3185-Burberry-St-34688/home/47856144",
+        "mlsId": "TB8485151"
       }
     ]
   },
   "rentals": {
     "total": 13,
     "new": [],
-    "removed": [
-      {
-        "address": "394 Knight Dr, Tarpon Springs, FL 34688",
-        "price": 3700,
-        "beds": 4,
-        "baths": 3,
-        "sqft": 2164,
-        "zpid": "47078786"
-      }
-    ],
-    "priceChanges": [
-      {
-        "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
-        "oldPrice": 1765,
-        "newPrice": 1715,
-        "pctChange": -2.8,
-        "score": 38,
-        "dom": null,
-        "url": "/apartments/palm-harbor-fl/bell-lansbrook-village/5Xhz7t/",
-        "zpid": "28.104986--82.68995"
-      },
-      {
-        "address": "1350 Seagate Dr, Palm Harbor, FL",
-        "oldPrice": 1998,
-        "newPrice": 2002,
-        "pctChange": 0.2,
-        "score": 38,
-        "dom": null,
-        "url": "/apartments/palm-harbor-fl/boot-ranch/5XhzDD/",
-        "zpid": "28.066368--82.70844"
-      }
-    ]
+    "removed": [],
+    "priceChanges": []
   },
   "stats": {
-    "forSaleCount": 33,
+    "forSaleCount": 32,
     "rentalCount": 13,
     "medianSalePrice": 1199900,
     "medianPpsf": 328,
     "medianRent": 2420,
-    "avgDom": 118
+    "avgDom": 112
   }
 }

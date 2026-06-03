@@ -1,28 +1,5 @@
 [
   {
-    "date": "2026-05-04",
-    "forSale": {
-      "total": 33,
-      "new": [],
-      "removed": [],
-      "priceChanges": []
-    },
-    "rentals": {
-      "total": 17,
-      "new": [],
-      "removed": [],
-      "priceChanges": []
-    },
-    "stats": {
-      "forSaleCount": 33,
-      "rentalCount": 17,
-      "medianSalePrice": 1095000,
-      "medianPpsf": 309,
-      "medianRent": 2367,
-      "avgDom": 130
-    }
-  },
-  {
     "date": "2026-05-05",
     "forSale": {
       "total": 33,
@@ -1525,6 +1502,59 @@
       "medianPpsf": 328,
       "medianRent": 2420,
       "avgDom": 118
+    }
+  },
+  {
+    "date": "2026-06-03",
+    "forSale": {
+      "total": 32,
+      "new": [],
+      "removed": [
+        {
+          "address": "935 Ranch Rd, Tarpon Springs, FL 34688",
+          "price": 1299995,
+          "beds": 4,
+          "baths": 2.5,
+          "sqft": 3252,
+          "mlsId": "TB8403410"
+        }
+      ],
+      "priceChanges": [
+        {
+          "address": "3752 Old Keystone Rd, Tarpon Springs, FL 34688",
+          "oldPrice": 1500000,
+          "newPrice": 1399000,
+          "pctChange": -6.7,
+          "score": 25.7,
+          "dom": 54,
+          "url": "/FL/Tarpon-Springs/3752-Old-Keystone-Rd-34688/home/47984728",
+          "mlsId": "TB8461683"
+        },
+        {
+          "address": "3185 Burberry St, Tarpon Springs, FL 34688",
+          "oldPrice": 845000,
+          "newPrice": 839000,
+          "pctChange": -0.7,
+          "score": 52.6,
+          "dom": 82,
+          "url": "/FL/Tarpon-Springs/3185-Burberry-St-34688/home/47856144",
+          "mlsId": "TB8485151"
+        }
+      ]
+    },
+    "rentals": {
+      "total": 13,
+      "new": [],
+      "removed": [],
+      "priceChanges": []
+    },
+    "stats": {
+      "forSaleCount": 32,
+      "rentalCount": 13,
+      "medianSalePrice": 1199900,
+      "medianPpsf": 328,
+      "medianRent": 2420,
+      "avgDom": 112
     }
   }
 ]

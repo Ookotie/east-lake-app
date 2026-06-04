@@ -1,28 +1,5 @@
 [
   {
-    "date": "2026-05-05",
-    "forSale": {
-      "total": 33,
-      "new": [],
-      "removed": [],
-      "priceChanges": []
-    },
-    "rentals": {
-      "total": 17,
-      "new": [],
-      "removed": [],
-      "priceChanges": []
-    },
-    "stats": {
-      "forSaleCount": 33,
-      "rentalCount": 17,
-      "medianSalePrice": 1095000,
-      "medianPpsf": 309,
-      "medianRent": 2367,
-      "avgDom": 131
-    }
-  },
-  {
     "date": "2026-05-06",
     "forSale": {
       "total": 32,
@@ -1549,6 +1526,40 @@
           "dom": 21,
           "url": "/FL/Tarpon-Springs/2901-St-Andrews-Blvd-34688/home/47904028",
           "mlsId": "TB8504532"
+        }
+      ]
+    },
+    "rentals": {
+      "total": 13,
+      "new": [],
+      "removed": [],
+      "priceChanges": []
+    },
+    "stats": {
+      "forSaleCount": 32,
+      "rentalCount": 13,
+      "medianSalePrice": 1199900,
+      "medianPpsf": 328,
+      "medianRent": 2420,
+      "avgDom": 113
+    }
+  },
+  {
+    "date": "2026-06-04",
+    "forSale": {
+      "total": 32,
+      "new": [],
+      "removed": [],
+      "priceChanges": [
+        {
+          "address": "5292 Kernwood Ct, Palm Harbor, FL 34685",
+          "oldPrice": 1064899,
+          "newPrice": 1049999,
+          "pctChange": -1.4,
+          "score": 47.0,
+          "dom": 110,
+          "url": "/FL/Palm-Harbor/5292-Kernwood-Ct-34685/home/48078411",
+          "mlsId": "TB8471501"
         }
       ]
     },

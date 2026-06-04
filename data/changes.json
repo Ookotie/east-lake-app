@@ -1,48 +1,19 @@
 {
-  "date": "2026-06-03",
+  "date": "2026-06-04",
   "forSale": {
     "total": 32,
     "new": [],
-    "removed": [
-      {
-        "address": "935 Ranch Rd, Tarpon Springs, FL 34688",
-        "price": 1299995,
-        "beds": 4,
-        "baths": 2.5,
-        "sqft": 3252,
-        "mlsId": "TB8403410"
-      }
-    ],
+    "removed": [],
     "priceChanges": [
       {
-        "address": "3752 Old Keystone Rd, Tarpon Springs, FL 34688",
-        "oldPrice": 1500000,
-        "newPrice": 1399000,
-        "pctChange": -6.7,
-        "score": 25.7,
-        "dom": 54,
-        "url": "/FL/Tarpon-Springs/3752-Old-Keystone-Rd-34688/home/47984728",
-        "mlsId": "TB8461683"
-      },
-      {
-        "address": "3185 Burberry St, Tarpon Springs, FL 34688",
-        "oldPrice": 845000,
-        "newPrice": 839000,
-        "pctChange": -0.7,
-        "score": 52.6,
-        "dom": 82,
-        "url": "/FL/Tarpon-Springs/3185-Burberry-St-34688/home/47856144",
-        "mlsId": "TB8485151"
-      },
-      {
-        "address": "2901 ST Andrews Blvd, Tarpon Springs, FL 34688",
-        "oldPrice": 1249000,
-        "newPrice": 1224000,
-        "pctChange": -2.0,
-        "score": 26.3,
-        "dom": 21,
-        "url": "/FL/Tarpon-Springs/2901-St-Andrews-Blvd-34688/home/47904028",
-        "mlsId": "TB8504532"
+        "address": "5292 Kernwood Ct, Palm Harbor, FL 34685",
+        "oldPrice": 1064899,
+        "newPrice": 1049999,
+        "pctChange": -1.4,
+        "score": 47.0,
+        "dom": 110,
+        "url": "/FL/Palm-Harbor/5292-Kernwood-Ct-34685/home/48078411",
+        "mlsId": "TB8471501"
       }
     ]
   },

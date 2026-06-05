@@ -1,21 +1,21 @@
 {
-  "date": "2026-06-04",
+  "date": "2026-06-05",
   "forSale": {
-    "total": 32,
-    "new": [],
-    "removed": [],
-    "priceChanges": [
+    "total": 33,
+    "new": [
       {
-        "address": "5292 Kernwood Ct, Palm Harbor, FL 34685",
-        "oldPrice": 1064899,
-        "newPrice": 1049999,
-        "pctChange": -1.4,
-        "score": 47.0,
-        "dom": 110,
-        "url": "/FL/Palm-Harbor/5292-Kernwood-Ct-34685/home/48078411",
-        "mlsId": "TB8471501"
+        "address": "5442 Millbrook Way, Palm Harbor, FL 34685",
+        "price": 1099000,
+        "beds": 4,
+        "baths": 4.5,
+        "sqft": 3875,
+        "score": 31.1,
+        "url": "/FL/Palm-Harbor/5442-Millbrook-Way-34685/home/48028835",
+        "mlsId": "TB8514757"
       }
-    ]
+    ],
+    "removed": [],
+    "priceChanges": []
   },
   "rentals": {
     "total": 13,
@@ -24,11 +24,11 @@
     "priceChanges": []
   },
   "stats": {
-    "forSaleCount": 32,
+    "forSaleCount": 33,
     "rentalCount": 13,
-    "medianSalePrice": 1199900,
-    "medianPpsf": 328,
+    "medianSalePrice": 1195000,
+    "medianPpsf": 323,
     "medianRent": 2420,
-    "avgDom": 114
+    "avgDom": 110
   }
 }

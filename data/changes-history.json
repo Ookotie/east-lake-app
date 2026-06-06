@@ -1467,8 +1467,89 @@
       ]
     },
     "rentals": {
-      "total": 0,
-      "new": [],
+      "total": 11,
+      "new": [
+        {
+          "address": "3713 Siena Ln, Palm Harbor, FL 34685",
+          "price": 3750,
+          "beds": 4,
+          "baths": 2,
+          "sqft": 3017,
+          "score": 62,
+          "url": "https://www.zillow.com/homedetails/3713-Siena-Ln-Palm-Harbor-FL-34685/47126754_zpid/",
+          "zpid": "47126754"
+        },
+        {
+          "address": "5472 Worthington Loop, Palm Harbor, FL 34685",
+          "price": 3740,
+          "beds": 4,
+          "baths": 3,
+          "sqft": 2726,
+          "score": 58,
+          "url": "https://www.zillow.com/homedetails/5472-Worthington-Loop-Palm-Harbor-FL-34685/47183666_zpid/",
+          "zpid": "47183666"
+        },
+        {
+          "address": "1055 Riverside Ridge Rd, Tarpon Springs, FL 34688",
+          "price": 4500,
+          "beds": 4,
+          "baths": 3,
+          "sqft": 3259,
+          "score": 58,
+          "url": "https://www.zillow.com/homedetails/1055-Riverside-Ridge-Rd-Tarpon-Springs-FL-34688/46979667_zpid/",
+          "zpid": "46979667"
+        },
+        {
+          "address": "4351 Ellinwood Blvd, Palm Harbor, FL 34685",
+          "price": 3750,
+          "beds": 4,
+          "baths": 3,
+          "sqft": 2292,
+          "score": 54,
+          "url": "https://www.zillow.com/homedetails/4351-Ellinwood-Blvd-Palm-Harbor-FL-34685/47134991_zpid/",
+          "zpid": "47134991"
+        },
+        {
+          "address": "1350 Seagate Dr, Palm Harbor, FL",
+          "price": 1976,
+          "beds": 2,
+          "baths": null,
+          "sqft": null,
+          "score": 38,
+          "url": "/apartments/palm-harbor-fl/boot-ranch/5XhzDD/",
+          "zpid": "28.066368--82.70844"
+        },
+        {
+          "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
+          "price": 1740,
+          "beds": 2,
+          "baths": null,
+          "sqft": null,
+          "score": 38,
+          "url": "/apartments/palm-harbor-fl/bell-lansbrook-village/5Xhz7t/",
+          "zpid": "28.104986--82.68995"
+        },
+        {
+          "address": "3505 Tarpon Woods Blvd, Palm Harbor, FL",
+          "price": 1750,
+          "beds": 2,
+          "baths": null,
+          "sqft": null,
+          "score": 38,
+          "url": "/b/3505-tarpon-woods-blvd-palm-harbor-fl-CqcZz2/",
+          "zpid": "28.093222--82.68381"
+        },
+        {
+          "address": "3323 Crystal Ct E, Palm Harbor, FL",
+          "price": 1550,
+          "beds": 2,
+          "baths": null,
+          "sqft": null,
+          "score": 38,
+          "url": "/b/building/28.099716,-82.70002_ll/",
+          "zpid": "28.099716--82.70002"
+        }
+      ],
       "removed": [
         {
           "address": "3505 Tarpon Woods Blvd, Palm Harbor, FL",
@@ -1539,11 +1620,11 @@
     },
     "stats": {
       "forSaleCount": 33,
-      "rentalCount": 0,
+      "rentalCount": 11,
       "medianSalePrice": 1195000,
       "medianPpsf": 323,
-      "medianRent": 0,
-      "avgDom": 111
+      "medianRent": 2352,
+      "avgDom": 112
     }
   }
 ]

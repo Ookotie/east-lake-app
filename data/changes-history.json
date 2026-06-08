@@ -1,78 +1,5 @@
 [
   {
-    "date": "2026-05-09",
-    "forSale": {
-      "total": 37,
-      "new": [
-        {
-          "address": "3775 Wellington Pkwy, Palm Harbor, FL 34685",
-          "price": 915000,
-          "beds": 5,
-          "baths": 3.0,
-          "sqft": 3212,
-          "score": 25.5,
-          "url": "/FL/Palm-Harbor/3775-Wellington-Pkwy-34685/home/48129700",
-          "mlsId": "TB8506753"
-        },
-        {
-          "address": "174 Keystone Palms Blvd, Tarpon Springs, FL 34688",
-          "price": 1500000,
-          "beds": 3,
-          "baths": 3.0,
-          "sqft": 3642,
-          "score": 22.3,
-          "url": "/FL/Tarpon-Springs/174-Keystone-Palms-Blvd-34688/home/145499634",
-          "mlsId": "TB8504938"
-        },
-        {
-          "address": "2778 ST Andrews Blvd, Tarpon Springs, FL 34688",
-          "price": 1100000,
-          "beds": 4,
-          "baths": 3.5,
-          "sqft": 3064,
-          "score": 20.2,
-          "url": "/FL/Tarpon-Springs/2778-St-Andrews-Blvd-34688/home/47964889",
-          "mlsId": "TB8505981"
-        },
-        {
-          "address": "2661 Hawks Landing Blvd, Palm Harbor, FL 34685",
-          "price": 2099000,
-          "beds": 5,
-          "baths": 3.5,
-          "sqft": 5114,
-          "score": 18.0,
-          "url": "/FL/Palm-Harbor/2661-Hawks-Landing-Blvd-34685/home/48250447",
-          "mlsId": "TB8505888"
-        }
-      ],
-      "removed": [
-        {
-          "address": "2661 Hawks Landing Blvd, Palm Harbor, FL 34685",
-          "price": 2099000,
-          "beds": 4,
-          "baths": 3.5,
-          "sqft": 5114,
-          "mlsId": "2100260907799006673"
-        }
-      ],
-      "priceChanges": []
-    },
-    "rentals": {
-      "total": 14,
-      "new": [],
-      "removed": [],
-      "priceChanges": []
-    },
-    "stats": {
-      "forSaleCount": 37,
-      "rentalCount": 14,
-      "medianSalePrice": 1110000,
-      "medianPpsf": 328,
-      "medianRent": 2336,
-      "avgDom": 113
-    }
-  },
-  {
     "date": "2026-05-10",
     "forSale": {
       "total": 37,
@@ -1565,6 +1492,59 @@
       "medianPpsf": 323,
       "medianRent": 2352,
       "avgDom": 113
+    }
+  },
+  {
+    "date": "2026-06-08",
+    "forSale": {
+      "total": 32,
+      "new": [],
+      "removed": [
+        {
+          "address": "4647 Berwyn Ct, Palm Harbor, FL 34685",
+          "price": 832900,
+          "beds": 5,
+          "baths": 3.5,
+          "sqft": 3044,
+          "mlsId": "TB8489957"
+        }
+      ],
+      "priceChanges": []
+    },
+    "rentals": {
+      "total": 11,
+      "new": [],
+      "removed": [],
+      "priceChanges": [
+        {
+          "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
+          "oldPrice": 1740,
+          "newPrice": 1745,
+          "pctChange": 0.3,
+          "score": 38,
+          "dom": null,
+          "url": "/apartments/palm-harbor-fl/bell-lansbrook-village/5Xhz7t/",
+          "zpid": "28.104986--82.68995"
+        },
+        {
+          "address": "1350 Seagate Dr, Palm Harbor, FL",
+          "oldPrice": 1976,
+          "newPrice": 1992,
+          "pctChange": 0.8,
+          "score": 38,
+          "dom": null,
+          "url": "/apartments/palm-harbor-fl/boot-ranch/5XhzDD/",
+          "zpid": "28.066368--82.70844"
+        }
+      ]
+    },
+    "stats": {
+      "forSaleCount": 32,
+      "rentalCount": 11,
+      "medianSalePrice": 1195000,
+      "medianPpsf": 328,
+      "medianRent": 2367,
+      "avgDom": 115
     }
   }
 ]

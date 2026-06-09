@@ -1,16 +1,16 @@
 {
-  "date": "2026-06-08",
+  "date": "2026-06-09",
   "forSale": {
-    "total": 32,
+    "total": 31,
     "new": [],
     "removed": [
       {
-        "address": "4647 Berwyn Ct, Palm Harbor, FL 34685",
-        "price": 832900,
+        "address": "5292 Kernwood Ct, Palm Harbor, FL 34685",
+        "price": 1049999,
         "beds": 5,
-        "baths": 3.5,
-        "sqft": 3044,
-        "mlsId": "TB8489957"
+        "baths": 3.0,
+        "sqft": 3546,
+        "mlsId": "TB8471501"
       }
     ],
     "priceChanges": []
@@ -19,31 +19,10 @@
     "total": 11,
     "new": [],
     "removed": [],
-    "priceChanges": [
-      {
-        "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
-        "oldPrice": 1740,
-        "newPrice": 1745,
-        "pctChange": 0.3,
-        "score": 38,
-        "dom": null,
-        "url": "/apartments/palm-harbor-fl/bell-lansbrook-village/5Xhz7t/",
-        "zpid": "28.104986--82.68995"
-      },
-      {
-        "address": "1350 Seagate Dr, Palm Harbor, FL",
-        "oldPrice": 1976,
-        "newPrice": 1992,
-        "pctChange": 0.8,
-        "score": 38,
-        "dom": null,
-        "url": "/apartments/palm-harbor-fl/boot-ranch/5XhzDD/",
-        "zpid": "28.066368--82.70844"
-      }
-    ]
+    "priceChanges": []
   },
   "stats": {
-    "forSaleCount": 32,
+    "forSaleCount": 31,
     "rentalCount": 11,
     "medianSalePrice": 1195000,
     "medianPpsf": 328,

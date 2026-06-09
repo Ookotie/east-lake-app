@@ -1,37 +1,5 @@
 [
   {
-    "date": "2026-05-10",
-    "forSale": {
-      "total": 37,
-      "new": [],
-      "removed": [],
-      "priceChanges": []
-    },
-    "rentals": {
-      "total": 13,
-      "new": [],
-      "removed": [
-        {
-          "address": "3026 Charolais Ct, Tarpon Springs, FL 34688",
-          "price": 3100,
-          "beds": 4,
-          "baths": 3,
-          "sqft": 2250,
-          "zpid": "66198075"
-        }
-      ],
-      "priceChanges": []
-    },
-    "stats": {
-      "forSaleCount": 37,
-      "rentalCount": 13,
-      "medianSalePrice": 1110000,
-      "medianPpsf": 328,
-      "medianRent": 2300,
-      "avgDom": 114
-    }
-  },
-  {
     "date": "2026-05-11",
     "forSale": {
       "total": 36,
@@ -1540,6 +1508,38 @@
     },
     "stats": {
       "forSaleCount": 32,
+      "rentalCount": 11,
+      "medianSalePrice": 1195000,
+      "medianPpsf": 328,
+      "medianRent": 2367,
+      "avgDom": 116
+    }
+  },
+  {
+    "date": "2026-06-09",
+    "forSale": {
+      "total": 31,
+      "new": [],
+      "removed": [
+        {
+          "address": "5292 Kernwood Ct, Palm Harbor, FL 34685",
+          "price": 1049999,
+          "beds": 5,
+          "baths": 3.0,
+          "sqft": 3546,
+          "mlsId": "TB8471501"
+        }
+      ],
+      "priceChanges": []
+    },
+    "rentals": {
+      "total": 11,
+      "new": [],
+      "removed": [],
+      "priceChanges": []
+    },
+    "stats": {
+      "forSaleCount": 31,
       "rentalCount": 11,
       "medianSalePrice": 1195000,
       "medianPpsf": 328,

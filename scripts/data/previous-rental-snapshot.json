@@ -24,30 +24,6 @@
     "ppsf": 1.24
   },
   {
-    "address": "5472 Worthington Loop, Palm Harbor, FL 34685",
-    "buildingName": null,
-    "price": 3740,
-    "beds": 4,
-    "baths": 3,
-    "sqft": 2726,
-    "yearBuilt": null,
-    "lat": 28.11243,
-    "lon": -82.68225,
-    "zip": "34685",
-    "url": "https://www.zillow.com/homedetails/5472-Worthington-Loop-Palm-Harbor-FL-34685/47183666_zpid/",
-    "zpid": "47183666",
-    "lotSqft": null,
-    "lotAcres": null,
-    "hasPool": false,
-    "isWaterfront": false,
-    "dom": null,
-    "homeType": "single_family",
-    "source": "zillow",
-    "isBuilding": false,
-    "score": 58,
-    "ppsf": 1.37
-  },
-  {
     "address": "1055 Riverside Ridge Rd, Tarpon Springs, FL 34688",
     "buildingName": null,
     "price": 4500,
@@ -98,7 +74,7 @@
   {
     "address": "1350 Seagate Dr, Palm Harbor, FL",
     "buildingName": "Boot Ranch",
-    "price": 2646,
+    "price": 2640,
     "beds": 4,
     "baths": null,
     "sqft": null,
@@ -121,7 +97,7 @@
   {
     "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
     "buildingName": "Bell Lansbrook Village",
-    "price": 2090,
+    "price": 2135,
     "beds": 3,
     "baths": null,
     "sqft": null,
@@ -144,7 +120,7 @@
   {
     "address": "1350 Seagate Dr, Palm Harbor, FL",
     "buildingName": "Boot Ranch",
-    "price": 2367,
+    "price": 2361,
     "beds": 3,
     "baths": null,
     "sqft": null,
@@ -167,7 +143,7 @@
   {
     "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
     "buildingName": "Bell Lansbrook Village",
-    "price": 1745,
+    "price": 1725,
     "beds": 2,
     "baths": null,
     "sqft": null,
@@ -190,7 +166,7 @@
   {
     "address": "1350 Seagate Dr, Palm Harbor, FL",
     "buildingName": "Boot Ranch",
-    "price": 1992,
+    "price": 1977,
     "beds": 2,
     "baths": null,
     "sqft": null,

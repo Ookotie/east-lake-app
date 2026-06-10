@@ -1,32 +1,53 @@
 {
-  "date": "2026-06-09",
+  "date": "2026-06-10",
   "forSale": {
     "total": 31,
-    "new": [],
-    "removed": [
-      {
-        "address": "5292 Kernwood Ct, Palm Harbor, FL 34685",
-        "price": 1049999,
-        "beds": 5,
-        "baths": 3.0,
-        "sqft": 3546,
-        "mlsId": "TB8471501"
-      }
-    ],
-    "priceChanges": []
-  },
-  "rentals": {
-    "total": 11,
     "new": [],
     "removed": [],
     "priceChanges": []
   },
+  "rentals": {
+    "total": 10,
+    "new": [],
+    "removed": [
+      {
+        "address": "5472 Worthington Loop, Palm Harbor, FL 34685",
+        "price": 3740,
+        "beds": 4,
+        "baths": 3,
+        "sqft": 2726,
+        "zpid": "47183666"
+      }
+    ],
+    "priceChanges": [
+      {
+        "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
+        "oldPrice": 1745,
+        "newPrice": 1725,
+        "pctChange": -1.1,
+        "score": 38,
+        "dom": null,
+        "url": "/apartments/palm-harbor-fl/bell-lansbrook-village/5Xhz7t/",
+        "zpid": "28.104986--82.68995"
+      },
+      {
+        "address": "1350 Seagate Dr, Palm Harbor, FL",
+        "oldPrice": 1992,
+        "newPrice": 1977,
+        "pctChange": -0.8,
+        "score": 38,
+        "dom": null,
+        "url": "/apartments/palm-harbor-fl/boot-ranch/5XhzDD/",
+        "zpid": "28.066368--82.70844"
+      }
+    ]
+  },
   "stats": {
     "forSaleCount": 31,
-    "rentalCount": 11,
+    "rentalCount": 10,
     "medianSalePrice": 1195000,
     "medianPpsf": 328,
-    "medianRent": 2367,
+    "medianRent": 2361,
     "avgDom": 117
   }
 }

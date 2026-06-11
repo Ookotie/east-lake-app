@@ -24,6 +24,30 @@
     "ppsf": 1.24
   },
   {
+    "address": "4272 Ellinwood Blvd, Palm Harbor, FL 34685",
+    "buildingName": null,
+    "price": 3800,
+    "beds": 4,
+    "baths": 3,
+    "sqft": 2578,
+    "yearBuilt": null,
+    "lat": 28.116667,
+    "lon": -82.70578,
+    "zip": "34685",
+    "url": "https://www.zillow.com/homedetails/4272-Ellinwood-Blvd-Palm-Harbor-FL-34685/47135033_zpid/",
+    "zpid": "47135033",
+    "lotSqft": null,
+    "lotAcres": null,
+    "hasPool": false,
+    "isWaterfront": false,
+    "dom": null,
+    "homeType": "single_family",
+    "source": "zillow",
+    "isBuilding": false,
+    "score": 58,
+    "ppsf": 1.47
+  },
+  {
     "address": "1055 Riverside Ridge Rd, Tarpon Springs, FL 34688",
     "buildingName": null,
     "price": 4500,
@@ -74,7 +98,7 @@
   {
     "address": "1350 Seagate Dr, Palm Harbor, FL",
     "buildingName": "Boot Ranch",
-    "price": 2636,
+    "price": 2633,
     "beds": 4,
     "baths": null,
     "sqft": null,
@@ -120,7 +144,7 @@
   {
     "address": "1350 Seagate Dr, Palm Harbor, FL",
     "buildingName": "Boot Ranch",
-    "price": 2357,
+    "price": 2354,
     "beds": 3,
     "baths": null,
     "sqft": null,
@@ -143,7 +167,7 @@
   {
     "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
     "buildingName": "Bell Lansbrook Village",
-    "price": 1725,
+    "price": 1720,
     "beds": 2,
     "baths": null,
     "sqft": null,
@@ -166,7 +190,7 @@
   {
     "address": "1350 Seagate Dr, Palm Harbor, FL",
     "buildingName": "Boot Ranch",
-    "price": 1951,
+    "price": 1845,
     "beds": 2,
     "baths": null,
     "sqft": null,

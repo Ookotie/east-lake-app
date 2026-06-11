@@ -1,48 +1,5 @@
 [
   {
-    "date": "2026-05-12",
-    "forSale": {
-      "total": 36,
-      "new": [
-        {
-          "address": "3351 Bristol Pl, Tarpon Springs, FL 34688",
-          "price": 879000,
-          "beds": 4,
-          "baths": 3.0,
-          "sqft": 3652,
-          "score": 50.5,
-          "url": "/FL/Tarpon-Springs/3351-Bristol-Pl-34688/home/47894292",
-          "mlsId": "TB8482613"
-        }
-      ],
-      "removed": [
-        {
-          "address": "3727 Janus Way, Palm Harbor, FL 34685",
-          "price": 999900,
-          "beds": 5,
-          "baths": 4.0,
-          "sqft": 3659,
-          "mlsId": "TB8385235"
-        }
-      ],
-      "priceChanges": []
-    },
-    "rentals": {
-      "total": 13,
-      "new": [],
-      "removed": [],
-      "priceChanges": []
-    },
-    "stats": {
-      "forSaleCount": 36,
-      "rentalCount": 13,
-      "medianSalePrice": 1120050,
-      "medianPpsf": 328,
-      "medianRent": 2300,
-      "avgDom": 110
-    }
-  },
-  {
     "date": "2026-05-13",
     "forSale": {
       "total": 36,
@@ -1577,6 +1534,70 @@
       "medianPpsf": 328,
       "medianRent": 2361,
       "avgDom": 118
+    }
+  },
+  {
+    "date": "2026-06-11",
+    "forSale": {
+      "total": 32,
+      "new": [
+        {
+          "address": "5022 Jewell Ter, Palm Harbor, FL 34685",
+          "price": 1250000,
+          "beds": 4,
+          "baths": 4.5,
+          "sqft": 4047,
+          "score": 39.8,
+          "url": "/FL/Palm-Harbor/5022-Jewell-Ter-34685/home/48249361",
+          "mlsId": "TB8514551"
+        },
+        {
+          "address": "5292 Kernwood Ct, Palm Harbor, FL 34685",
+          "price": 1024999,
+          "beds": 5,
+          "baths": 3.0,
+          "sqft": 3546,
+          "score": 35.5,
+          "url": "/FL/Palm-Harbor/5292-Kernwood-Ct-34685/home/48078411",
+          "mlsId": "TB8471501"
+        }
+      ],
+      "removed": [
+        {
+          "address": "2661 Hawks Landing Blvd, Palm Harbor, FL 34685",
+          "price": 1950000,
+          "beds": 5,
+          "baths": 3.5,
+          "sqft": 5114,
+          "mlsId": "TB8505888"
+        }
+      ],
+      "priceChanges": []
+    },
+    "rentals": {
+      "total": 10,
+      "new": [],
+      "removed": [],
+      "priceChanges": [
+        {
+          "address": "1350 Seagate Dr, Palm Harbor, FL",
+          "oldPrice": 1977,
+          "newPrice": 1951,
+          "pctChange": -1.3,
+          "score": 38,
+          "dom": null,
+          "url": "/apartments/palm-harbor-fl/boot-ranch/5XhzDD/",
+          "zpid": "28.066368--82.70844"
+        }
+      ]
+    },
+    "stats": {
+      "forSaleCount": 32,
+      "rentalCount": 10,
+      "medianSalePrice": 1195000,
+      "medianPpsf": 323,
+      "medianRent": 2357,
+      "avgDom": 117
     }
   }
 ]

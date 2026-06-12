@@ -1,8 +1,39 @@
 {
   "date": "2026-06-12",
   "forSale": {
-    "total": 32,
-    "new": [],
+    "total": 35,
+    "new": [
+      {
+        "address": "2997 Kensington Trce, Tarpon Springs, FL 34688",
+        "price": 1799999,
+        "beds": 5,
+        "baths": 4.5,
+        "sqft": 6010,
+        "score": 47.3,
+        "url": "/FL/Tarpon-Springs/2997-Kensington-Trce-34688/home/48018082",
+        "mlsId": "TB8518547"
+      },
+      {
+        "address": "3162 Foxwood Ln, Tarpon Springs, FL 34688",
+        "price": 1349000,
+        "beds": 4,
+        "baths": 3.0,
+        "sqft": 4066,
+        "score": 40.9,
+        "url": "/FL/Tarpon-Springs/3162-Foxwood-Ln-34688/home/62107741",
+        "mlsId": "TB8518190"
+      },
+      {
+        "address": "4151 LA Salle Dr, Palm Harbor, FL 34685",
+        "price": 999000,
+        "beds": 5,
+        "baths": 3.5,
+        "sqft": 3962,
+        "score": 40.6,
+        "url": "/FL/Palm-Harbor/4151-La-Salle-Dr-34685/home/48028550",
+        "mlsId": "TB8518164"
+      }
+    ],
     "removed": [],
     "priceChanges": [
       {
@@ -56,11 +87,11 @@
     ]
   },
   "stats": {
-    "forSaleCount": 32,
+    "forSaleCount": 35,
     "rentalCount": 11,
     "medianSalePrice": 1195000,
-    "medianPpsf": 323,
+    "medianPpsf": 321,
     "medianRent": 2354,
-    "avgDom": 118
+    "avgDom": 109
   }
 }

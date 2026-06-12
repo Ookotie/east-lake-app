@@ -1,64 +1,66 @@
 {
-  "date": "2026-06-11",
+  "date": "2026-06-12",
   "forSale": {
     "total": 32,
-    "new": [
-      {
-        "address": "5022 Jewell Ter, Palm Harbor, FL 34685",
-        "price": 1250000,
-        "beds": 4,
-        "baths": 4.5,
-        "sqft": 4047,
-        "score": 39.8,
-        "url": "/FL/Palm-Harbor/5022-Jewell-Ter-34685/home/48249361",
-        "mlsId": "TB8514551"
-      },
-      {
-        "address": "5292 Kernwood Ct, Palm Harbor, FL 34685",
-        "price": 1024999,
-        "beds": 5,
-        "baths": 3.0,
-        "sqft": 3546,
-        "score": 35.5,
-        "url": "/FL/Palm-Harbor/5292-Kernwood-Ct-34685/home/48078411",
-        "mlsId": "TB8471501"
-      }
-    ],
-    "removed": [
-      {
-        "address": "2661 Hawks Landing Blvd, Palm Harbor, FL 34685",
-        "price": 1950000,
-        "beds": 5,
-        "baths": 3.5,
-        "sqft": 5114,
-        "mlsId": "TB8505888"
-      }
-    ],
-    "priceChanges": []
-  },
-  "rentals": {
-    "total": 10,
     "new": [],
     "removed": [],
     "priceChanges": [
       {
+        "address": "2901 ST Andrews Blvd, Tarpon Springs, FL 34688",
+        "oldPrice": 1224000,
+        "newPrice": 1195000,
+        "pctChange": -2.4,
+        "score": 30.1,
+        "dom": 29,
+        "url": "/FL/Tarpon-Springs/2901-St-Andrews-Blvd-34688/home/47904028",
+        "mlsId": "TB8504532"
+      }
+    ]
+  },
+  "rentals": {
+    "total": 11,
+    "new": [
+      {
+        "address": "4272 Ellinwood Blvd, Palm Harbor, FL 34685",
+        "price": 3800,
+        "beds": 4,
+        "baths": 3,
+        "sqft": 2578,
+        "score": 58,
+        "url": "https://www.zillow.com/homedetails/4272-Ellinwood-Blvd-Palm-Harbor-FL-34685/47135033_zpid/",
+        "zpid": "47135033"
+      }
+    ],
+    "removed": [],
+    "priceChanges": [
+      {
         "address": "1350 Seagate Dr, Palm Harbor, FL",
-        "oldPrice": 1977,
-        "newPrice": 1951,
-        "pctChange": -1.3,
+        "oldPrice": 1951,
+        "newPrice": 1845,
+        "pctChange": -5.4,
         "score": 38,
         "dom": null,
         "url": "/apartments/palm-harbor-fl/boot-ranch/5XhzDD/",
         "zpid": "28.066368--82.70844"
+      },
+      {
+        "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
+        "oldPrice": 1725,
+        "newPrice": 1720,
+        "pctChange": -0.3,
+        "score": 38,
+        "dom": null,
+        "url": "/apartments/palm-harbor-fl/bell-lansbrook-village/5Xhz7t/",
+        "zpid": "28.104986--82.68995"
       }
     ]
   },
   "stats": {
     "forSaleCount": 32,
-    "rentalCount": 10,
+    "rentalCount": 11,
     "medianSalePrice": 1195000,
     "medianPpsf": 323,
-    "medianRent": 2357,
+    "medianRent": 2354,
     "avgDom": 118
   }
 }

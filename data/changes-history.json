@@ -1,50 +1,5 @@
 [
   {
-    "date": "2026-05-13",
-    "forSale": {
-      "total": 36,
-      "new": [],
-      "removed": [],
-      "priceChanges": [
-        {
-          "address": "4647 Berwyn Ct, Palm Harbor, FL 34685",
-          "oldPrice": 842900,
-          "newPrice": 832900,
-          "pctChange": -1.2,
-          "score": 45.7,
-          "dom": 41,
-          "url": "/FL/Palm-Harbor/4647-Berwyn-Ct-34685/home/48086704",
-          "mlsId": "TB8489957"
-        }
-      ]
-    },
-    "rentals": {
-      "total": 13,
-      "new": [],
-      "removed": [],
-      "priceChanges": [
-        {
-          "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
-          "oldPrice": 1705,
-          "newPrice": 1785,
-          "pctChange": 4.7,
-          "score": 33,
-          "dom": null,
-          "url": "/apartments/palm-harbor-fl/bell-lansbrook-village/5Xhz7t/",
-          "zpid": "28.104986--82.68995"
-        }
-      ]
-    },
-    "stats": {
-      "forSaleCount": 36,
-      "rentalCount": 13,
-      "medianSalePrice": 1120050,
-      "medianPpsf": 328,
-      "medianRent": 2300,
-      "avgDom": 111
-    }
-  },
-  {
     "date": "2026-05-14",
     "forSale": {
       "total": 37,
@@ -1597,6 +1552,72 @@
       "medianSalePrice": 1195000,
       "medianPpsf": 323,
       "medianRent": 2357,
+      "avgDom": 118
+    }
+  },
+  {
+    "date": "2026-06-12",
+    "forSale": {
+      "total": 32,
+      "new": [],
+      "removed": [],
+      "priceChanges": [
+        {
+          "address": "2901 ST Andrews Blvd, Tarpon Springs, FL 34688",
+          "oldPrice": 1224000,
+          "newPrice": 1195000,
+          "pctChange": -2.4,
+          "score": 30.1,
+          "dom": 29,
+          "url": "/FL/Tarpon-Springs/2901-St-Andrews-Blvd-34688/home/47904028",
+          "mlsId": "TB8504532"
+        }
+      ]
+    },
+    "rentals": {
+      "total": 11,
+      "new": [
+        {
+          "address": "4272 Ellinwood Blvd, Palm Harbor, FL 34685",
+          "price": 3800,
+          "beds": 4,
+          "baths": 3,
+          "sqft": 2578,
+          "score": 58,
+          "url": "https://www.zillow.com/homedetails/4272-Ellinwood-Blvd-Palm-Harbor-FL-34685/47135033_zpid/",
+          "zpid": "47135033"
+        }
+      ],
+      "removed": [],
+      "priceChanges": [
+        {
+          "address": "1350 Seagate Dr, Palm Harbor, FL",
+          "oldPrice": 1951,
+          "newPrice": 1845,
+          "pctChange": -5.4,
+          "score": 38,
+          "dom": null,
+          "url": "/apartments/palm-harbor-fl/boot-ranch/5XhzDD/",
+          "zpid": "28.066368--82.70844"
+        },
+        {
+          "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
+          "oldPrice": 1725,
+          "newPrice": 1720,
+          "pctChange": -0.3,
+          "score": 38,
+          "dom": null,
+          "url": "/apartments/palm-harbor-fl/bell-lansbrook-village/5Xhz7t/",
+          "zpid": "28.104986--82.68995"
+        }
+      ]
+    },
+    "stats": {
+      "forSaleCount": 32,
+      "rentalCount": 11,
+      "medianSalePrice": 1195000,
+      "medianPpsf": 323,
+      "medianRent": 2354,
       "avgDom": 118
     }
   }

@@ -1,39 +1,5 @@
 [
   {
-    "date": "2026-05-14",
-    "forSale": {
-      "total": 37,
-      "new": [
-        {
-          "address": "2901 ST Andrews Blvd, Tarpon Springs, FL 34688",
-          "price": 1349000,
-          "beds": 4,
-          "baths": 5.0,
-          "sqft": 4371,
-          "score": 27.6,
-          "url": "/FL/Tarpon-Springs/2901-St-Andrews-Blvd-34688/home/47904028",
-          "mlsId": "TB8504532"
-        }
-      ],
-      "removed": [],
-      "priceChanges": []
-    },
-    "rentals": {
-      "total": 13,
-      "new": [],
-      "removed": [],
-      "priceChanges": []
-    },
-    "stats": {
-      "forSaleCount": 37,
-      "rentalCount": 13,
-      "medianSalePrice": 1120050,
-      "medianPpsf": 328,
-      "medianRent": 2300,
-      "avgDom": 109
-    }
-  },
-  {
     "date": "2026-05-15",
     "forSale": {
       "total": 38,
@@ -1650,6 +1616,68 @@
       "medianPpsf": 321,
       "medianRent": 2354,
       "avgDom": 109
+    }
+  },
+  {
+    "date": "2026-06-13",
+    "forSale": {
+      "total": 34,
+      "new": [
+        {
+          "address": "438 Tall Oak Trl, Tarpon Springs, FL 34688",
+          "price": 949900,
+          "beds": 4,
+          "baths": 3.0,
+          "sqft": 3462,
+          "score": 44.0,
+          "url": "/FL/Tarpon-Springs/438-Tall-Oak-Trl-34688/home/47975938",
+          "mlsId": "TB8518774"
+        }
+      ],
+      "removed": [
+        {
+          "address": "3692 Johnathon Ave, Palm Harbor, FL 34685",
+          "price": 1090000,
+          "beds": 5,
+          "baths": 3.0,
+          "sqft": 3042,
+          "mlsId": "TB8494271"
+        },
+        {
+          "address": "709 Estates Blvd, Tarpon Springs, FL 34688",
+          "price": 1120000,
+          "beds": 4,
+          "baths": 3.5,
+          "sqft": 3049,
+          "mlsId": "TB8470543"
+        }
+      ],
+      "priceChanges": [
+        {
+          "address": "728 Estates Blvd, Tarpon Springs, FL 34688",
+          "oldPrice": 998990,
+          "newPrice": 1071990,
+          "pctChange": 7.3,
+          "score": 47.9,
+          "dom": 198,
+          "url": "/FL/Tarpon-Springs/728-Estates-Blvd-34688/home/199391850",
+          "mlsId": "TB8450635"
+        }
+      ]
+    },
+    "rentals": {
+      "total": 11,
+      "new": [],
+      "removed": [],
+      "priceChanges": []
+    },
+    "stats": {
+      "forSaleCount": 34,
+      "rentalCount": 11,
+      "medianSalePrice": 1195000,
+      "medianPpsf": 319,
+      "medianRent": 2354,
+      "avgDom": 106
     }
   }
 ]

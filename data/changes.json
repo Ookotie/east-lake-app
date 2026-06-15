@@ -1,8 +1,19 @@
 {
   "date": "2026-06-15",
   "forSale": {
-    "total": 34,
-    "new": [],
+    "total": 35,
+    "new": [
+      {
+        "address": "3926 Saywood Ct, Palm Harbor, FL 34685",
+        "price": 1049000,
+        "beds": 4,
+        "baths": 3.5,
+        "sqft": 3108,
+        "score": 36.7,
+        "url": "/FL/Palm-Harbor/3926-Saywood-Ct-34685/home/48146276",
+        "mlsId": "TB8514156"
+      }
+    ],
     "removed": [],
     "priceChanges": []
   },
@@ -94,11 +105,11 @@
     "priceChanges": []
   },
   "stats": {
-    "forSaleCount": 34,
+    "forSaleCount": 35,
     "rentalCount": 12,
     "medianSalePrice": 1195000,
     "medianPpsf": 319,
     "medianRent": 3234,
-    "avgDom": 108
+    "avgDom": 106
   }
 }

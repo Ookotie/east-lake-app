@@ -1,5 +1,5 @@
 {
-  "date": "2026-06-14",
+  "date": "2026-06-15",
   "forSale": {
     "total": 34,
     "new": [],
@@ -7,56 +7,17 @@
     "priceChanges": []
   },
   "rentals": {
-    "total": 0,
-    "new": [],
-    "removed": [
-      {
-        "address": "3505 Tarpon Woods Blvd, Palm Harbor, FL",
-        "price": 1750,
-        "beds": 2,
-        "baths": null,
-        "sqft": null,
-        "zpid": "28.093222--82.68381"
-      },
-      {
-        "address": "1350 Seagate Dr, Palm Harbor, FL",
-        "price": 1845,
-        "beds": 2,
-        "baths": null,
-        "sqft": null,
-        "zpid": "28.066368--82.70844"
-      },
-      {
-        "address": "3323 Crystal Ct E, Palm Harbor, FL",
-        "price": 1550,
-        "beds": 2,
-        "baths": null,
-        "sqft": null,
-        "zpid": "28.099716--82.70002"
-      },
-      {
-        "address": "1055 Riverside Ridge Rd, Tarpon Springs, FL 34688",
-        "price": 4500,
-        "beds": 4,
-        "baths": 3,
-        "sqft": 3259,
-        "zpid": "46979667"
-      },
+    "total": 12,
+    "new": [
       {
         "address": "3713 Siena Ln, Palm Harbor, FL 34685",
         "price": 3750,
         "beds": 4,
         "baths": 2,
         "sqft": 3017,
+        "score": 62,
+        "url": "https://www.zillow.com/homedetails/3713-Siena-Ln-Palm-Harbor-FL-34685/47126754_zpid/",
         "zpid": "47126754"
-      },
-      {
-        "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
-        "price": 1720,
-        "beds": 2,
-        "baths": null,
-        "sqft": null,
-        "zpid": "28.104986--82.68995"
       },
       {
         "address": "4272 Ellinwood Blvd, Palm Harbor, FL 34685",
@@ -64,7 +25,29 @@
         "beds": 4,
         "baths": 3,
         "sqft": 2578,
+        "score": 58,
+        "url": "https://www.zillow.com/homedetails/4272-Ellinwood-Blvd-Palm-Harbor-FL-34685/47135033_zpid/",
         "zpid": "47135033"
+      },
+      {
+        "address": "1055 Riverside Ridge Rd, Tarpon Springs, FL 34688",
+        "price": 4500,
+        "beds": 4,
+        "baths": 3,
+        "sqft": 3259,
+        "score": 58,
+        "url": "https://www.zillow.com/homedetails/1055-Riverside-Ridge-Rd-Tarpon-Springs-FL-34688/46979667_zpid/",
+        "zpid": "46979667"
+      },
+      {
+        "address": "5461 Oakridge Dr, Palm Harbor, FL 34685",
+        "price": 3545,
+        "beds": 4,
+        "baths": 4,
+        "sqft": 2671,
+        "score": 58,
+        "url": "https://www.zillow.com/homedetails/5461-Oakridge-Dr-Palm-Harbor-FL-34685/47272360_zpid/",
+        "zpid": "47272360"
       },
       {
         "address": "4351 Ellinwood Blvd, Palm Harbor, FL 34685",
@@ -72,17 +55,50 @@
         "beds": 4,
         "baths": 3,
         "sqft": 2292,
+        "score": 54,
+        "url": "https://www.zillow.com/homedetails/4351-Ellinwood-Blvd-Palm-Harbor-FL-34685/47134991_zpid/",
         "zpid": "47134991"
+      },
+      {
+        "address": "3323 Crystal Ct E, Palm Harbor, FL",
+        "price": 1550,
+        "beds": 2,
+        "baths": null,
+        "sqft": null,
+        "score": 38,
+        "url": "/b/building/28.099716,-82.70002_ll/",
+        "zpid": "28.099716--82.70002"
+      },
+      {
+        "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
+        "price": 1720,
+        "beds": 2,
+        "baths": null,
+        "sqft": null,
+        "score": 38,
+        "url": "/apartments/palm-harbor-fl/bell-lansbrook-village/5Xhz7t/",
+        "zpid": "28.104986--82.68995"
+      },
+      {
+        "address": "1350 Seagate Dr, Palm Harbor, FL",
+        "price": 1845,
+        "beds": 2,
+        "baths": null,
+        "sqft": null,
+        "score": 38,
+        "url": "/apartments/palm-harbor-fl/boot-ranch/5XhzDD/",
+        "zpid": "28.066368--82.70844"
       }
     ],
+    "removed": [],
     "priceChanges": []
   },
   "stats": {
     "forSaleCount": 34,
-    "rentalCount": 0,
+    "rentalCount": 12,
     "medianSalePrice": 1195000,
     "medianPpsf": 319,
-    "medianRent": 0,
+    "medianRent": 3234,
     "avgDom": 108
   }
 }

@@ -1,71 +1,43 @@
 {
-  "date": "2026-06-16",
+  "date": "2026-06-17",
   "forSale": {
     "total": 33,
     "new": [],
+    "removed": [],
+    "priceChanges": []
+  },
+  "rentals": {
+    "total": 10,
+    "new": [],
     "removed": [
       {
-        "address": "2778 ST Andrews Blvd, Tarpon Springs, FL 34688",
-        "price": 1050000,
+        "address": "5461 Oakridge Dr, Palm Harbor, FL 34685",
+        "price": 3545,
         "beds": 4,
-        "baths": 3.5,
-        "sqft": 3064,
-        "mlsId": "TB8505981"
-      },
-      {
-        "address": "3162 Foxwood Ln, Tarpon Springs, FL 34688",
-        "price": 1349000,
-        "beds": 4,
-        "baths": 3.0,
-        "sqft": 4066,
-        "mlsId": "TB8518190"
+        "baths": 4,
+        "sqft": 2671,
+        "zpid": "47272360"
       }
     ],
     "priceChanges": [
       {
-        "address": "Magnolia Plan, Tarpon Springs, FL 34688",
-        "oldPrice": 998990,
-        "newPrice": 1071990,
-        "pctChange": 7.3,
-        "score": 28.3,
-        "dom": 227,
-        "url": "/FL/Tarpon-Springs/Tarpon-Springs/Magnolia/home/198828353",
-        "mlsId": "7EA0773597D0"
-      }
-    ]
-  },
-  "rentals": {
-    "total": 11,
-    "new": [
-      {
         "address": "3389 Crystal Ct E, Palm Harbor, FL",
-        "price": 1625,
-        "beds": 2,
-        "baths": null,
-        "sqft": null,
+        "oldPrice": 1625,
+        "newPrice": 1825,
+        "pctChange": 12.3,
         "score": 38,
+        "dom": null,
         "url": "/b/crystal-lake-condominiums-palm-harbor-fl-5j5kvN/",
         "zpid": "28.099714--82.70002"
       }
-    ],
-    "removed": [
-      {
-        "address": "3323 Crystal Ct E, Palm Harbor, FL",
-        "price": 1550,
-        "beds": 2,
-        "baths": null,
-        "sqft": null,
-        "zpid": "28.099716--82.70002"
-      }
-    ],
-    "priceChanges": []
+    ]
   },
   "stats": {
     "forSaleCount": 33,
-    "rentalCount": 11,
+    "rentalCount": 10,
     "medianSalePrice": 1195000,
     "medianPpsf": 309,
-    "medianRent": 2694,
+    "medianRent": 2690,
     "avgDom": 112
   }
 }

@@ -1,43 +1,32 @@
 {
-  "date": "2026-06-17",
+  "date": "2026-06-18",
   "forSale": {
-    "total": 33,
+    "total": 32,
     "new": [],
-    "removed": [],
+    "removed": [
+      {
+        "address": "948 Riverside Ridge Rd, Tarpon Springs, FL 34688",
+        "price": 1649400,
+        "beds": 4,
+        "baths": 3.5,
+        "sqft": 4579,
+        "mlsId": "TB8505243"
+      }
+    ],
     "priceChanges": []
   },
   "rentals": {
     "total": 10,
     "new": [],
-    "removed": [
-      {
-        "address": "5461 Oakridge Dr, Palm Harbor, FL 34685",
-        "price": 3545,
-        "beds": 4,
-        "baths": 4,
-        "sqft": 2671,
-        "zpid": "47272360"
-      }
-    ],
-    "priceChanges": [
-      {
-        "address": "3389 Crystal Ct E, Palm Harbor, FL",
-        "oldPrice": 1625,
-        "newPrice": 1825,
-        "pctChange": 12.3,
-        "score": 38,
-        "dom": null,
-        "url": "/b/crystal-lake-condominiums-palm-harbor-fl-5j5kvN/",
-        "zpid": "28.099714--82.70002"
-      }
-    ]
+    "removed": [],
+    "priceChanges": []
   },
   "stats": {
-    "forSaleCount": 33,
+    "forSaleCount": 32,
     "rentalCount": 10,
     "medianSalePrice": 1195000,
     "medianPpsf": 309,
     "medianRent": 2690,
-    "avgDom": 113
+    "avgDom": 115
   }
 }

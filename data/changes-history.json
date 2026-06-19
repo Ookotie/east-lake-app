@@ -1,67 +1,5 @@
 [
   {
-    "date": "2026-05-20",
-    "forSale": {
-      "total": 36,
-      "new": [],
-      "removed": [
-        {
-          "address": "2983 Wentworth Way, Tarpon Springs, FL 34688",
-          "price": 1235000,
-          "beds": 4,
-          "baths": 3.5,
-          "sqft": 3598,
-          "mlsId": "TB8484659"
-        },
-        {
-          "address": "3718 Jacmel Way, Palm Harbor, FL 34685",
-          "price": 895000,
-          "beds": 4,
-          "baths": 3.0,
-          "sqft": 3103,
-          "mlsId": "TB8463453"
-        }
-      ],
-      "priceChanges": [
-        {
-          "address": "5292 Kernwood Ct, Palm Harbor, FL 34685",
-          "oldPrice": 1075000,
-          "newPrice": 1064899,
-          "pctChange": -0.9,
-          "score": 48.6,
-          "dom": 95,
-          "url": "/FL/Palm-Harbor/5292-Kernwood-Ct-34685/home/48078411",
-          "mlsId": "TB8471501"
-        }
-      ]
-    },
-    "rentals": {
-      "total": 14,
-      "new": [],
-      "removed": [],
-      "priceChanges": [
-        {
-          "address": "1350 Seagate Dr, Palm Harbor, FL",
-          "oldPrice": 1969,
-          "newPrice": 1951,
-          "pctChange": -0.9,
-          "score": 33,
-          "dom": null,
-          "url": "/apartments/palm-harbor-fl/boot-ranch/5XhzDD/",
-          "zpid": "28.066368--82.70844"
-        }
-      ]
-    },
-    "stats": {
-      "forSaleCount": 36,
-      "rentalCount": 14,
-      "medianSalePrice": 1199000,
-      "medianPpsf": 327,
-      "medianRent": 2600,
-      "avgDom": 112
-    }
-  },
-  {
     "date": "2026-05-21",
     "forSale": {
       "total": 35,
@@ -1754,6 +1692,40 @@
         }
       ],
       "priceChanges": []
+    },
+    "rentals": {
+      "total": 10,
+      "new": [],
+      "removed": [],
+      "priceChanges": []
+    },
+    "stats": {
+      "forSaleCount": 32,
+      "rentalCount": 10,
+      "medianSalePrice": 1195000,
+      "medianPpsf": 309,
+      "medianRent": 2690,
+      "avgDom": 116
+    }
+  },
+  {
+    "date": "2026-06-19",
+    "forSale": {
+      "total": 32,
+      "new": [],
+      "removed": [],
+      "priceChanges": [
+        {
+          "address": "3166 Sterling St, Tarpon Springs, FL 34688",
+          "oldPrice": 850000,
+          "newPrice": 835000,
+          "pctChange": -1.8,
+          "score": 50.4,
+          "dom": 20,
+          "url": "/FL/Tarpon-Springs/3166-Sterling-St-34688/home/47894433",
+          "mlsId": "TB8513669"
+        }
+      ]
     },
     "rentals": {
       "total": 10,

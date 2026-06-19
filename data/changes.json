@@ -1,19 +1,21 @@
 {
-  "date": "2026-06-18",
+  "date": "2026-06-19",
   "forSale": {
     "total": 32,
     "new": [],
-    "removed": [
+    "removed": [],
+    "priceChanges": [
       {
-        "address": "948 Riverside Ridge Rd, Tarpon Springs, FL 34688",
-        "price": 1649400,
-        "beds": 4,
-        "baths": 3.5,
-        "sqft": 4579,
-        "mlsId": "TB8505243"
+        "address": "3166 Sterling St, Tarpon Springs, FL 34688",
+        "oldPrice": 850000,
+        "newPrice": 835000,
+        "pctChange": -1.8,
+        "score": 50.4,
+        "dom": 20,
+        "url": "/FL/Tarpon-Springs/3166-Sterling-St-34688/home/47894433",
+        "mlsId": "TB8513669"
       }
-    ],
-    "priceChanges": []
+    ]
   },
   "rentals": {
     "total": 10,

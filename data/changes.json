@@ -1,8 +1,19 @@
 {
   "date": "2026-06-19",
   "forSale": {
-    "total": 32,
-    "new": [],
+    "total": 33,
+    "new": [
+      {
+        "address": "2880 Waters Edge Rd, Palm Harbor, FL 34685",
+        "price": 939000,
+        "beds": 4,
+        "baths": 3.5,
+        "sqft": 3342,
+        "score": 25.3,
+        "url": "/FL/Palm-Harbor/2880-Waters-Edge-Rd-34685/home/48250480",
+        "mlsId": "TB8520083"
+      }
+    ],
     "removed": [],
     "priceChanges": [
       {
@@ -24,11 +35,11 @@
     "priceChanges": []
   },
   "stats": {
-    "forSaleCount": 32,
+    "forSaleCount": 33,
     "rentalCount": 10,
     "medianSalePrice": 1195000,
-    "medianPpsf": 309,
+    "medianPpsf": 300,
     "medianRent": 2690,
-    "avgDom": 116
+    "avgDom": 114
   }
 }

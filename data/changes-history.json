@@ -1,48 +1,5 @@
 [
   {
-    "date": "2026-05-21",
-    "forSale": {
-      "total": 35,
-      "new": [],
-      "removed": [
-        {
-          "address": "5442 Millbrook Way, Palm Harbor, FL 34685",
-          "price": 1199000,
-          "beds": 4,
-          "baths": 4.5,
-          "sqft": 3875,
-          "mlsId": "TB8485837"
-        }
-      ],
-      "priceChanges": []
-    },
-    "rentals": {
-      "total": 14,
-      "new": [],
-      "removed": [],
-      "priceChanges": [
-        {
-          "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
-          "oldPrice": 1785,
-          "newPrice": 1835,
-          "pctChange": 2.8,
-          "score": 33,
-          "dom": null,
-          "url": "/apartments/palm-harbor-fl/bell-lansbrook-village/5Xhz7t/",
-          "zpid": "28.104986--82.68995"
-        }
-      ]
-    },
-    "stats": {
-      "forSaleCount": 35,
-      "rentalCount": 14,
-      "medianSalePrice": 1185000,
-      "medianPpsf": 327,
-      "medianRent": 2600,
-      "avgDom": 114
-    }
-  },
-  {
     "date": "2026-05-22",
     "forSale": {
       "total": 35,
@@ -1735,6 +1692,50 @@
           "dom": 20,
           "url": "/FL/Tarpon-Springs/3166-Sterling-St-34688/home/47894433",
           "mlsId": "TB8513669"
+        }
+      ]
+    },
+    "rentals": {
+      "total": 10,
+      "new": [],
+      "removed": [],
+      "priceChanges": []
+    },
+    "stats": {
+      "forSaleCount": 33,
+      "rentalCount": 10,
+      "medianSalePrice": 1195000,
+      "medianPpsf": 300,
+      "medianRent": 2690,
+      "avgDom": 114
+    }
+  },
+  {
+    "date": "2026-06-20",
+    "forSale": {
+      "total": 33,
+      "new": [],
+      "removed": [],
+      "priceChanges": [
+        {
+          "address": "5292 Kernwood Ct, Palm Harbor, FL 34685",
+          "oldPrice": 1024999,
+          "newPrice": 999999,
+          "pctChange": -2.4,
+          "score": 41.2,
+          "dom": 124,
+          "url": "/FL/Palm-Harbor/5292-Kernwood-Ct-34685/home/48078411",
+          "mlsId": "TB8471501"
+        },
+        {
+          "address": "976 Cypress Cove Way, Tarpon Springs, FL 34688",
+          "oldPrice": 1225000,
+          "newPrice": 1199000,
+          "pctChange": -2.1,
+          "score": 51.2,
+          "dom": 63,
+          "url": "/FL/Tarpon-Springs/976-Cypress-Cove-Way-34688/home/48244814",
+          "mlsId": "TB8497692"
         }
       ]
     },

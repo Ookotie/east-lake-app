@@ -1,29 +1,30 @@
 {
-  "date": "2026-06-20",
+  "date": "2026-06-21",
   "forSale": {
-    "total": 33,
-    "new": [],
+    "total": 34,
+    "new": [
+      {
+        "address": "3692 Johnathon Ave, Palm Harbor, FL 34685",
+        "price": 1065000,
+        "beds": 5,
+        "baths": 3.0,
+        "sqft": 3042,
+        "score": 32.5,
+        "url": "/FL/Palm-Harbor/3692-Johnathon-Ave-34685/home/48069908",
+        "mlsId": "TB8520892"
+      }
+    ],
     "removed": [],
     "priceChanges": [
       {
-        "address": "5292 Kernwood Ct, Palm Harbor, FL 34685",
-        "oldPrice": 1024999,
-        "newPrice": 999999,
-        "pctChange": -2.4,
-        "score": 41.2,
-        "dom": 124,
-        "url": "/FL/Palm-Harbor/5292-Kernwood-Ct-34685/home/48078411",
-        "mlsId": "TB8471501"
-      },
-      {
-        "address": "976 Cypress Cove Way, Tarpon Springs, FL 34688",
-        "oldPrice": 1225000,
-        "newPrice": 1199000,
-        "pctChange": -2.1,
-        "score": 51.2,
-        "dom": 63,
-        "url": "/FL/Tarpon-Springs/976-Cypress-Cove-Way-34688/home/48244814",
-        "mlsId": "TB8497692"
+        "address": "4561 Roanoak Way, Palm Harbor, FL 34685",
+        "oldPrice": 1199900,
+        "newPrice": 1163903,
+        "pctChange": -3.0,
+        "score": 35.4,
+        "dom": 30,
+        "url": "/FL/Palm-Harbor/4561-Roanoak-Way-34685/home/48243189",
+        "mlsId": "TB8508800"
       }
     ]
   },
@@ -34,11 +35,11 @@
     "priceChanges": []
   },
   "stats": {
-    "forSaleCount": 33,
+    "forSaleCount": 34,
     "rentalCount": 10,
-    "medianSalePrice": 1195000,
-    "medianPpsf": 300,
+    "medianSalePrice": 1163903,
+    "medianPpsf": 309,
     "medianRent": 2690,
-    "avgDom": 115
+    "avgDom": 111
   }
 }

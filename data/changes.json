@@ -1,32 +1,10 @@
 {
-  "date": "2026-06-21",
+  "date": "2026-06-22",
   "forSale": {
     "total": 34,
-    "new": [
-      {
-        "address": "3692 Johnathon Ave, Palm Harbor, FL 34685",
-        "price": 1065000,
-        "beds": 5,
-        "baths": 3.0,
-        "sqft": 3042,
-        "score": 32.5,
-        "url": "/FL/Palm-Harbor/3692-Johnathon-Ave-34685/home/48069908",
-        "mlsId": "TB8520892"
-      }
-    ],
+    "new": [],
     "removed": [],
-    "priceChanges": [
-      {
-        "address": "4561 Roanoak Way, Palm Harbor, FL 34685",
-        "oldPrice": 1199900,
-        "newPrice": 1163903,
-        "pctChange": -3.0,
-        "score": 35.4,
-        "dom": 30,
-        "url": "/FL/Palm-Harbor/4561-Roanoak-Way-34685/home/48243189",
-        "mlsId": "TB8508800"
-      }
-    ]
+    "priceChanges": []
   },
   "rentals": {
     "total": 10,

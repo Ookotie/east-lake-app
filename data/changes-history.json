@@ -1,48 +1,5 @@
 [
   {
-    "date": "2026-05-23",
-    "forSale": {
-      "total": 35,
-      "new": [
-        {
-          "address": "4561 Roanoak Way, Palm Harbor, FL 34685",
-          "price": 1199900,
-          "beds": 3,
-          "baths": 3.5,
-          "sqft": 3426,
-          "score": 32.7,
-          "url": "/FL/Palm-Harbor/4561-Roanoak-Way-34685/home/48243189",
-          "mlsId": "TB8508800"
-        }
-      ],
-      "removed": [
-        {
-          "address": "174 Keystone Palms Blvd, Tarpon Springs, FL 34688",
-          "price": 1500000,
-          "beds": 3,
-          "baths": 3.0,
-          "sqft": 3642,
-          "mlsId": "TB8504938"
-        }
-      ],
-      "priceChanges": []
-    },
-    "rentals": {
-      "total": 14,
-      "new": [],
-      "removed": [],
-      "priceChanges": []
-    },
-    "stats": {
-      "forSaleCount": 35,
-      "rentalCount": 14,
-      "medianSalePrice": 1185000,
-      "medianPpsf": 323,
-      "medianRent": 2600,
-      "avgDom": 116
-    }
-  },
-  {
     "date": "2026-05-24",
     "forSale": {
       "total": 35,
@@ -1739,6 +1696,29 @@
           "mlsId": "TB8508800"
         }
       ]
+    },
+    "rentals": {
+      "total": 10,
+      "new": [],
+      "removed": [],
+      "priceChanges": []
+    },
+    "stats": {
+      "forSaleCount": 34,
+      "rentalCount": 10,
+      "medianSalePrice": 1163903,
+      "medianPpsf": 309,
+      "medianRent": 2690,
+      "avgDom": 112
+    }
+  },
+  {
+    "date": "2026-06-22",
+    "forSale": {
+      "total": 34,
+      "new": [],
+      "removed": [],
+      "priceChanges": []
     },
     "rentals": {
       "total": 10,

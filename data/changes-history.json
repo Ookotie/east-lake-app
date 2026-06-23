@@ -1,39 +1,5 @@
 [
   {
-    "date": "2026-05-24",
-    "forSale": {
-      "total": 35,
-      "new": [],
-      "removed": [],
-      "priceChanges": []
-    },
-    "rentals": {
-      "total": 14,
-      "new": [],
-      "removed": [],
-      "priceChanges": [
-        {
-          "address": "1350 Seagate Dr, Palm Harbor, FL",
-          "oldPrice": 1951,
-          "newPrice": 1970,
-          "pctChange": 1.0,
-          "score": 33,
-          "dom": null,
-          "url": "/apartments/palm-harbor-fl/boot-ranch/5XhzDD/",
-          "zpid": "28.066368--82.70844"
-        }
-      ]
-    },
-    "stats": {
-      "forSaleCount": 35,
-      "rentalCount": 14,
-      "medianSalePrice": 1185000,
-      "medianPpsf": 323,
-      "medianRent": 2600,
-      "avgDom": 117
-    }
-  },
-  {
     "date": "2026-05-25",
     "forSale": {
       "total": 35,
@@ -1733,6 +1699,49 @@
       "medianPpsf": 309,
       "medianRent": 2690,
       "avgDom": 113
+    }
+  },
+  {
+    "date": "2026-06-23",
+    "forSale": {
+      "total": 33,
+      "new": [],
+      "removed": [
+        {
+          "address": "976 Cypress Cove Way, Tarpon Springs, FL 34688",
+          "price": 1199000,
+          "beds": 4,
+          "baths": 3.0,
+          "sqft": 4525,
+          "mlsId": "TB8497692"
+        }
+      ],
+      "priceChanges": [
+        {
+          "address": "877 Cypress Lakeview Ct, Tarpon Springs, FL 34688",
+          "oldPrice": 1575000,
+          "newPrice": 1499900,
+          "pctChange": -4.8,
+          "score": 42.5,
+          "dom": 38,
+          "url": "/FL/Tarpon-Springs/877-Cypress-Lakeview-Ct-34688/home/48028400",
+          "mlsId": "TB8508851"
+        }
+      ]
+    },
+    "rentals": {
+      "total": 10,
+      "new": [],
+      "removed": [],
+      "priceChanges": []
+    },
+    "stats": {
+      "forSaleCount": 33,
+      "rentalCount": 10,
+      "medianSalePrice": 1110000,
+      "medianPpsf": 309,
+      "medianRent": 2690,
+      "avgDom": 115
     }
   }
 ]

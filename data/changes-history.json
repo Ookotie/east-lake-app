@@ -1,39 +1,5 @@
 [
   {
-    "date": "2026-05-25",
-    "forSale": {
-      "total": 35,
-      "new": [],
-      "removed": [],
-      "priceChanges": []
-    },
-    "rentals": {
-      "total": 14,
-      "new": [],
-      "removed": [],
-      "priceChanges": [
-        {
-          "address": "3713 Siena Ln, Palm Harbor, FL 34685",
-          "oldPrice": 4000,
-          "newPrice": 3750,
-          "pctChange": -6.2,
-          "score": 57,
-          "dom": null,
-          "url": "https://www.zillow.com/homedetails/3713-Siena-Ln-Palm-Harbor-FL-34685/47126754_zpid/",
-          "zpid": "47126754"
-        }
-      ]
-    },
-    "stats": {
-      "forSaleCount": 35,
-      "rentalCount": 14,
-      "medianSalePrice": 1185000,
-      "medianPpsf": 323,
-      "medianRent": 2600,
-      "avgDom": 118
-    }
-  },
-  {
     "date": "2026-05-26",
     "forSale": {
       "total": 34,
@@ -1728,6 +1694,29 @@
           "mlsId": "TB8508851"
         }
       ]
+    },
+    "rentals": {
+      "total": 10,
+      "new": [],
+      "removed": [],
+      "priceChanges": []
+    },
+    "stats": {
+      "forSaleCount": 33,
+      "rentalCount": 10,
+      "medianSalePrice": 1110000,
+      "medianPpsf": 309,
+      "medianRent": 2690,
+      "avgDom": 116
+    }
+  },
+  {
+    "date": "2026-06-24",
+    "forSale": {
+      "total": 33,
+      "new": [],
+      "removed": [],
+      "priceChanges": []
     },
     "rentals": {
       "total": 10,

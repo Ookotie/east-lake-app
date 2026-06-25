@@ -1,56 +1,5 @@
 [
   {
-    "date": "2026-05-26",
-    "forSale": {
-      "total": 34,
-      "new": [
-        {
-          "address": "2983 Wentworth Way, Tarpon Springs, FL 34688",
-          "price": 1195000,
-          "beds": 4,
-          "baths": 3.5,
-          "sqft": 3598,
-          "score": 35.7,
-          "url": "/FL/Tarpon-Springs/2983-Wentworth-Way-34688/home/48018062",
-          "mlsId": "TB8484659"
-        }
-      ],
-      "removed": [
-        {
-          "address": "4647 Berwyn Ct, Palm Harbor, FL 34685",
-          "price": 832900,
-          "beds": 5,
-          "baths": 3.5,
-          "sqft": 3044,
-          "mlsId": "TB8489957"
-        },
-        {
-          "address": "2928 Waters Edge Rd, Palm Harbor, FL 34685",
-          "price": 979000,
-          "beds": 4,
-          "baths": 4.0,
-          "sqft": 3541,
-          "mlsId": "TB8446052"
-        }
-      ],
-      "priceChanges": []
-    },
-    "rentals": {
-      "total": 14,
-      "new": [],
-      "removed": [],
-      "priceChanges": []
-    },
-    "stats": {
-      "forSaleCount": 34,
-      "rentalCount": 14,
-      "medianSalePrice": 1199900,
-      "medianPpsf": 328,
-      "medianRent": 2600,
-      "avgDom": 117
-    }
-  },
-  {
     "date": "2026-05-27",
     "forSale": {
       "total": 34,
@@ -1731,6 +1680,38 @@
       "medianPpsf": 309,
       "medianRent": 2690,
       "avgDom": 117
+    }
+  },
+  {
+    "date": "2026-06-25",
+    "forSale": {
+      "total": 32,
+      "new": [],
+      "removed": [
+        {
+          "address": "2880 Waters Edge Rd, Palm Harbor, FL 34685",
+          "price": 939000,
+          "beds": 4,
+          "baths": 3.5,
+          "sqft": 3342,
+          "mlsId": "TB8520083"
+        }
+      ],
+      "priceChanges": []
+    },
+    "rentals": {
+      "total": 10,
+      "new": [],
+      "removed": [],
+      "priceChanges": []
+    },
+    "stats": {
+      "forSaleCount": 32,
+      "rentalCount": 10,
+      "medianSalePrice": 1163903,
+      "medianPpsf": 319,
+      "medianRent": 2690,
+      "avgDom": 120
     }
   }
 ]

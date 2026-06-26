@@ -2750,5 +2750,91 @@
     "priceDelta": 186750,
     "score": 27.7,
     "marketMedianPpsf": 295
+  },
+  {
+    "address": "3781 Executive Dr, Palm Harbor, FL 34685",
+    "price": 1600000,
+    "sqft": 3613,
+    "ppsf": 443,
+    "lotSqft": 19615,
+    "lotAcres": 0.45,
+    "beds": 4,
+    "baths": 3.5,
+    "stories": 2.0,
+    "yearBuilt": 1991,
+    "hoa": 378,
+    "dom": 1,
+    "subdivision": "PRESIDENTS LANDING PH 1",
+    "url": "/FL/Palm-Harbor/3781-Executive-Dr-34685/home/48156151",
+    "mlsId": "W7887063",
+    "zip": "34685",
+    "lat": 28.1107444,
+    "lon": -82.7157753,
+    "isActive": true,
+    "hasPool": true,
+    "isWaterfront": true,
+    "isConservation": false,
+    "listingAgent": "John Brokalakis",
+    "garageSpaces": 3,
+    "propertyId": 48156151,
+    "compAvgPpsf": 290,
+    "compDiscount": -52.9,
+    "comps": [
+      {
+        "address": "4655 Brayton Ter N, Palm Harbor, FL 34685",
+        "price": 960000,
+        "sqft": 3518,
+        "ppsf": 273,
+        "soldDate": "2024-04-02",
+        "beds": 4,
+        "baths": 3.5,
+        "yearBuilt": 1989
+      },
+      {
+        "address": "5295 Kernwood Ct, Palm Harbor, FL 34685",
+        "price": 912000,
+        "sqft": 3558,
+        "ppsf": 256,
+        "soldDate": "2024-07-19",
+        "beds": 4,
+        "baths": 3.0,
+        "yearBuilt": 1997
+      },
+      {
+        "address": "4050 Executive Dr, Palm Harbor, FL 34685",
+        "price": 1300000,
+        "sqft": 3744,
+        "ppsf": 347,
+        "soldDate": "2024-05-16",
+        "beds": 4,
+        "baths": 4.0,
+        "yearBuilt": 1995
+      },
+      {
+        "address": "5460 Millbrook Way, Palm Harbor, FL 34685",
+        "price": 1240000,
+        "sqft": 3690,
+        "ppsf": 336,
+        "soldDate": "2025-06-27",
+        "beds": 4,
+        "baths": 3.5,
+        "yearBuilt": 1998
+      },
+      {
+        "address": "4427 Lavender Dr, Palm Harbor, FL 34685",
+        "price": 815000,
+        "sqft": 3434,
+        "ppsf": 237,
+        "soldDate": "2025-03-13",
+        "beds": 4,
+        "baths": 3.0,
+        "yearBuilt": 1994
+      }
+    ],
+    "valueAssessment": "Overpriced",
+    "estimatedFairValue": 1047770,
+    "priceDelta": 552230,
+    "score": 22.0,
+    "marketMedianPpsf": 295
   }
 ]

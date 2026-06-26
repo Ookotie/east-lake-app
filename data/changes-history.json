@@ -1,70 +1,5 @@
 [
   {
-    "date": "2026-05-27",
-    "forSale": {
-      "total": 34,
-      "new": [],
-      "removed": [],
-      "priceChanges": [
-        {
-          "address": "3775 Wellington Pkwy, Palm Harbor, FL 34685",
-          "oldPrice": 899000,
-          "newPrice": 874900,
-          "pctChange": -2.7,
-          "score": 36.4,
-          "dom": 18,
-          "url": "/FL/Palm-Harbor/3775-Wellington-Pkwy-34685/home/48129700",
-          "mlsId": "TB8506753"
-        },
-        {
-          "address": "709 Estates Blvd, Tarpon Springs, FL 34688",
-          "oldPrice": 1120050,
-          "newPrice": 1120000,
-          "pctChange": -0.0,
-          "score": 41.3,
-          "dom": 116,
-          "url": "/FL/Tarpon-Springs/709-Estates-Blvd-34688/home/200262076",
-          "mlsId": "TB8470543"
-        }
-      ]
-    },
-    "rentals": {
-      "total": 14,
-      "new": [],
-      "removed": [],
-      "priceChanges": [
-        {
-          "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
-          "oldPrice": 1835,
-          "newPrice": 1830,
-          "pctChange": -0.3,
-          "score": 33,
-          "dom": null,
-          "url": "/apartments/palm-harbor-fl/bell-lansbrook-village/5Xhz7t/",
-          "zpid": "28.104986--82.68995"
-        },
-        {
-          "address": "1350 Seagate Dr, Palm Harbor, FL",
-          "oldPrice": 1970,
-          "newPrice": 1998,
-          "pctChange": 1.4,
-          "score": 33,
-          "dom": null,
-          "url": "/apartments/palm-harbor-fl/boot-ranch/5XhzDD/",
-          "zpid": "28.066368--82.70844"
-        }
-      ]
-    },
-    "stats": {
-      "forSaleCount": 34,
-      "rentalCount": 14,
-      "medianSalePrice": 1199900,
-      "medianPpsf": 328,
-      "medianRent": 2600,
-      "avgDom": 118
-    }
-  },
-  {
     "date": "2026-05-28",
     "forSale": {
       "total": 35,
@@ -1712,6 +1647,40 @@
       "medianPpsf": 319,
       "medianRent": 2690,
       "avgDom": 121
+    }
+  },
+  {
+    "date": "2026-06-26",
+    "forSale": {
+      "total": 33,
+      "new": [
+        {
+          "address": "3781 Executive Dr, Palm Harbor, FL 34685",
+          "price": 1600000,
+          "beds": 4,
+          "baths": 3.5,
+          "sqft": 3613,
+          "score": 22.0,
+          "url": "/FL/Palm-Harbor/3781-Executive-Dr-34685/home/48156151",
+          "mlsId": "W7887063"
+        }
+      ],
+      "removed": [],
+      "priceChanges": []
+    },
+    "rentals": {
+      "total": 10,
+      "new": [],
+      "removed": [],
+      "priceChanges": []
+    },
+    "stats": {
+      "forSaleCount": 33,
+      "rentalCount": 10,
+      "medianSalePrice": 1163903,
+      "medianPpsf": 319,
+      "medianRent": 2690,
+      "avgDom": 118
     }
   }
 ]

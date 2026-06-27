@@ -1,60 +1,5 @@
 [
   {
-    "date": "2026-05-28",
-    "forSale": {
-      "total": 35,
-      "new": [
-        {
-          "address": "1087 Riverside Rdg, Tarpon Springs, FL 34688",
-          "price": 899000,
-          "beds": 4,
-          "baths": 3.0,
-          "sqft": 3022,
-          "score": 46.0,
-          "url": "/FL/Tarpon-Springs/1087-Riverside-Ridge-Rd-34688/home/47913650",
-          "mlsId": "W7886068"
-        }
-      ],
-      "removed": [],
-      "priceChanges": []
-    },
-    "rentals": {
-      "total": 14,
-      "new": [],
-      "removed": [],
-      "priceChanges": [
-        {
-          "address": "3751 Pine Ridge Blvd, Palm Harbor, FL",
-          "oldPrice": 1830,
-          "newPrice": 1805,
-          "pctChange": -1.4,
-          "score": 33,
-          "dom": null,
-          "url": "/apartments/palm-harbor-fl/bell-lansbrook-village/5Xhz7t/",
-          "zpid": "28.104986--82.68995"
-        },
-        {
-          "address": "1350 Seagate Dr, Palm Harbor, FL",
-          "oldPrice": 1998,
-          "newPrice": 2004,
-          "pctChange": 0.3,
-          "score": 33,
-          "dom": null,
-          "url": "/apartments/palm-harbor-fl/boot-ranch/5XhzDD/",
-          "zpid": "28.066368--82.70844"
-        }
-      ]
-    },
-    "stats": {
-      "forSaleCount": 35,
-      "rentalCount": 14,
-      "medianSalePrice": 1195000,
-      "medianPpsf": 328,
-      "medianRent": 2600,
-      "avgDom": 115
-    }
-  },
-  {
     "date": "2026-05-29",
     "forSale": {
       "total": 36,
@@ -1665,6 +1610,29 @@
           "mlsId": "W7887063"
         }
       ],
+      "removed": [],
+      "priceChanges": []
+    },
+    "rentals": {
+      "total": 10,
+      "new": [],
+      "removed": [],
+      "priceChanges": []
+    },
+    "stats": {
+      "forSaleCount": 33,
+      "rentalCount": 10,
+      "medianSalePrice": 1163903,
+      "medianPpsf": 319,
+      "medianRent": 2690,
+      "avgDom": 119
+    }
+  },
+  {
+    "date": "2026-06-27",
+    "forSale": {
+      "total": 33,
+      "new": [],
       "removed": [],
       "priceChanges": []
     },

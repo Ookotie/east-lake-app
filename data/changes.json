@@ -1,19 +1,8 @@
 {
-  "date": "2026-06-26",
+  "date": "2026-06-27",
   "forSale": {
     "total": 33,
-    "new": [
-      {
-        "address": "3781 Executive Dr, Palm Harbor, FL 34685",
-        "price": 1600000,
-        "beds": 4,
-        "baths": 3.5,
-        "sqft": 3613,
-        "score": 22.0,
-        "url": "/FL/Palm-Harbor/3781-Executive-Dr-34685/home/48156151",
-        "mlsId": "W7887063"
-      }
-    ],
+    "new": [],
     "removed": [],
     "priceChanges": []
   },

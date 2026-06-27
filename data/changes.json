@@ -1,9 +1,18 @@
 {
   "date": "2026-06-27",
   "forSale": {
-    "total": 33,
+    "total": 32,
     "new": [],
-    "removed": [],
+    "removed": [
+      {
+        "address": "5022 Jewell Ter, Palm Harbor, FL 34685",
+        "price": 1250000,
+        "beds": 4,
+        "baths": 4.5,
+        "sqft": 4047,
+        "mlsId": "TB8514551"
+      }
+    ],
     "priceChanges": []
   },
   "rentals": {
@@ -13,11 +22,11 @@
     "priceChanges": []
   },
   "stats": {
-    "forSaleCount": 33,
+    "forSaleCount": 32,
     "rentalCount": 10,
     "medianSalePrice": 1163903,
-    "medianPpsf": 319,
+    "medianPpsf": 321,
     "medianRent": 2690,
-    "avgDom": 119
+    "avgDom": 123
   }
 }
